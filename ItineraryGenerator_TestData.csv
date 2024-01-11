@@ -1,0 +1,16 @@
+name,lat_coordinates,long_coordinates,address,hierarchy,category,child_friendly,price,quality_score
+Evelyn's Cafe,53.48309,-2.23579,"44 Tib St, Manchester M4 1LA",1,brunch,1,20,3
+Manchester Art Gallery,53.47972,-2.24077,"Mosley St, Manchester M2 3JL",2,activity,1,0,2
+Piccadilly Gardens,53.48256,-2.24153,"Piccadilly Gardens, Manchester M60 1AY",0,start_point,1,0,1
+Moose Coffee,53.4807,-2.24062,"20 York St, Manchester M2 2BB",1,brunch,1,15,2
+Crazy Pedro's - NQ,53.48249,-2.23656,"Short St, Manchester M4 1AA",3,dinner,0,15,2
+NQ64,53.48217,-2.23782,"12 Tib St, Manchester M4 1SH",4,drinks,0,20,3
+Crazy Pedro's - Spinningfield,53.481312,-2.25055,"55-57 Bridge St, Manchester M3 3BQ",3,dinner,0,15,2
+Matt and Phreds,53.48362,-2.23488,"64 Tib St, Manchester M4 1LW",2,activity,0,15,3
+Northern Soul,53.483089,-2.23579,"Unit G20, 21, 44 Tib St, Manchester M4 1LA",1,brunch,1,10,3
+Factory International,53.47765,-2.25869,"Aviva Studios, Water St, Manchester M3 4JQ",2,activity,1,20,3
+The Temple (Temple of Convenience),53.47519,-2.24329,"100 Great Bridgewater St, Manchester M1 5JW",4,drinks,0,15,2
+Bridgewater Hall,53.47713,-2.24431,"The Bridgewater Hall, Lower Mosley St, Manchester M2 3WS",2,activity,0,20,3
+Nell's NQ,53.48432,-2.23622,"39 Edge St, Manchester M4 1HW",3,dinner,1,15,2
+Frog and Bucket,53.48325,-2.23402,"102 Oldham St, Manchester M4 1LJ",2,activity,0,20,2
+St Peter's Square,53.47568,-2.24209,"St Peter's Square, Manchester M1 5AN",0,start_point,1,0,1
