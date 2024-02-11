@@ -1,0 +1,2238 @@
+names,edges,distance
+"('The Refuge', 'Manchester Art Gallery')","(0, 21)",846
+"('The Refuge', 'HOME')","(0, 22)",462
+"('The Refuge', 'Rogue Artists’ Studios')","(0, 23)",5924
+"('The Refuge', 'Salford Museum and Art Gallery')","(0, 24)",4796
+"('The Refuge', 'The Lowry')","(0, 25)",3945
+"('The Refuge', 'The Whitworth')","(0, 26)",1490
+"('The Refuge', 'Islington Mill')","(0, 27)",2266
+"('The Refuge', 'Holden Gallery')","(0, 28)",581
+"('The Refuge', 'Castlefield Gallery')","(0, 29)",799
+"('The Refuge', 'Gallery Oldham')","(0, 30)",14113
+"('The Refuge', 'Factory International')","(0, 31)",5534
+"('The Refuge', 'Pottery Corner')","(0, 32)",5894
+"('The Refuge', 'Seven Limes Pottery')","(0, 33)",2116
+"('The Refuge', 'Clay Studio')","(0, 34)",1407
+"('The Refuge', 'Boom Battle Bar')","(0, 35)",1510
+"('The Refuge', 'Virtual Hideout')","(0, 36)",1315
+"('The Refuge', 'DNA VR')","(0, 37)",1086
+"('The Refuge', 'Booze and Burn')","(0, 38)",2408
+"('The Refuge', 'Sken Studios')","(0, 39)",9468
+"('The Refuge', 'Cork and Canvas')","(0, 40)",1968
+"('The Refuge', 'Ma Lumiere')","(0, 41)",3342
+"('The Refuge', 'Northern Flower')","(0, 42)",1427
+"('Platzki', 'Manchester Art Gallery')","(1, 21)",700
+"('Platzki', 'HOME')","(1, 22)",733
+"('Platzki', 'Rogue Artists’ Studios')","(1, 23)",6752
+"('Platzki', 'Salford Museum and Art Gallery')","(1, 24)",3945
+"('Platzki', 'The Lowry')","(1, 25)",3342
+"('Platzki', 'The Whitworth')","(1, 26)",2505
+"('Platzki', 'Islington Mill')","(1, 27)",1274
+"('Platzki', 'Holden Gallery')","(1, 28)",1524
+"('Platzki', 'Castlefield Gallery')","(1, 29)",682
+"('Platzki', 'Gallery Oldham')","(1, 30)",14235
+"('Platzki', 'Factory International')","(1, 31)",5243
+"('Platzki', 'Pottery Corner')","(1, 32)",6142
+"('Platzki', 'Seven Limes Pottery')","(1, 33)",2607
+"('Platzki', 'Clay Studio')","(1, 34)",1956
+"('Platzki', 'Boom Battle Bar')","(1, 35)",1033
+"('Platzki', 'Virtual Hideout')","(1, 36)",1109
+"('Platzki', 'DNA VR')","(1, 37)",658
+"('Platzki', 'Booze and Burn')","(1, 38)",1580
+"('Platzki', 'Sken Studios')","(1, 39)",9513
+"('Platzki', 'Cork and Canvas')","(1, 40)",2099
+"('Platzki', 'Ma Lumiere')","(1, 41)",3434
+"('Platzki', 'Northern Flower')","(1, 42)",1322
+"('The Koffee Pot', 'Manchester Art Gallery')","(2, 21)",677
+"('The Koffee Pot', 'HOME')","(2, 22)",1545
+"('The Koffee Pot', 'Rogue Artists’ Studios')","(2, 23)",5742
+"('The Koffee Pot', 'Salford Museum and Art Gallery')","(2, 24)",5115
+"('The Koffee Pot', 'The Lowry')","(2, 25)",4646
+"('The Koffee Pot', 'The Whitworth')","(2, 26)",2641
+"('The Koffee Pot', 'Islington Mill')","(2, 27)",2380
+"('The Koffee Pot', 'Holden Gallery')","(2, 28)",1937
+"('The Koffee Pot', 'Castlefield Gallery')","(2, 29)",1767
+"('The Koffee Pot', 'Gallery Oldham')","(2, 30)",12942
+"('The Koffee Pot', 'Factory International')","(2, 31)",4155
+"('The Koffee Pot', 'Pottery Corner')","(2, 32)",7229
+"('The Koffee Pot', 'Seven Limes Pottery')","(2, 33)",3489
+"('The Koffee Pot', 'Clay Studio')","(2, 34)",2779
+"('The Koffee Pot', 'Boom Battle Bar')","(2, 35)",536
+"('The Koffee Pot', 'Virtual Hideout')","(2, 36)",227
+"('The Koffee Pot', 'DNA VR')","(2, 37)",662
+"('The Koffee Pot', 'Booze and Burn')","(2, 38)",2838
+"('The Koffee Pot', 'Sken Studios')","(2, 39)",10722
+"('The Koffee Pot', 'Cork and Canvas')","(2, 40)",786
+"('The Koffee Pot', 'Ma Lumiere')","(2, 41)",2127
+"('The Koffee Pot', 'Northern Flower')","(2, 42)",53
+"('The Beagle', 'Manchester Art Gallery')","(3, 21)",6952
+"('The Beagle', 'HOME')","(3, 22)",6071
+"('The Beagle', 'Rogue Artists’ Studios')","(3, 23)",9908
+"('The Beagle', 'Salford Museum and Art Gallery')","(3, 24)",7080
+"('The Beagle', 'The Lowry')","(3, 25)",5596
+"('The Beagle', 'The Whitworth')","(3, 26)",5403
+"('The Beagle', 'Islington Mill')","(3, 27)",6857
+"('The Beagle', 'Holden Gallery')","(3, 28)",5679
+"('The Beagle', 'Castlefield Gallery')","(3, 29)",5961
+"('The Beagle', 'Gallery Oldham')","(3, 30)",19884
+"('The Beagle', 'Factory International')","(3, 31)",11724
+"('The Beagle', 'Pottery Corner')","(3, 32)",1280
+"('The Beagle', 'Seven Limes Pottery')","(3, 33)",4083
+"('The Beagle', 'Clay Studio')","(3, 34)",4791
+"('The Beagle', 'Boom Battle Bar')","(3, 35)",7574
+"('The Beagle', 'Virtual Hideout')","(3, 36)",7470
+"('The Beagle', 'DNA VR')","(3, 37)",7122
+"('The Beagle', 'Booze and Burn')","(3, 38)",6307
+"('The Beagle', 'Sken Studios')","(3, 39)",4338
+"('The Beagle', 'Cork and Canvas')","(3, 40)",8120
+"('The Beagle', 'Ma Lumiere')","(3, 41)",9438
+"('The Beagle', 'Northern Flower')","(3, 42)",7608
+"('Evelyn’s', 'Manchester Art Gallery')","(4, 21)",618
+"('Evelyn’s', 'HOME')","(4, 22)",1496
+"('Evelyn’s', 'Rogue Artists’ Studios')","(4, 23)",5815
+"('Evelyn’s', 'Salford Museum and Art Gallery')","(4, 24)",5037
+"('Evelyn’s', 'The Lowry')","(4, 25)",4570
+"('Evelyn’s', 'The Whitworth')","(4, 26)",2643
+"('Evelyn’s', 'Islington Mill')","(4, 27)",2302
+"('Evelyn’s', 'Holden Gallery')","(4, 28)",1916
+"('Evelyn’s', 'Castlefield Gallery')","(4, 29)",1708
+"('Evelyn’s', 'Gallery Oldham')","(4, 30)",13009
+"('Evelyn’s', 'Factory International')","(4, 31)",4194
+"('Evelyn’s', 'Pottery Corner')","(4, 32)",7181
+"('Evelyn’s', 'Seven Limes Pottery')","(4, 33)",3451
+"('Evelyn’s', 'Clay Studio')","(4, 34)",2742
+"('Evelyn’s', 'Boom Battle Bar')","(4, 35)",467
+"('Evelyn’s', 'Virtual Hideout')","(4, 36)",149
+"('Evelyn’s', 'DNA VR')","(4, 37)",588
+"('Evelyn’s', 'Booze and Burn')","(4, 38)",2761
+"('Evelyn’s', 'Sken Studios')","(4, 39)",10665
+"('Evelyn’s', 'Cork and Canvas')","(4, 40)",862
+"('Evelyn’s', 'Ma Lumiere')","(4, 41)",2195
+"('Evelyn’s', 'Northern Flower')","(4, 42)",81
+"('Banyan - Spinningfields', 'Manchester Art Gallery')","(5, 21)",9239
+"('Banyan - Spinningfields', 'HOME')","(5, 22)",9391
+"('Banyan - Spinningfields', 'Rogue Artists’ Studios')","(5, 23)",3317
+"('Banyan - Spinningfields', 'Salford Museum and Art Gallery')","(5, 24)",13727
+"('Banyan - Spinningfields', 'The Lowry')","(5, 25)",12732
+"('Banyan - Spinningfields', 'The Whitworth')","(5, 26)",7984
+"('Banyan - Spinningfields', 'Islington Mill')","(5, 27)",11129
+"('Banyan - Spinningfields', 'Holden Gallery')","(5, 28)",8767
+"('Banyan - Spinningfields', 'Castlefield Gallery')","(5, 29)",9718
+"('Banyan - Spinningfields', 'Gallery Oldham')","(5, 30)",11735
+"('Banyan - Spinningfields', 'Factory International')","(5, 31)",9837
+"('Banyan - Spinningfields', 'Pottery Corner')","(5, 32)",12309
+"('Banyan - Spinningfields', 'Seven Limes Pottery')","(5, 33)",9639
+"('Banyan - Spinningfields', 'Clay Studio')","(5, 34)",9383
+"('Banyan - Spinningfields', 'Boom Battle Bar')","(5, 35)",9498
+"('Banyan - Spinningfields', 'Virtual Hideout')","(5, 36)",9164
+"('Banyan - Spinningfields', 'DNA VR')","(5, 37)",9438
+"('Banyan - Spinningfields', 'Booze and Burn')","(5, 38)",11342
+"('Banyan - Spinningfields', 'Sken Studios')","(5, 39)",15947
+"('Banyan - Spinningfields', 'Cork and Canvas')","(5, 40)",8409
+"('Banyan - Spinningfields', 'Ma Lumiere')","(5, 41)",8074
+"('Banyan - Spinningfields', 'Northern Flower')","(5, 42)",9000
+"('Victors', 'Manchester Art Gallery')","(6, 21)",24749
+"('Victors', 'HOME')","(6, 22)",23967
+"('Victors', 'Rogue Artists’ Studios')","(6, 23)",24149
+"('Victors', 'Salford Museum and Art Gallery')","(6, 24)",25460
+"('Victors', 'The Lowry')","(6, 25)",24017
+"('Victors', 'The Whitworth')","(6, 26)",22593
+"('Victors', 'Islington Mill')","(6, 27)",25170
+"('Victors', 'Holden Gallery')","(6, 28)",23322
+"('Victors', 'Castlefield Gallery')","(6, 29)",23975
+"('Victors', 'Gallery Oldham')","(6, 30)",34727
+"('Victors', 'Factory International')","(6, 31)",29057
+"('Victors', 'Pottery Corner')","(6, 32)",19467
+"('Victors', 'Seven Limes Pottery')","(6, 33)",22074
+"('Victors', 'Clay Studio')","(6, 34)",22697
+"('Victors', 'Boom Battle Bar')","(6, 35)",25413
+"('Victors', 'Virtual Hideout')","(6, 36)",25201
+"('Victors', 'DNA VR')","(6, 37)",24977
+"('Victors', 'Booze and Burn')","(6, 38)",24680
+"('Victors', 'Sken Studios')","(6, 39)",18591
+"('Victors', 'Cork and Canvas')","(6, 40)",25496
+"('Victors', 'Ma Lumiere')","(6, 41)",26505
+"('Victors', 'Northern Flower')","(6, 42)",25267
+"('The Pen And Pencil', 'Manchester Art Gallery')","(7, 21)",773
+"('The Pen And Pencil', 'HOME')","(7, 22)",1522
+"('The Pen And Pencil', 'Rogue Artists’ Studios')","(7, 23)",5420
+"('The Pen And Pencil', 'Salford Museum and Art Gallery')","(7, 24)",5367
+"('The Pen And Pencil', 'The Lowry')","(7, 25)",4810
+"('The Pen And Pencil', 'The Whitworth')","(7, 26)",2362
+"('The Pen And Pencil', 'Islington Mill')","(7, 27)",2636
+"('The Pen And Pencil', 'Holden Gallery')","(7, 28)",1758
+"('The Pen And Pencil', 'Castlefield Gallery')","(7, 29)",1795
+"('The Pen And Pencil', 'Gallery Oldham')","(7, 30)",12906
+"('The Pen And Pencil', 'Factory International')","(7, 31)",4303
+"('The Pen And Pencil', 'Pottery Corner')","(7, 32)",7152
+"('The Pen And Pencil', 'Seven Limes Pottery')","(7, 33)",3371
+"('The Pen And Pencil', 'Clay Studio')","(7, 34)",2663
+"('The Pen And Pencil', 'Boom Battle Bar')","(7, 35)",885
+"('The Pen And Pencil', 'Virtual Hideout')","(7, 36)",544
+"('The Pen And Pencil', 'DNA VR')","(7, 37)",874
+"('The Pen And Pencil', 'Booze and Burn')","(7, 38)",3042
+"('The Pen And Pencil', 'Sken Studios')","(7, 39)",10703
+"('The Pen And Pencil', 'Cork and Canvas')","(7, 40)",716
+"('The Pen And Pencil', 'Ma Lumiere')","(7, 41)",2100
+"('The Pen And Pencil', 'Northern Flower')","(7, 42)",418
+"('Crazy Pedro’s', 'Manchester Art Gallery')","(8, 21)",833
+"('Crazy Pedro’s', 'HOME')","(8, 22)",1086
+"('Crazy Pedro’s', 'Rogue Artists’ Studios')","(8, 23)",6927
+"('Crazy Pedro’s', 'Salford Museum and Art Gallery')","(8, 24)",3817
+"('Crazy Pedro’s', 'The Lowry')","(8, 25)",3352
+"('Crazy Pedro’s', 'The Whitworth')","(8, 26)",2845
+"('Crazy Pedro’s', 'Islington Mill')","(8, 27)",1089
+"('Crazy Pedro’s', 'Holden Gallery')","(8, 28)",1872
+"('Crazy Pedro’s', 'Castlefield Gallery')","(8, 29)",1017
+"('Crazy Pedro’s', 'Gallery Oldham')","(8, 30)",14129
+"('Crazy Pedro’s', 'Factory International')","(8, 31)",5034
+"('Crazy Pedro’s', 'Pottery Corner')","(8, 32)",6399
+"('Crazy Pedro’s', 'Seven Limes Pottery')","(8, 33)",2933
+"('Crazy Pedro’s', 'Clay Studio')","(8, 34)",2297
+"('Crazy Pedro’s', 'Boom Battle Bar')","(8, 35)",907
+"('Crazy Pedro’s', 'Virtual Hideout')","(8, 36)",1090
+"('Crazy Pedro’s', 'DNA VR')","(8, 37)",675
+"('Crazy Pedro’s', 'Booze and Burn')","(8, 38)",1525
+"('Crazy Pedro’s', 'Sken Studios')","(8, 39)",9708
+"('Crazy Pedro’s', 'Cork and Canvas')","(8, 40)",2096
+"('Crazy Pedro’s', 'Ma Lumiere')","(8, 41)",3371
+"('Crazy Pedro’s', 'Northern Flower')","(8, 42)",1307
+"('Gaucho Manchester', 'Manchester Art Gallery')","(9, 21)",6506
+"('Gaucho Manchester', 'HOME')","(9, 22)",7345
+"('Gaucho Manchester', 'Rogue Artists’ Studios')","(9, 23)",5741
+"('Gaucho Manchester', 'Salford Museum and Art Gallery')","(9, 24)",10313
+"('Gaucho Manchester', 'The Lowry')","(9, 25)",10283
+"('Gaucho Manchester', 'The Whitworth')","(9, 26)",7685
+"('Gaucho Manchester', 'Islington Mill')","(9, 27)",7835
+"('Gaucho Manchester', 'Holden Gallery')","(9, 28)",7481
+"('Gaucho Manchester', 'Castlefield Gallery')","(9, 29)",7593
+"('Gaucho Manchester', 'Gallery Oldham')","(9, 30)",7142
+"('Gaucho Manchester', 'Factory International')","(9, 31)",2612
+"('Gaucho Manchester', 'Pottery Corner')","(9, 32)",12937
+"('Gaucho Manchester', 'Seven Limes Pottery')","(9, 33)",9131
+"('Gaucho Manchester', 'Clay Studio')","(9, 34)",8442
+"('Gaucho Manchester', 'Boom Battle Bar')","(9, 35)",6090
+"('Gaucho Manchester', 'Virtual Hideout')","(9, 36)",6010
+"('Gaucho Manchester', 'DNA VR')","(9, 37)",6455
+"('Gaucho Manchester', 'Booze and Burn')","(9, 38)",8438
+"('Gaucho Manchester', 'Sken Studios')","(9, 39)",16529
+"('Gaucho Manchester', 'Cork and Canvas')","(9, 40)",5110
+"('Gaucho Manchester', 'Ma Lumiere')","(9, 41)",3726
+"('Gaucho Manchester', 'Northern Flower')","(9, 42)",5810
+"('Campo Blanco', 'Manchester Art Gallery')","(10, 21)",10320
+"('Campo Blanco', 'HOME')","(10, 22)",10898
+"('Campo Blanco', 'Rogue Artists’ Studios')","(10, 23)",14751
+"('Campo Blanco', 'Salford Museum and Art Gallery')","(10, 24)",9208
+"('Campo Blanco', 'The Lowry')","(10, 25)",10533
+"('Campo Blanco', 'The Whitworth')","(10, 26)",12601
+"('Campo Blanco', 'Islington Mill')","(10, 27)",9390
+"('Campo Blanco', 'Holden Gallery')","(10, 28)",11668
+"('Campo Blanco', 'Castlefield Gallery')","(10, 29)",10790
+"('Campo Blanco', 'Gallery Oldham')","(10, 30)",14965
+"('Campo Blanco', 'Factory International')","(10, 31)",8246
+"('Campo Blanco', 'Pottery Corner')","(10, 32)",15085
+"('Campo Blanco', 'Seven Limes Pottery')","(10, 33)",12563
+"('Campo Blanco', 'Clay Studio')","(10, 34)",12035
+"('Campo Blanco', 'Boom Battle Bar')","(10, 35)",9712
+"('Campo Blanco', 'Virtual Hideout')","(10, 36)",10020
+"('Campo Blanco', 'DNA VR')","(10, 37)",10061
+"('Campo Blanco', 'Booze and Burn')","(10, 38)",9822
+"('Campo Blanco', 'Sken Studios')","(10, 39)",17124
+"('Campo Blanco', 'Cork and Canvas')","(10, 40)",10250
+"('Campo Blanco', 'Ma Lumiere')","(10, 41)",10060
+"('Campo Blanco', 'Northern Flower')","(10, 42)",10057
+"('Menagerie', 'Manchester Art Gallery')","(11, 21)",1120
+"('Menagerie', 'HOME')","(11, 22)",1313
+"('Menagerie', 'Rogue Artists’ Studios')","(11, 23)",7211
+"('Menagerie', 'Salford Museum and Art Gallery')","(11, 24)",3556
+"('Menagerie', 'The Lowry')","(11, 25)",3167
+"('Menagerie', 'The Whitworth')","(11, 26)",3097
+"('Menagerie', 'Islington Mill')","(11, 27)",821
+"('Menagerie', 'Holden Gallery')","(11, 28)",2113
+"('Menagerie', 'Castlefield Gallery')","(11, 29)",1184
+"('Menagerie', 'Gallery Oldham')","(11, 30)",14274
+"('Menagerie', 'Factory International')","(11, 31)",5100
+"('Menagerie', 'Pottery Corner')","(11, 32)",6414
+"('Menagerie', 'Seven Limes Pottery')","(11, 33)",3056
+"('Menagerie', 'Clay Studio')","(11, 34)",2453
+"('Menagerie', 'Boom Battle Bar')","(11, 35)",1101
+"('Menagerie', 'Virtual Hideout')","(11, 36)",1332
+"('Menagerie', 'DNA VR')","(11, 37)",946
+"('Menagerie', 'Booze and Burn')","(11, 38)",1322
+"('Menagerie', 'Sken Studios')","(11, 39)",9653
+"('Menagerie', 'Cork and Canvas')","(11, 40)",2328
+"('Menagerie', 'Ma Lumiere')","(11, 41)",3560
+"('Menagerie', 'Northern Flower')","(11, 42)",1545
+"('Motley', 'Manchester Art Gallery')","(12, 21)",700
+"('Motley', 'HOME')","(12, 22)",733
+"('Motley', 'Rogue Artists’ Studios')","(12, 23)",6752
+"('Motley', 'Salford Museum and Art Gallery')","(12, 24)",3945
+"('Motley', 'The Lowry')","(12, 25)",3342
+"('Motley', 'The Whitworth')","(12, 26)",2505
+"('Motley', 'Islington Mill')","(12, 27)",1274
+"('Motley', 'Holden Gallery')","(12, 28)",1524
+"('Motley', 'Castlefield Gallery')","(12, 29)",682
+"('Motley', 'Gallery Oldham')","(12, 30)",14235
+"('Motley', 'Factory International')","(12, 31)",5243
+"('Motley', 'Pottery Corner')","(12, 32)",6142
+"('Motley', 'Seven Limes Pottery')","(12, 33)",2607
+"('Motley', 'Clay Studio')","(12, 34)",1956
+"('Motley', 'Boom Battle Bar')","(12, 35)",1033
+"('Motley', 'Virtual Hideout')","(12, 36)",1109
+"('Motley', 'DNA VR')","(12, 37)",658
+"('Motley', 'Booze and Burn')","(12, 38)",1580
+"('Motley', 'Sken Studios')","(12, 39)",9513
+"('Motley', 'Cork and Canvas')","(12, 40)",2099
+"('Motley', 'Ma Lumiere')","(12, 41)",3434
+"('Motley', 'Northern Flower')","(12, 42)",1322
+"('La Bandera', 'Manchester Art Gallery')","(13, 21)",553
+"('La Bandera', 'HOME')","(13, 22)",928
+"('La Bandera', 'Rogue Artists’ Studios')","(13, 23)",6649
+"('La Bandera', 'Salford Museum and Art Gallery')","(13, 24)",4084
+"('La Bandera', 'The Lowry')","(13, 25)",3565
+"('La Bandera', 'The Whitworth')","(13, 26)",2629
+"('La Bandera', 'Islington Mill')","(13, 27)",1363
+"('La Bandera', 'Holden Gallery')","(13, 28)",1675
+"('La Bandera', 'Castlefield Gallery')","(13, 29)",947
+"('La Bandera', 'Gallery Oldham')","(13, 30)",13968
+"('La Bandera', 'Factory International')","(13, 31)",4956
+"('La Bandera', 'Pottery Corner')","(13, 32)",6428
+"('La Bandera', 'Seven Limes Pottery')","(13, 33)",2867
+"('La Bandera', 'Clay Studio')","(13, 34)",2201
+"('La Bandera', 'Boom Battle Bar')","(13, 35)",750
+"('La Bandera', 'Virtual Hideout')","(13, 36)",863
+"('La Bandera', 'DNA VR')","(13, 37)",421
+"('La Bandera', 'Booze and Burn')","(13, 38)",1762
+"('La Bandera', 'Sken Studios')","(13, 39)",9798
+"('La Bandera', 'Cork and Canvas')","(13, 40)",1868
+"('La Bandera', 'Ma Lumiere')","(13, 41)",3178
+"('La Bandera', 'Northern Flower')","(13, 42)",1080
+"('Fress', 'Manchester Art Gallery')","(14, 21)",771
+"('Fress', 'HOME')","(14, 22)",1638
+"('Fress', 'Rogue Artists’ Studios')","(14, 23)",5701
+"('Fress', 'Salford Museum and Art Gallery')","(14, 24)",5184
+"('Fress', 'The Lowry')","(14, 25)",4730
+"('Fress', 'The Whitworth')","(14, 26)",2702
+"('Fress', 'Islington Mill')","(14, 27)",2450
+"('Fress', 'Holden Gallery')","(14, 28)",2017
+"('Fress', 'Castlefield Gallery')","(14, 29)",1860
+"('Fress', 'Gallery Oldham')","(14, 30)",12850
+"('Fress', 'Factory International')","(14, 31)",4067
+"('Fress', 'Pottery Corner')","(14, 32)",7320
+"('Fress', 'Seven Limes Pottery')","(14, 33)",3577
+"('Fress', 'Clay Studio')","(14, 34)",2867
+"('Fress', 'Boom Battle Bar')","(14, 35)",579
+"('Fress', 'Virtual Hideout')","(14, 36)",303
+"('Fress', 'DNA VR')","(14, 37)",749
+"('Fress', 'Booze and Burn')","(14, 38)",2918
+"('Fress', 'Sken Studios')","(14, 39)",10816
+"('Fress', 'Cork and Canvas')","(14, 40)",703
+"('Fress', 'Ma Lumiere')","(14, 41)",2035
+"('Fress', 'Northern Flower')","(14, 42)",85
+"('Dishoom', 'Manchester Art Gallery')","(15, 21)",831
+"('Dishoom', 'HOME')","(15, 22)",1089
+"('Dishoom', 'Rogue Artists’ Studios')","(15, 23)",6926
+"('Dishoom', 'Salford Museum and Art Gallery')","(15, 24)",3820
+"('Dishoom', 'The Lowry')","(15, 25)",3356
+"('Dishoom', 'The Whitworth')","(15, 26)",2847
+"('Dishoom', 'Islington Mill')","(15, 27)",1091
+"('Dishoom', 'Holden Gallery')","(15, 28)",1874
+"('Dishoom', 'Castlefield Gallery')","(15, 29)",1021
+"('Dishoom', 'Gallery Oldham')","(15, 30)",14125
+"('Dishoom', 'Factory International')","(15, 31)",5030
+"('Dishoom', 'Pottery Corner')","(15, 32)",6403
+"('Dishoom', 'Seven Limes Pottery')","(15, 33)",2937
+"('Dishoom', 'Clay Studio')","(15, 34)",2300
+"('Dishoom', 'Boom Battle Bar')","(15, 35)",903
+"('Dishoom', 'Virtual Hideout')","(15, 36)",1087
+"('Dishoom', 'DNA VR')","(15, 37)",673
+"('Dishoom', 'Booze and Burn')","(15, 38)",1529
+"('Dishoom', 'Sken Studios')","(15, 39)",9712
+"('Dishoom', 'Cork and Canvas')","(15, 40)",2093
+"('Dishoom', 'Ma Lumiere')","(15, 41)",3367
+"('Dishoom', 'Northern Flower')","(15, 42)",1304
+"('Pot Kettle Black', 'Manchester Art Gallery')","(16, 21)",700
+"('Pot Kettle Black', 'HOME')","(16, 22)",733
+"('Pot Kettle Black', 'Rogue Artists’ Studios')","(16, 23)",6752
+"('Pot Kettle Black', 'Salford Museum and Art Gallery')","(16, 24)",3945
+"('Pot Kettle Black', 'The Lowry')","(16, 25)",3342
+"('Pot Kettle Black', 'The Whitworth')","(16, 26)",2505
+"('Pot Kettle Black', 'Islington Mill')","(16, 27)",1274
+"('Pot Kettle Black', 'Holden Gallery')","(16, 28)",1524
+"('Pot Kettle Black', 'Castlefield Gallery')","(16, 29)",682
+"('Pot Kettle Black', 'Gallery Oldham')","(16, 30)",14235
+"('Pot Kettle Black', 'Factory International')","(16, 31)",5243
+"('Pot Kettle Black', 'Pottery Corner')","(16, 32)",6142
+"('Pot Kettle Black', 'Seven Limes Pottery')","(16, 33)",2607
+"('Pot Kettle Black', 'Clay Studio')","(16, 34)",1956
+"('Pot Kettle Black', 'Boom Battle Bar')","(16, 35)",1033
+"('Pot Kettle Black', 'Virtual Hideout')","(16, 36)",1109
+"('Pot Kettle Black', 'DNA VR')","(16, 37)",658
+"('Pot Kettle Black', 'Booze and Burn')","(16, 38)",1580
+"('Pot Kettle Black', 'Sken Studios')","(16, 39)",9513
+"('Pot Kettle Black', 'Cork and Canvas')","(16, 40)",2099
+"('Pot Kettle Black', 'Ma Lumiere')","(16, 41)",3434
+"('Pot Kettle Black', 'Northern Flower')","(16, 42)",1322
+"('Idle Hands Coffee', 'Manchester Art Gallery')","(17, 21)",661
+"('Idle Hands Coffee', 'HOME')","(17, 22)",1441
+"('Idle Hands Coffee', 'Rogue Artists’ Studios')","(17, 23)",5540
+"('Idle Hands Coffee', 'Salford Museum and Art Gallery')","(17, 24)",5245
+"('Idle Hands Coffee', 'The Lowry')","(17, 25)",4697
+"('Idle Hands Coffee', 'The Whitworth')","(17, 26)",2378
+"('Idle Hands Coffee', 'Islington Mill')","(17, 27)",2514
+"('Idle Hands Coffee', 'Holden Gallery')","(17, 28)",1728
+"('Idle Hands Coffee', 'Castlefield Gallery')","(17, 29)",1703
+"('Idle Hands Coffee', 'Gallery Oldham')","(17, 30)",12992
+"('Idle Hands Coffee', 'Factory International')","(17, 31)",4334
+"('Idle Hands Coffee', 'Pottery Corner')","(17, 32)",7093
+"('Idle Hands Coffee', 'Seven Limes Pottery')","(17, 33)",3322
+"('Idle Hands Coffee', 'Clay Studio')","(17, 34)",2613
+"('Idle Hands Coffee', 'Boom Battle Bar')","(17, 35)",777
+"('Idle Hands Coffee', 'Virtual Hideout')","(17, 36)",433
+"('Idle Hands Coffee', 'DNA VR')","(17, 37)",752
+"('Idle Hands Coffee', 'Booze and Burn')","(17, 38)",2923
+"('Idle Hands Coffee', 'Sken Studios')","(17, 39)",10628
+"('Idle Hands Coffee', 'Cork and Canvas')","(17, 40)",795
+"('Idle Hands Coffee', 'Ma Lumiere')","(17, 41)",2179
+"('Idle Hands Coffee', 'Northern Flower')","(17, 42)",339
+"('Takk', 'Manchester Art Gallery')","(18, 21)",656
+"('Takk', 'HOME')","(18, 22)",1419
+"('Takk', 'Rogue Artists’ Studios')","(18, 23)",5523
+"('Takk', 'Salford Museum and Art Gallery')","(18, 24)",5253
+"('Takk', 'The Lowry')","(18, 25)",4693
+"('Takk', 'The Whitworth')","(18, 26)",2338
+"('Takk', 'Islington Mill')","(18, 27)",2523
+"('Takk', 'Holden Gallery')","(18, 28)",1693
+"('Takk', 'Castlefield Gallery')","(18, 29)",1685
+"('Takk', 'Gallery Oldham')","(18, 30)",13012
+"('Takk', 'Factory International')","(18, 31)",4368
+"('Takk', 'Pottery Corner')","(18, 32)",7064
+"('Takk', 'Seven Limes Pottery')","(18, 33)",3291
+"('Takk', 'Clay Studio')","(18, 34)",2582
+"('Takk', 'Boom Battle Bar')","(18, 35)",806
+"('Takk', 'Virtual Hideout')","(18, 36)",461
+"('Takk', 'DNA VR')","(18, 37)",761
+"('Takk', 'Booze and Burn')","(18, 38)",2925
+"('Takk', 'Sken Studios')","(18, 39)",10604
+"('Takk', 'Cork and Canvas')","(18, 40)",815
+"('Takk', 'Ma Lumiere')","(18, 41)",2201
+"('Takk', 'Northern Flower')","(18, 42)",378
+"(""Kong's"", 'Manchester Art Gallery')","(19, 21)",786
+"(""Kong's"", 'HOME')","(19, 22)",1655
+"(""Kong's"", 'Rogue Artists’ Studios')","(19, 23)",5708
+"(""Kong's"", 'Salford Museum and Art Gallery')","(19, 24)",5185
+"(""Kong's"", 'The Lowry')","(19, 25)",4737
+"(""Kong's"", 'The Whitworth')","(19, 26)",2723
+"(""Kong's"", 'Islington Mill')","(19, 27)",2452
+"(""Kong's"", 'Holden Gallery')","(19, 28)",2037
+"(""Kong's"", 'Castlefield Gallery')","(19, 29)",1875
+"(""Kong's"", 'Gallery Oldham')","(19, 30)",12837
+"(""Kong's"", 'Factory International')","(19, 31)",4048
+"(""Kong's"", 'Pottery Corner')","(19, 32)",7338
+"(""Kong's"", 'Seven Limes Pottery')","(19, 33)",3596
+"(""Kong's"", 'Clay Studio')","(19, 34)",2886
+"(""Kong's"", 'Boom Battle Bar')","(19, 35)",575
+"(""Kong's"", 'Virtual Hideout')","(19, 36)",309
+"(""Kong's"", 'DNA VR')","(19, 37)",757
+"(""Kong's"", 'Booze and Burn')","(19, 38)",2923
+"(""Kong's"", 'Sken Studios')","(19, 39)",10831
+"(""Kong's"", 'Cork and Canvas')","(19, 40)",698
+"(""Kong's"", 'Ma Lumiere')","(19, 41)",2023
+"(""Kong's"", 'Northern Flower')","(19, 42)",92
+"('Escape to Freight Island', 'Manchester Art Gallery')","(20, 21)",1215
+"('Escape to Freight Island', 'HOME')","(20, 22)",1564
+"('Escape to Freight Island', 'Rogue Artists’ Studios')","(20, 23)",4905
+"('Escape to Freight Island', 'Salford Museum and Art Gallery')","(20, 24)",5786
+"('Escape to Freight Island', 'The Lowry')","(20, 25)",5048
+"('Escape to Freight Island', 'The Whitworth')","(20, 26)",1731
+"('Escape to Freight Island', 'Islington Mill')","(20, 27)",3113
+"('Escape to Freight Island', 'Holden Gallery')","(20, 28)",1413
+"('Escape to Freight Island', 'Castlefield Gallery')","(20, 29)",1897
+"('Escape to Freight Island', 'Gallery Oldham')","(20, 30)",13060
+"('Escape to Freight Island', 'Factory International')","(20, 31)",4838
+"('Escape to Freight Island', 'Pottery Corner')","(20, 32)",6858
+"('Escape to Freight Island', 'Seven Limes Pottery')","(20, 33)",3055
+"('Escape to Freight Island', 'Clay Studio')","(20, 34)",2385
+"('Escape to Freight Island', 'Boom Battle Bar')","(20, 35)",1600
+"('Escape to Freight Island', 'Virtual Hideout')","(20, 36)",1259
+"('Escape to Freight Island', 'DNA VR')","(20, 37)",1429
+"('Escape to Freight Island', 'Booze and Burn')","(20, 38)",3402
+"('Escape to Freight Island', 'Sken Studios')","(20, 39)",10507
+"('Escape to Freight Island', 'Cork and Canvas')","(20, 40)",1202
+"('Escape to Freight Island', 'Ma Lumiere')","(20, 41)",2422
+"('Escape to Freight Island', 'Northern Flower')","(20, 42)",1181
+"('Manchester Art Gallery', 'NQ64')","(21, 43)",656
+"('Manchester Art Gallery', 'Twenty Twenty Two')","(21, 44)",945
+"('Manchester Art Gallery', 'Junkyard Golf Club')","(21, 45)",888
+"('Manchester Art Gallery', 'Pixel Bar')","(21, 46)",700
+"('Manchester Art Gallery', 'The Temple')","(21, 47)",657
+"('Manchester Art Gallery', 'Convenience Store')","(21, 48)",633
+"('Manchester Art Gallery', 'Blind Tyger')","(21, 49)",2306
+"('Manchester Art Gallery', 'Double Down')","(21, 50)",714
+"('Manchester Art Gallery', 'Lions Den')","(21, 51)",700
+"('Manchester Art Gallery', 'Cloudwater Unit 9')","(21, 52)",1714
+"('Manchester Art Gallery', 'Behind Closed Doors')","(21, 53)",760
+"('Manchester Art Gallery', '17 Below')","(21, 54)",226
+"('Manchester Art Gallery', 'The Washhouse')","(21, 55)",688
+"('Manchester Art Gallery', 'Cane and Grain')","(21, 56)",700
+"('Manchester Art Gallery', 'Dusk til Pawn')","(21, 57)",801
+"('Manchester Art Gallery', 'Hold Fast')","(21, 58)",751
+"('Manchester Art Gallery', 'Corbieres')","(21, 59)",478
+"('Manchester Art Gallery', 'The Liars Club')","(21, 60)",732
+"('Manchester Art Gallery', 'The Fitzgerald')","(21, 61)",945
+"('Manchester Art Gallery', 'Gas Lamp')","(21, 62)",832
+"('Manchester Art Gallery', 'Arcane')","(21, 63)",551
+"('Manchester Art Gallery', 'Wood and Company')","(21, 64)",474
+"('Manchester Art Gallery', 'Goodtime Games')","(21, 65)",7326
+"('HOME', 'NQ64')","(22, 43)",1534
+"('HOME', 'Twenty Twenty Two')","(22, 44)",1779
+"('HOME', 'Junkyard Golf Club')","(22, 45)",0
+"('HOME', 'Pixel Bar')","(22, 46)",1588
+"('HOME', 'The Temple')","(22, 47)",258
+"('HOME', 'Convenience Store')","(22, 48)",1517
+"('HOME', 'Blind Tyger')","(22, 49)",2628
+"('HOME', 'Double Down')","(22, 50)",1538
+"('HOME', 'Lions Den')","(22, 51)",733
+"('HOME', 'Cloudwater Unit 9')","(22, 52)",2142
+"('HOME', 'Behind Closed Doors')","(22, 53)",1629
+"('HOME', '17 Below')","(22, 54)",810
+"('HOME', 'The Washhouse')","(22, 55)",1557
+"('HOME', 'Cane and Grain')","(22, 56)",1588
+"('HOME', 'Dusk til Pawn')","(22, 57)",1644
+"('HOME', 'Hold Fast')","(22, 58)",1556
+"('HOME', 'Corbieres')","(22, 59)",1139
+"('HOME', 'The Liars Club')","(22, 60)",1051
+"('HOME', 'The Fitzgerald')","(22, 61)",1779
+"('HOME', 'Gas Lamp')","(22, 62)",1089
+"('HOME', 'Arcane')","(22, 63)",975
+"('HOME', 'Wood and Company')","(22, 64)",965
+"('HOME', 'Goodtime Games')","(22, 65)",6537
+"('Rogue Artists’ Studios', 'NQ64')","(23, 43)",5802
+"('Rogue Artists’ Studios', 'Twenty Twenty Two')","(23, 44)",5493
+"('Rogue Artists’ Studios', 'Junkyard Golf Club')","(23, 45)",6387
+"('Rogue Artists’ Studios', 'Pixel Bar')","(23, 46)",5967
+"('Rogue Artists’ Studios', 'The Temple')","(23, 47)",6204
+"('Rogue Artists’ Studios', 'Convenience Store')","(23, 48)",6056
+"('Rogue Artists’ Studios', 'Blind Tyger')","(23, 49)",3798
+"('Rogue Artists’ Studios', 'Double Down')","(23, 50)",5583
+"('Rogue Artists’ Studios', 'Lions Den')","(23, 51)",6752
+"('Rogue Artists’ Studios', 'Cloudwater Unit 9')","(23, 52)",4382
+"('Rogue Artists’ Studios', 'Behind Closed Doors')","(23, 53)",5718
+"('Rogue Artists’ Studios', '17 Below')","(23, 54)",6318
+"('Rogue Artists’ Studios', 'The Washhouse')","(23, 55)",6166
+"('Rogue Artists’ Studios', 'Cane and Grain')","(23, 56)",5967
+"('Rogue Artists’ Studios', 'Dusk til Pawn')","(23, 57)",5589
+"('Rogue Artists’ Studios', 'Hold Fast')","(23, 58)",5522
+"('Rogue Artists’ Studios', 'Corbieres')","(23, 59)",6496
+"('Rogue Artists’ Studios', 'The Liars Club')","(23, 60)",6825
+"('Rogue Artists’ Studios', 'The Fitzgerald')","(23, 61)",5493
+"('Rogue Artists’ Studios', 'Gas Lamp')","(23, 62)",6926
+"('Rogue Artists’ Studios', 'Arcane')","(23, 63)",6643
+"('Rogue Artists’ Studios', 'Wood and Company')","(23, 64)",6563
+"('Rogue Artists’ Studios', 'Goodtime Games')","(23, 65)",8636
+"('Salford Museum and Art Gallery', 'NQ64')","(24, 43)",5061
+"('Salford Museum and Art Gallery', 'Twenty Twenty Two')","(24, 44)",5405
+"('Salford Museum and Art Gallery', 'Junkyard Golf Club')","(24, 45)",4336
+"('Salford Museum and Art Gallery', 'Pixel Bar')","(24, 46)",4942
+"('Salford Museum and Art Gallery', 'The Temple')","(24, 47)",4494
+"('Salford Museum and Art Gallery', 'Convenience Store')","(24, 48)",4836
+"('Salford Museum and Art Gallery', 'Blind Tyger')","(24, 49)",6893
+"('Salford Museum and Art Gallery', 'Double Down')","(24, 50)",5242
+"('Salford Museum and Art Gallery', 'Lions Den')","(24, 51)",3945
+"('Salford Museum and Art Gallery', 'Cloudwater Unit 9')","(24, 52)",6328
+"('Salford Museum and Art Gallery', 'Behind Closed Doors')","(24, 53)",5166
+"('Salford Museum and Art Gallery', '17 Below')","(24, 54)",4400
+"('Salford Museum and Art Gallery', 'The Washhouse')","(24, 55)",4753
+"('Salford Museum and Art Gallery', 'Cane and Grain')","(24, 56)",4942
+"('Salford Museum and Art Gallery', 'Dusk til Pawn')","(24, 57)",5276
+"('Salford Museum and Art Gallery', 'Hold Fast')","(24, 58)",5297
+"('Salford Museum and Art Gallery', 'Corbieres')","(24, 59)",4292
+"('Salford Museum and Art Gallery', 'The Liars Club')","(24, 60)",3922
+"('Salford Museum and Art Gallery', 'The Fitzgerald')","(24, 61)",5405
+"('Salford Museum and Art Gallery', 'Gas Lamp')","(24, 62)",3820
+"('Salford Museum and Art Gallery', 'Arcane')","(24, 63)",4099
+"('Salford Museum and Art Gallery', 'Wood and Company')","(24, 64)",4180
+"('Salford Museum and Art Gallery', 'Goodtime Games')","(24, 65)",8756
+"('The Lowry', 'NQ64')","(25, 43)",4602
+"('The Lowry', 'Twenty Twenty Two')","(25, 44)",4939
+"('The Lowry', 'Junkyard Golf Club')","(25, 45)",3491
+"('The Lowry', 'Pixel Bar')","(25, 46)",4532
+"('The Lowry', 'The Temple')","(25, 47)",3706
+"('The Lowry', 'Convenience Store')","(25, 48)",4425
+"('The Lowry', 'Blind Tyger')","(25, 49)",6119
+"('The Lowry', 'Double Down')","(25, 50)",4733
+"('The Lowry', 'Lions Den')","(25, 51)",3342
+"('The Lowry', 'Cloudwater Unit 9')","(25, 52)",5622
+"('The Lowry', 'Behind Closed Doors')","(25, 53)",4715
+"('The Lowry', '17 Below')","(25, 54)",3819
+"('The Lowry', 'The Washhouse')","(25, 55)",4373
+"('The Lowry', 'Cane and Grain')","(25, 56)",4532
+"('The Lowry', 'Dusk til Pawn')","(25, 57)",4798
+"('The Lowry', 'Hold Fast')","(25, 58)",4778
+"('The Lowry', 'Corbieres')","(25, 59)",3837
+"('The Lowry', 'The Liars Club')","(25, 60)",3448
+"('The Lowry', 'The Fitzgerald')","(25, 61)",4939
+"('The Lowry', 'Gas Lamp')","(25, 62)",3356
+"('The Lowry', 'Arcane')","(25, 63)",3598
+"('The Lowry', 'Wood and Company')","(25, 64)",3671
+"('The Lowry', 'Goodtime Games')","(25, 65)",7236
+"('The Whitworth', 'NQ64')","(26, 43)",2670
+"('The Whitworth', 'Twenty Twenty Two')","(26, 44)",2698
+"('The Whitworth', 'Junkyard Golf Club')","(26, 45)",1796
+"('The Whitworth', 'Pixel Bar')","(26, 46)",2824
+"('The Whitworth', 'The Temple')","(26, 47)",1813
+"('The Whitworth', 'Convenience Store')","(26, 48)",2813
+"('The Whitworth', 'Blind Tyger')","(26, 49)",2109
+"('The Whitworth', 'Double Down')","(26, 50)",2516
+"('The Whitworth', 'Lions Den')","(26, 51)",2505
+"('The Whitworth', 'Cloudwater Unit 9')","(26, 52)",2056
+"('The Whitworth', 'Behind Closed Doors')","(26, 53)",2705
+"('The Whitworth', '17 Below')","(26, 54)",2372
+"('The Whitworth', 'The Washhouse')","(26, 55)",2909
+"('The Whitworth', 'Cane and Grain')","(26, 56)",2824
+"('The Whitworth', 'Dusk til Pawn')","(26, 57)",2629
+"('The Whitworth', 'Hold Fast')","(26, 58)",2487
+"('The Whitworth', 'Corbieres')","(26, 59)",2730
+"('The Whitworth', 'The Liars Club')","(26, 60)",2788
+"('The Whitworth', 'The Fitzgerald')","(26, 61)",2698
+"('The Whitworth', 'Gas Lamp')","(26, 62)",2847
+"('The Whitworth', 'Arcane')","(26, 63)",2664
+"('The Whitworth', 'Wood and Company')","(26, 64)",2622
+"('The Whitworth', 'Goodtime Games')","(26, 65)",5253
+"('Islington Mill', 'NQ64')","(27, 43)",2327
+"('Islington Mill', 'Twenty Twenty Two')","(27, 44)",2670
+"('Islington Mill', 'Junkyard Golf Club')","(27, 45)",1854
+"('Islington Mill', 'Pixel Bar')","(27, 46)",2213
+"('Islington Mill', 'The Temple')","(27, 47)",1928
+"('Islington Mill', 'Convenience Store')","(27, 48)",2106
+"('Islington Mill', 'Blind Tyger')","(27, 49)",4215
+"('Islington Mill', 'Double Down')","(27, 50)",2507
+"('Islington Mill', 'Lions Den')","(27, 51)",1274
+"('Islington Mill', 'Cloudwater Unit 9')","(27, 52)",3629
+"('Islington Mill', 'Behind Closed Doors')","(27, 53)",2433
+"('Islington Mill', '17 Below')","(27, 54)",1692
+"('Islington Mill', 'The Washhouse')","(27, 55)",2029
+"('Islington Mill', 'Cane and Grain')","(27, 56)",2213
+"('Islington Mill', 'Dusk til Pawn')","(27, 57)",2541
+"('Islington Mill', 'Hold Fast')","(27, 58)",2563
+"('Islington Mill', 'Corbieres')","(27, 59)",1557
+"('Islington Mill', 'The Liars Club')","(27, 60)",1193
+"('Islington Mill', 'The Fitzgerald')","(27, 61)",2670
+"('Islington Mill', 'Gas Lamp')","(27, 62)",1091
+"('Islington Mill', 'Arcane')","(27, 63)",1373
+"('Islington Mill', 'Wood and Company')","(27, 64)",1454
+"('Islington Mill', 'Goodtime Games')","(27, 65)",7835
+"('Holden Gallery', 'NQ64')","(28, 43)",1950
+"('Holden Gallery', 'Twenty Twenty Two')","(28, 44)",2083
+"('Holden Gallery', 'Junkyard Golf Club')","(28, 45)",804
+"('Holden Gallery', 'Pixel Bar')","(28, 46)",2067
+"('Holden Gallery', 'The Temple')","(28, 47)",854
+"('Holden Gallery', 'Convenience Store')","(28, 48)",2028
+"('Holden Gallery', 'Blind Tyger')","(28, 49)",2273
+"('Holden Gallery', 'Double Down')","(28, 50)",1858
+"('Holden Gallery', 'Lions Den')","(28, 51)",1524
+"('Holden Gallery', 'Cloudwater Unit 9')","(28, 52)",1941
+"('Holden Gallery', 'Behind Closed Doors')","(28, 53)",2015
+"('Holden Gallery', '17 Below')","(28, 54)",1460
+"('Holden Gallery', 'The Washhouse')","(28, 55)",2104
+"('Holden Gallery', 'Cane and Grain')","(28, 56)",2067
+"('Holden Gallery', 'Dusk til Pawn')","(28, 57)",1976
+"('Holden Gallery', 'Hold Fast')","(28, 58)",1850
+"('Holden Gallery', 'Corbieres')","(28, 59)",1820
+"('Holden Gallery', 'The Liars Club')","(28, 60)",1823
+"('Holden Gallery', 'The Fitzgerald')","(28, 61)",2083
+"('Holden Gallery', 'Gas Lamp')","(28, 62)",1874
+"('Holden Gallery', 'Arcane')","(28, 63)",1715
+"('Holden Gallery', 'Wood and Company')","(28, 64)",1684
+"('Holden Gallery', 'Goodtime Games')","(28, 65)",5905
+"('Castlefield Gallery', 'NQ64')","(29, 43)",1746
+"('Castlefield Gallery', 'Twenty Twenty Two')","(29, 44)",2023
+"('Castlefield Gallery', 'Junkyard Golf Club')","(29, 45)",338
+"('Castlefield Gallery', 'Pixel Bar')","(29, 46)",1770
+"('Castlefield Gallery', 'The Temple')","(29, 47)",563
+"('Castlefield Gallery', 'Convenience Store')","(29, 48)",1685
+"('Castlefield Gallery', 'Blind Tyger')","(29, 49)",2967
+"('Castlefield Gallery', 'Double Down')","(29, 50)",1785
+"('Castlefield Gallery', 'Lions Den')","(29, 51)",682
+"('Castlefield Gallery', 'Cloudwater Unit 9')","(29, 52)",2474
+"('Castlefield Gallery', 'Behind Closed Doors')","(29, 53)",1849
+"('Castlefield Gallery', '17 Below')","(29, 54)",949
+"('Castlefield Gallery', 'The Washhouse')","(29, 55)",1704
+"('Castlefield Gallery', 'Cane and Grain')","(29, 56)",1770
+"('Castlefield Gallery', 'Dusk til Pawn')","(29, 57)",1882
+"('Castlefield Gallery', 'Hold Fast')","(29, 58)",1811
+"('Castlefield Gallery', 'Corbieres')","(29, 59)",1214
+"('Castlefield Gallery', 'The Liars Club')","(29, 60)",1015
+"('Castlefield Gallery', 'The Fitzgerald')","(29, 61)",2023
+"('Castlefield Gallery', 'Gas Lamp')","(29, 62)",1021
+"('Castlefield Gallery', 'Arcane')","(29, 63)",999
+"('Castlefield Gallery', 'Wood and Company')","(29, 64)",1016
+"('Castlefield Gallery', 'Goodtime Games')","(29, 65)",6552
+"('Gallery Oldham', 'NQ64')","(30, 43)",12972
+"('Gallery Oldham', 'Twenty Twenty Two')","(30, 44)",12673
+"('Gallery Oldham', 'Junkyard Golf Club')","(30, 45)",14428
+"('Gallery Oldham', 'Pixel Bar')","(30, 46)",12992
+"('Gallery Oldham', 'The Temple')","(30, 47)",14170
+"('Gallery Oldham', 'Convenience Store')","(30, 48)",13093
+"('Gallery Oldham', 'Blind Tyger')","(30, 49)",12400
+"('Gallery Oldham', 'Double Down')","(30, 50)",12910
+"('Gallery Oldham', 'Lions Den')","(30, 51)",14235
+"('Gallery Oldham', 'Cloudwater Unit 9')","(30, 52)",12554
+"('Gallery Oldham', 'Behind Closed Doors')","(30, 53)",12863
+"('Gallery Oldham', '17 Below')","(30, 54)",13796
+"('Gallery Oldham', 'The Washhouse')","(30, 55)",13119
+"('Gallery Oldham', 'Cane and Grain')","(30, 56)",12992
+"('Gallery Oldham', 'Dusk til Pawn')","(30, 57)",12816
+"('Gallery Oldham', 'Hold Fast')","(30, 58)",12883
+"('Gallery Oldham', 'Corbieres')","(30, 59)",13672
+"('Gallery Oldham', 'The Liars Club')","(30, 60)",14045
+"('Gallery Oldham', 'The Fitzgerald')","(30, 61)",12673
+"('Gallery Oldham', 'Gas Lamp')","(30, 62)",14125
+"('Gallery Oldham', 'Arcane')","(30, 63)",13925
+"('Gallery Oldham', 'Wood and Company')","(30, 64)",13863
+"('Gallery Oldham', 'Goodtime Games')","(30, 65)",19132
+"('Factory International', 'NQ64')","(31, 43)",4157
+"('Factory International', 'Twenty Twenty Two')","(31, 44)",3978
+"('Factory International', 'Junkyard Golf Club')","(31, 45)",5681
+"('Factory International', 'Pixel Bar')","(31, 46)",4092
+"('Factory International', 'The Temple')","(31, 47)",5443
+"('Factory International', 'Convenience Store')","(31, 48)",4168
+"('Factory International', 'Blind Tyger')","(31, 49)",4881
+"('Factory International', 'Double Down')","(31, 50)",4208
+"('Factory International', 'Lions Den')","(31, 51)",5243
+"('Factory International', 'Cloudwater Unit 9')","(31, 52)",4600
+"('Factory International', 'Behind Closed Doors')","(31, 53)",4073
+"('Factory International', '17 Below')","(31, 54)",4901
+"('Factory International', 'The Washhouse')","(31, 55)",4144
+"('Factory International', 'Cane and Grain')","(31, 56)",4092
+"('Factory International', 'Dusk til Pawn')","(31, 57)",4091
+"('Factory International', 'Hold Fast')","(31, 58)",4212
+"('Factory International', 'Corbieres')","(31, 59)",4660
+"('Factory International', 'The Liars Club')","(31, 60)",4974
+"('Factory International', 'The Fitzgerald')","(31, 61)",3978
+"('Factory International', 'Gas Lamp')","(31, 62)",5029
+"('Factory International', 'Arcane')","(31, 63)",4905
+"('Factory International', 'Wood and Company')","(31, 64)",4864
+"('Factory International', 'Goodtime Games')","(31, 65)",11821
+"('Pottery Corner', 'NQ64')","(32, 43)",7219
+"('Pottery Corner', 'Twenty Twenty Two')","(32, 44)",7445
+"('Pottery Corner', 'Junkyard Golf Club')","(32, 45)",5686
+"('Pottery Corner', 'Pixel Bar')","(32, 46)",7270
+"('Pottery Corner', 'The Temple')","(32, 47)",5931
+"('Pottery Corner', 'Convenience Store')","(32, 48)",7192
+"('Pottery Corner', 'Blind Tyger')","(32, 49)",7508
+"('Pottery Corner', 'Double Down')","(32, 50)",7204
+"('Pottery Corner', 'Lions Den')","(32, 51)",6142
+"('Pottery Corner', 'Cloudwater Unit 9')","(32, 52)",7342
+"('Pottery Corner', 'Behind Closed Doors')","(32, 53)",7312
+"('Pottery Corner', '17 Below')","(32, 54)",6459
+"('Pottery Corner', 'The Washhouse')","(32, 55)",7216
+"('Pottery Corner', 'Cane and Grain')","(32, 56)",7270
+"('Pottery Corner', 'Dusk til Pawn')","(32, 57)",7316
+"('Pottery Corner', 'Hold Fast')","(32, 58)",7213
+"('Pottery Corner', 'Corbieres')","(32, 59)",6715
+"('Pottery Corner', 'The Liars Club')","(32, 60)",6440
+"('Pottery Corner', 'The Fitzgerald')","(32, 61)",7445
+"('Pottery Corner', 'Gas Lamp')","(32, 62)",6403
+"('Pottery Corner', 'Arcane')","(32, 63)",6480
+"('Pottery Corner', 'Wood and Company')","(32, 64)",6512
+"('Pottery Corner', 'Goodtime Games')","(32, 65)",3609
+"('Seven Limes Pottery', 'NQ64')","(33, 43)",3488
+"('Seven Limes Pottery', 'Twenty Twenty Two')","(33, 44)",3679
+"('Seven Limes Pottery', 'Junkyard Golf Club')","(33, 45)",1994
+"('Seven Limes Pottery', 'Pixel Bar')","(33, 46)",3567
+"('Seven Limes Pottery', 'The Temple')","(33, 47)",2212
+"('Seven Limes Pottery', 'Convenience Store')","(33, 48)",3503
+"('Seven Limes Pottery', 'Blind Tyger')","(33, 49)",3786
+"('Seven Limes Pottery', 'Double Down')","(33, 50)",3442
+"('Seven Limes Pottery', 'Lions Den')","(33, 51)",2607
+"('Seven Limes Pottery', 'Cloudwater Unit 9')","(33, 52)",3554
+"('Seven Limes Pottery', 'Behind Closed Doors')","(33, 53)",3571
+"('Seven Limes Pottery', '17 Below')","(33, 54)",2804
+"('Seven Limes Pottery', 'The Washhouse')","(33, 55)",3550
+"('Seven Limes Pottery', 'Cane and Grain')","(33, 56)",3567
+"('Seven Limes Pottery', 'Dusk til Pawn')","(33, 57)",3558
+"('Seven Limes Pottery', 'Hold Fast')","(33, 58)",3445
+"('Seven Limes Pottery', 'Corbieres')","(33, 59)",3117
+"('Seven Limes Pottery', 'The Liars Club')","(33, 60)",2939
+"('Seven Limes Pottery', 'The Fitzgerald')","(33, 61)",3679
+"('Seven Limes Pottery', 'Gas Lamp')","(33, 62)",2937
+"('Seven Limes Pottery', 'Arcane')","(33, 63)",2919
+"('Seven Limes Pottery', 'Wood and Company')","(33, 64)",2928
+"('Seven Limes Pottery', 'Goodtime Games')","(33, 65)",4677
+"('Clay Studio', 'NQ64')","(34, 43)",2779
+"('Clay Studio', 'Twenty Twenty Two')","(34, 44)",2969
+"('Clay Studio', 'Junkyard Golf Club')","(34, 45)",1301
+"('Clay Studio', 'Pixel Bar')","(34, 46)",2860
+"('Clay Studio', 'The Temple')","(34, 47)",1509
+"('Clay Studio', 'Convenience Store')","(34, 48)",2799
+"('Clay Studio', 'Blind Tyger')","(34, 49)",3198
+"('Clay Studio', 'Double Down')","(34, 50)",2733
+"('Clay Studio', 'Lions Den')","(34, 51)",1956
+"('Clay Studio', 'Cloudwater Unit 9')","(34, 52)",2908
+"('Clay Studio', 'Behind Closed Doors')","(34, 53)",2861
+"('Clay Studio', '17 Below')","(34, 54)",2111
+"('Clay Studio', 'The Washhouse')","(34, 55)",2849
+"('Clay Studio', 'Cane and Grain')","(34, 56)",2860
+"('Clay Studio', 'Dusk til Pawn')","(34, 57)",2848
+"('Clay Studio', 'Hold Fast')","(34, 58)",2736
+"('Clay Studio', 'Corbieres')","(34, 59)",2436
+"('Clay Studio', 'The Liars Club')","(34, 60)",2290
+"('Clay Studio', 'The Fitzgerald')","(34, 61)",2969
+"('Clay Studio', 'Gas Lamp')","(34, 62)",2300
+"('Clay Studio', 'Arcane')","(34, 63)",2252
+"('Clay Studio', 'Wood and Company')","(34, 64)",2253
+"('Clay Studio', 'Goodtime Games')","(34, 65)",5273
+"('Boom Battle Bar', 'NQ64')","(35, 43)",476
+"('Boom Battle Bar', 'Twenty Twenty Two')","(35, 44)",795
+"('Boom Battle Bar', 'Junkyard Golf Club')","(35, 45)",1507
+"('Boom Battle Bar', 'Pixel Bar')","(35, 46)",318
+"('Boom Battle Bar', 'The Temple')","(35, 47)",1303
+"('Boom Battle Bar', 'Convenience Store')","(35, 48)",222
+"('Boom Battle Bar', 'Blind Tyger')","(35, 49)",2579
+"('Boom Battle Bar', 'Double Down')","(35, 50)",702
+"('Boom Battle Bar', 'Lions Den')","(35, 51)",1033
+"('Boom Battle Bar', 'Cloudwater Unit 9')","(35, 52)",1960
+"('Boom Battle Bar', 'Behind Closed Doors')","(35, 53)",562
+"('Boom Battle Bar', '17 Below')","(35, 54)",697
+"('Boom Battle Bar', 'The Washhouse')","(35, 55)",123
+"('Boom Battle Bar', 'Cane and Grain')","(35, 56)",318
+"('Boom Battle Bar', 'Dusk til Pawn')","(35, 57)",689
+"('Boom Battle Bar', 'Hold Fast')","(35, 58)",764
+"('Boom Battle Bar', 'Corbieres')","(35, 59)",450
+"('Boom Battle Bar', 'The Liars Club')","(35, 60)",818
+"('Boom Battle Bar', 'The Fitzgerald')","(35, 61)",795
+"('Boom Battle Bar', 'Gas Lamp')","(35, 62)",903
+"('Boom Battle Bar', 'Arcane')","(35, 63)",703
+"('Boom Battle Bar', 'Wood and Company')","(35, 64)",651
+"('Boom Battle Bar', 'Goodtime Games')","(35, 65)",7990
+"('Virtual Hideout', 'NQ64')","(36, 43)",176
+"('Virtual Hideout', 'Twenty Twenty Two')","(36, 44)",520
+"('Virtual Hideout', 'Junkyard Golf Club')","(36, 45)",1412
+"('Virtual Hideout', 'Pixel Bar')","(36, 46)",181
+"('Virtual Hideout', 'The Temple')","(36, 47)",1176
+"('Virtual Hideout', 'Convenience Store')","(36, 48)",158
+"('Virtual Hideout', 'Blind Tyger')","(36, 49)",2237
+"('Virtual Hideout', 'Double Down')","(36, 50)",371
+"('Virtual Hideout', 'Lions Den')","(36, 51)",1109
+"('Virtual Hideout', 'Cloudwater Unit 9')","(36, 52)",1619
+"('Virtual Hideout', 'Behind Closed Doors')","(36, 53)",287
+"('Virtual Hideout', '17 Below')","(36, 54)",666
+"('Virtual Hideout', 'The Washhouse')","(36, 55)",270
+"('Virtual Hideout', 'Cane and Grain')","(36, 56)",181
+"('Virtual Hideout', 'Dusk til Pawn')","(36, 57)",388
+"('Virtual Hideout', 'Hold Fast')","(36, 58)",432
+"('Virtual Hideout', 'Corbieres')","(36, 59)",601
+"('Virtual Hideout', 'The Liars Club')","(36, 60)",988
+"('Virtual Hideout', 'The Fitzgerald')","(36, 61)",520
+"('Virtual Hideout', 'Gas Lamp')","(36, 62)",1087
+"('Virtual Hideout', 'Arcane')","(36, 63)",830
+"('Virtual Hideout', 'Wood and Company')","(36, 64)",756
+"('Virtual Hideout', 'Goodtime Games')","(36, 65)",7791
+"('DNA VR', 'NQ64')","(37, 43)",621
+"('DNA VR', 'Twenty Twenty Two')","(37, 44)",955
+"('DNA VR', 'Junkyard Golf Club')","(37, 45)",1053
+"('DNA VR', 'Pixel Bar')","(37, 46)",591
+"('DNA VR', 'The Temple')","(37, 47)",854
+"('DNA VR', 'Convenience Store')","(37, 48)",498
+"('DNA VR', 'Blind Tyger')","(37, 49)",2497
+"('DNA VR', 'Double Down')","(37, 50)",758
+"('DNA VR', 'Lions Den')","(37, 51)",658
+"('DNA VR', 'Cloudwater Unit 9')","(37, 52)",1892
+"('DNA VR', 'Behind Closed Doors')","(37, 53)",734
+"('DNA VR', '17 Below')","(37, 54)",246
+"('DNA VR', 'The Washhouse')","(37, 55)",511
+"('DNA VR', 'Cane and Grain')","(37, 56)",591
+"('DNA VR', 'Dusk til Pawn')","(37, 57)",814
+"('DNA VR', 'Hold Fast')","(37, 58)",809
+"('DNA VR', 'Corbieres')","(37, 59)",235
+"('DNA VR', 'The Liars Club')","(37, 60)",571
+"('DNA VR', 'The Fitzgerald')","(37, 61)",955
+"('DNA VR', 'Gas Lamp')","(37, 62)",673
+"('DNA VR', 'Arcane')","(37, 63)",396
+"('DNA VR', 'Wood and Company')","(37, 64)",317
+"('DNA VR', 'Goodtime Games')","(37, 65)",7550
+"('Booze and Burn', 'NQ64')","(38, 43)",2790
+"('Booze and Burn', 'Twenty Twenty Two')","(38, 44)",3133
+"('Booze and Burn', 'Junkyard Golf Club')","(38, 45)",1952
+"('Booze and Burn', 'Pixel Bar')","(38, 46)",2705
+"('Booze and Burn', 'The Temple')","(38, 47)",2102
+"('Booze and Burn', 'Convenience Store')","(38, 48)",2597
+"('Booze and Burn', 'Blind Tyger')","(38, 49)",4507
+"('Booze and Burn', 'Double Down')","(38, 50)",2942
+"('Booze and Burn', 'Lions Den')","(38, 51)",1580
+"('Booze and Burn', 'Cloudwater Unit 9')","(38, 52)",3954
+"('Booze and Burn', 'Behind Closed Doors')","(38, 53)",2901
+"('Booze and Burn', '17 Below')","(38, 54)",2052
+"('Booze and Burn', 'The Washhouse')","(38, 55)",2538
+"('Booze and Burn', 'Cane and Grain')","(38, 56)",2705
+"('Booze and Burn', 'Dusk til Pawn')","(38, 57)",2995
+"('Booze and Burn', 'Hold Fast')","(38, 58)",2992
+"('Booze and Burn', 'Corbieres')","(38, 59)",2014
+"('Booze and Burn', 'The Liars Club')","(38, 60)",1625
+"('Booze and Burn', 'The Fitzgerald')","(38, 61)",3133
+"('Booze and Burn', 'Gas Lamp')","(38, 62)",1529
+"('Booze and Burn', 'Arcane')","(38, 63)",1788
+"('Booze and Burn', 'Wood and Company')","(38, 64)",1866
+"('Booze and Burn', 'Goodtime Games')","(38, 65)",7417
+"('Sken Studios', 'NQ64')","(39, 43)",10703
+"('Sken Studios', 'Twenty Twenty Two')","(39, 44)",10967
+"('Sken Studios', 'Junkyard Golf Club')","(39, 45)",9188
+"('Sken Studios', 'Pixel Bar')","(39, 46)",10722
+"('Sken Studios', 'The Temple')","(39, 47)",9444
+"('Sken Studios', 'Convenience Store')","(39, 48)",10632
+"('Sken Studios', 'Blind Tyger')","(39, 49)",11237
+"('Sken Studios', 'Double Down')","(39, 50)",10726
+"('Sken Studios', 'Lions Den')","(39, 51)",9513
+"('Sken Studios', 'Cloudwater Unit 9')","(39, 52)",11022
+"('Sken Studios', 'Behind Closed Doors')","(39, 53)",10805
+"('Sken Studios', '17 Below')","(39, 54)",9898
+"('Sken Studios', 'The Washhouse')","(39, 55)",10634
+"('Sken Studios', 'Cane and Grain')","(39, 56)",10722
+"('Sken Studios', 'Dusk til Pawn')","(39, 57)",10830
+"('Sken Studios', 'Hold Fast')","(39, 58)",10745
+"('Sken Studios', 'Corbieres')","(39, 59)",10098
+"('Sken Studios', 'The Liars Club')","(39, 60)",9770
+"('Sken Studios', 'The Fitzgerald')","(39, 61)",10967
+"('Sken Studios', 'Gas Lamp')","(39, 62)",9712
+"('Sken Studios', 'Arcane')","(39, 63)",9847
+"('Sken Studios', 'Wood and Company')","(39, 64)",9895
+"('Sken Studios', 'Goodtime Games')","(39, 65)",6474
+"('Cork and Canvas', 'NQ64')","(40, 43)",831
+"('Cork and Canvas', 'Twenty Twenty Two')","(40, 44)",493
+"('Cork and Canvas', 'Junkyard Golf Club')","(40, 45)",2235
+"('Cork and Canvas', 'Pixel Bar')","(40, 46)",930
+"('Cork and Canvas', 'The Temple')","(40, 47)",1977
+"('Cork and Canvas', 'Convenience Store')","(40, 48)",1037
+"('Cork and Canvas', 'Blind Tyger')","(40, 49)",1686
+"('Cork and Canvas', 'Double Down')","(40, 50)",717
+"('Cork and Canvas', 'Lions Den')","(40, 51)",2099
+"('Cork and Canvas', 'Cloudwater Unit 9')","(40, 52)",1147
+"('Cork and Canvas', 'Behind Closed Doors')","(40, 53)",720
+"('Cork and Canvas', '17 Below')","(40, 54)",1630
+"('Cork and Canvas', 'The Washhouse')","(40, 55)",1120
+"('Cork and Canvas', 'Cane and Grain')","(40, 56)",930
+"('Cork and Canvas', 'Dusk til Pawn')","(40, 57)",637
+"('Cork and Canvas', 'Hold Fast')","(40, 58)",685
+"('Cork and Canvas', 'Corbieres')","(40, 59)",1607
+"('Cork and Canvas', 'The Liars Club')","(40, 60)",1996
+"('Cork and Canvas', 'The Fitzgerald')","(40, 61)",493
+"('Cork and Canvas', 'Gas Lamp')","(40, 62)",2093
+"('Cork and Canvas', 'Arcane')","(40, 63)",1836
+"('Cork and Canvas', 'Wood and Company')","(40, 64)",1761
+"('Cork and Canvas', 'Goodtime Games')","(40, 65)",8181
+"('Ma Lumiere', 'NQ64')","(41, 43)",2159
+"('Ma Lumiere', 'Twenty Twenty Two')","(41, 44)",1854
+"('Ma Lumiere', 'Junkyard Golf Club')","(41, 45)",3620
+"('Ma Lumiere', 'Pixel Bar')","(41, 46)",2198
+"('Ma Lumiere', 'The Temple')","(41, 47)",3362
+"('Ma Lumiere', 'Convenience Store')","(41, 48)",2303
+"('Ma Lumiere', 'Blind Tyger')","(41, 49)",2323
+"('Ma Lumiere', 'Double Down')","(41, 50)",2092
+"('Ma Lumiere', 'Lions Den')","(41, 51)",3434
+"('Ma Lumiere', 'Cloudwater Unit 9')","(41, 52)",2084
+"('Ma Lumiere', 'Behind Closed Doors')","(41, 53)",2048
+"('Ma Lumiere', '17 Below')","(41, 54)",2982
+"('Ma Lumiere', 'The Washhouse')","(41, 55)",2348
+"('Ma Lumiere', 'Cane and Grain')","(41, 56)",2198
+"('Ma Lumiere', 'Dusk til Pawn')","(41, 57)",1997
+"('Ma Lumiere', 'Hold Fast')","(41, 58)",2066
+"('Ma Lumiere', 'Corbieres')","(41, 59)",2892
+"('Ma Lumiere', 'The Liars Club')","(41, 60)",3278
+"('Ma Lumiere', 'The Fitzgerald')","(41, 61)",1854
+"('Ma Lumiere', 'Gas Lamp')","(41, 62)",3367
+"('Ma Lumiere', 'Arcane')","(41, 63)",3140
+"('Ma Lumiere', 'Wood and Company')","(41, 64)",3071
+"('Ma Lumiere', 'Goodtime Games')","(41, 65)",9334
+"('Northern Flower', 'NQ64')","(42, 43)",44
+"('Northern Flower', 'Twenty Twenty Two')","(42, 44)",305
+"('Northern Flower', 'Junkyard Golf Club')","(42, 45)",1575
+"('Northern Flower', 'Pixel Bar')","(42, 46)",198
+"('Northern Flower', 'The Temple')","(42, 47)",1329
+"('Northern Flower', 'Convenience Store')","(42, 48)",280
+"('Northern Flower', 'Blind Tyger')","(42, 49)",2093
+"('Northern Flower', 'Double Down')","(42, 50)",222
+"('Northern Flower', 'Lions Den')","(42, 51)",1322
+"('Northern Flower', 'Cloudwater Unit 9')","(42, 52)",1476
+"('Northern Flower', 'Behind Closed Doors')","(42, 53)",69
+"('Northern Flower', '17 Below')","(42, 54)",868
+"('Northern Flower', 'The Washhouse')","(42, 55)",392
+"('Northern Flower', 'Cane and Grain')","(42, 56)",198
+"('Northern Flower', 'Dusk til Pawn')","(42, 57)",186
+"('Northern Flower', 'Hold Fast')","(42, 58)",280
+"('Northern Flower', 'Corbieres')","(42, 59)",818
+"('Northern Flower', 'The Liars Club')","(42, 60)",1206
+"('Northern Flower', 'The Fitzgerald')","(42, 61)",305
+"('Northern Flower', 'Gas Lamp')","(42, 62)",1304
+"('Northern Flower', 'Arcane')","(42, 63)",1048
+"('Northern Flower', 'Wood and Company')","(42, 64)",974
+"('Northern Flower', 'Goodtime Games')","(42, 65)",7871
+"('NQ64', 'Volta')","(43, 66)",7873
+"('NQ64', 'Tattu')","(43, 67)",1517
+"('NQ64', 'Bar San Juan')","(43, 68)",7219
+"('NQ64', 'Australasia')","(43, 69)",1176
+"('NQ64', 'The Edinburgh Castle')","(43, 70)",480
+"('NQ64', 'Sicilian NQ Bar and Bistro')","(43, 71)",165
+"('NQ64', '20 Stories')","(43, 72)",6433
+"('NQ64', 'The Ivy')","(43, 73)",1365
+"('NQ64', 'Delhi House Cafe')","(43, 74)",642
+"('NQ64', 'Sexy Fish')","(43, 75)",13309
+"('NQ64', 'Elnecot')","(43, 76)",517
+"('NQ64', 'Wholesome Junkies')","(43, 77)",1066
+"('NQ64', 'MUSU')","(43, 78)",1262
+"('NQ64', 'Erst')","(43, 79)",674
+"('NQ64', 'Where The Light Gets In')","(43, 80)",11944
+"('NQ64', 'Brewski')","(43, 81)",6463
+"('NQ64', 'Hispi')","(43, 82)",9098
+"('NQ64', 'Dokes Pizzeria')","(43, 83)",7876
+"('NQ64', ""Salvi's NQ"")","(43, 84)",249
+"('NQ64', 'Mi & Pho')","(43, 85)",10593
+"('NQ64', 'Common')","(43, 86)",123
+"('NQ64', 'Vertigo Plant-Based Eatery')","(43, 87)",733
+"('NQ64', 'Casa Italia')","(43, 88)",8949
+"('NQ64', 'Zouk')","(43, 89)",1708
+"('NQ64', 'The Hip Hop Chip Shop')","(43, 90)",517
+"('NQ64', '63 Degrees')","(43, 91)",214
+"('NQ64', 'The Little Yeti')","(43, 92)",7570
+"('Twenty Twenty Two', 'Volta')","(44, 66)",7955
+"('Twenty Twenty Two', 'Tattu')","(44, 67)",1857
+"('Twenty Twenty Two', 'Bar San Juan')","(44, 68)",7445
+"('Twenty Twenty Two', 'Australasia')","(44, 69)",1511
+"('Twenty Twenty Two', 'The Edinburgh Castle')","(44, 70)",142
+"('Twenty Twenty Two', 'Sicilian NQ Bar and Bistro')","(44, 71)",502
+"('Twenty Twenty Two', '20 Stories')","(44, 72)",6115
+"('Twenty Twenty Two', 'The Ivy')","(44, 73)",1696
+"('Twenty Twenty Two', 'Delhi House Cafe')","(44, 74)",966
+"('Twenty Twenty Two', 'Sexy Fish')","(44, 75)",13645
+"('Twenty Twenty Two', 'Elnecot')","(44, 76)",182
+"('Twenty Twenty Two', 'Wholesome Junkies')","(44, 77)",1340
+"('Twenty Twenty Two', 'MUSU')","(44, 78)",1606
+"('Twenty Twenty Two', 'Erst')","(44, 79)",331
+"('Twenty Twenty Two', 'Where The Light Gets In')","(44, 80)",11801
+"('Twenty Twenty Two', 'Brewski')","(44, 81)",6678
+"('Twenty Twenty Two', 'Hispi')","(44, 82)",9132
+"('Twenty Twenty Two', 'Dokes Pizzeria')","(44, 83)",8016
+"('Twenty Twenty Two', ""Salvi's NQ"")","(44, 84)",563
+"('Twenty Twenty Two', 'Mi & Pho')","(44, 85)",10706
+"('Twenty Twenty Two', 'Common')","(44, 86)",386
+"('Twenty Twenty Two', 'Vertigo Plant-Based Eatery')","(44, 87)",1077
+"('Twenty Twenty Two', 'Casa Italia')","(44, 88)",8993
+"('Twenty Twenty Two', 'Zouk')","(44, 89)",1891
+"('Twenty Twenty Two', 'The Hip Hop Chip Shop')","(44, 90)",182
+"('Twenty Twenty Two', '63 Degrees')","(44, 91)",462
+"('Twenty Twenty Two', 'The Little Yeti')","(44, 92)",7750
+"('Junkyard Golf Club', 'Volta')","(45, 66)",6567
+"('Junkyard Golf Club', 'Tattu')","(45, 67)",1021
+"('Junkyard Golf Club', 'Bar San Juan')","(45, 68)",5686
+"('Junkyard Golf Club', 'Australasia')","(45, 69)",858
+"('Junkyard Golf Club', 'The Edinburgh Castle')","(45, 70)",1913
+"('Junkyard Golf Club', 'Sicilian NQ Bar and Bistro')","(45, 71)",1485
+"('Junkyard Golf Club', '20 Stories')","(45, 72)",7831
+"('Junkyard Golf Club', 'The Ivy')","(45, 73)",797
+"('Junkyard Golf Club', 'Delhi House Cafe')","(45, 74)",1487
+"('Junkyard Golf Club', 'Sexy Fish')","(45, 75)",12097
+"('Junkyard Golf Club', 'Elnecot')","(45, 76)",1955
+"('Junkyard Golf Club', 'Wholesome Junkies')","(45, 77)",1891
+"('Junkyard Golf Club', 'MUSU')","(45, 78)",1076
+"('Junkyard Golf Club', 'Erst')","(45, 79)",2063
+"('Junkyard Golf Club', 'Where The Light Gets In')","(45, 80)",11416
+"('Junkyard Golf Club', 'Brewski')","(45, 81)",4933
+"('Junkyard Golf Club', 'Hispi')","(45, 82)",7916
+"('Junkyard Golf Club', 'Dokes Pizzeria')","(45, 83)",8659
+"('Junkyard Golf Club', ""Salvi's NQ"")","(45, 84)",1540
+"('Junkyard Golf Club', 'Mi & Pho')","(45, 85)",9198
+"('Junkyard Golf Club', 'Common')","(45, 86)",1613
+"('Junkyard Golf Club', 'Vertigo Plant-Based Eatery')","(45, 87)",1148
+"('Junkyard Golf Club', 'Casa Italia')","(45, 88)",7743
+"('Junkyard Golf Club', 'Zouk')","(45, 89)",428
+"('Junkyard Golf Club', 'The Hip Hop Chip Shop')","(45, 90)",1955
+"('Junkyard Golf Club', '63 Degrees')","(45, 91)",1650
+"('Junkyard Golf Club', 'The Little Yeti')","(45, 92)",6071
+"('Pixel Bar', 'Volta')","(46, 66)",8000
+"('Pixel Bar', 'Tattu')","(46, 67)",1446
+"('Pixel Bar', 'Bar San Juan')","(46, 68)",7270
+"('Pixel Bar', 'Australasia')","(46, 69)",1125
+"('Pixel Bar', 'The Edinburgh Castle')","(46, 70)",595
+"('Pixel Bar', 'Sicilian NQ Bar and Bistro')","(46, 71)",104
+"('Pixel Bar', '20 Stories')","(46, 72)",6480
+"('Pixel Bar', 'The Ivy')","(46, 73)",1320
+"('Pixel Bar', 'Delhi House Cafe')","(46, 74)",488
+"('Pixel Bar', 'Sexy Fish')","(46, 75)",13240
+"('Pixel Bar', 'Elnecot')","(46, 76)",625
+"('Pixel Bar', 'Wholesome Junkies')","(46, 77)",883
+"('Pixel Bar', 'MUSU')","(46, 78)",1178
+"('Pixel Bar', 'Erst')","(46, 79)",790
+"('Pixel Bar', 'Where The Light Gets In')","(46, 80)",12129
+"('Pixel Bar', 'Brewski')","(46, 81)",6521
+"('Pixel Bar', 'Hispi')","(46, 82)",9242
+"('Pixel Bar', 'Dokes Pizzeria')","(46, 83)",7692
+"('Pixel Bar', ""Salvi's NQ"")","(46, 84)",88
+"('Pixel Bar', 'Mi & Pho')","(46, 85)",10705
+"('Pixel Bar', 'Common')","(46, 86)",91
+"('Pixel Bar', 'Vertigo Plant-Based Eatery')","(46, 87)",653
+"('Pixel Bar', 'Casa Italia')","(46, 88)",9091
+"('Pixel Bar', 'Zouk')","(46, 89)",1802
+"('Pixel Bar', 'The Hip Hop Chip Shop')","(46, 90)",625
+"('Pixel Bar', '63 Degrees')","(46, 91)",61
+"('Pixel Bar', 'The Little Yeti')","(46, 92)",7650
+"('The Temple', 'Volta')","(47, 66)",6730
+"('The Temple', 'Tattu')","(47, 67)",1037
+"('The Temple', 'Bar San Juan')","(47, 68)",5931
+"('The Temple', 'Australasia')","(47, 69)",790
+"('The Temple', 'The Edinburgh Castle')","(47, 70)",1657
+"('The Temple', 'Sicilian NQ Bar and Bistro')","(47, 71)",1251
+"('The Temple', '20 Stories')","(47, 72)",7574
+"('The Temple', 'The Ivy')","(47, 73)",791
+"('The Temple', 'Delhi House Cafe')","(47, 74)",1303
+"('The Temple', 'Sexy Fish')","(47, 75)",12335
+"('The Temple', 'Elnecot')","(47, 76)",1699
+"('The Temple', 'Wholesome Junkies')","(47, 77)",1740
+"('The Temple', 'MUSU')","(47, 78)",1023
+"('The Temple', 'Erst')","(47, 79)",1805
+"('The Temple', 'Where The Light Gets In')","(47, 80)",11418
+"('The Temple', 'Brewski')","(47, 81)",5174
+"('The Temple', 'Hispi')","(47, 82)",8049
+"('The Temple', 'Dokes Pizzeria')","(47, 83)",8581
+"('The Temple', ""Salvi's NQ"")","(47, 84)",1312
+"('The Temple', 'Mi & Pho')","(47, 85)",9388
+"('The Temple', 'Common')","(47, 86)",1374
+"('The Temple', 'Vertigo Plant-Based Eatery')","(47, 87)",979
+"('The Temple', 'Casa Italia')","(47, 88)",7882
+"('The Temple', 'Zouk')","(47, 89)",501
+"('The Temple', 'The Hip Hop Chip Shop')","(47, 90)",1699
+"('The Temple', '63 Degrees')","(47, 91)",1416
+"('The Temple', 'The Little Yeti')","(47, 92)",6295
+"('Convenience Store', 'Volta')","(48, 66)",7964
+"('Convenience Store', 'Tattu')","(48, 67)",1339
+"('Convenience Store', 'Bar San Juan')","(48, 68)",7192
+"('Convenience Store', 'Australasia')","(48, 69)",1021
+"('Convenience Store', 'The Edinburgh Castle')","(48, 70)",698
+"('Convenience Store', 'Sicilian NQ Bar and Bistro')","(48, 71)",99
+"('Convenience Store', '20 Stories')","(48, 72)",6585
+"('Convenience Store', 'The Ivy')","(48, 73)",1217
+"('Convenience Store', 'Delhi House Cafe')","(48, 74)",391
+"('Convenience Store', 'Sexy Fish')","(48, 75)",13132
+"('Convenience Store', 'Elnecot')","(48, 76)",730
+"('Convenience Store', 'Wholesome Junkies')","(48, 77)",815
+"('Convenience Store', 'MUSU')","(48, 78)",1071
+"('Convenience Store', 'Erst')","(48, 79)",894
+"('Convenience Store', 'Where The Light Gets In')","(48, 80)",12161
+"('Convenience Store', 'Brewski')","(48, 81)",6446
+"('Convenience Store', 'Hispi')","(48, 82)",9220
+"('Convenience Store', 'Dokes Pizzeria')","(48, 83)",7666
+"('Convenience Store', ""Salvi's NQ"")","(48, 84)",23
+"('Convenience Store', 'Mi & Pho')","(48, 85)",10659
+"('Convenience Store', 'Common')","(48, 86)",193
+"('Convenience Store', 'Vertigo Plant-Based Eatery')","(48, 87)",546
+"('Convenience Store', 'Casa Italia')","(48, 88)",9066
+"('Convenience Store', 'Zouk')","(48, 89)",1751
+"('Convenience Store', 'The Hip Hop Chip Shop')","(48, 90)",730
+"('Convenience Store', '63 Degrees')","(48, 91)",158
+"('Convenience Store', 'The Little Yeti')","(48, 92)",7585
+"('Blind Tyger', 'Volta')","(49, 66)",7141
+"('Blind Tyger', 'Tattu')","(49, 67)",3297
+"('Blind Tyger', 'Bar San Juan')","(49, 68)",7508
+"('Blind Tyger', 'Australasia')","(49, 69)",2942
+"('Blind Tyger', 'The Edinburgh Castle')","(49, 70)",1810
+"('Blind Tyger', 'Sicilian NQ Bar and Bistro')","(49, 71)",2267
+"('Blind Tyger', '20 Stories')","(49, 72)",5755
+"('Blind Tyger', 'The Ivy')","(49, 73)",3062
+"('Blind Tyger', 'Delhi House Cafe')","(49, 74)",2735
+"('Blind Tyger', 'Sexy Fish')","(49, 75)",14667
+"('Blind Tyger', 'Elnecot')","(49, 76)",1808
+"('Blind Tyger', 'Wholesome Junkies')","(49, 77)",3175
+"('Blind Tyger', 'MUSU')","(49, 78)",3131
+"('Blind Tyger', 'Erst')","(49, 79)",1685
+"('Blind Tyger', 'Where The Light Gets In')","(49, 80)",10063
+"('Blind Tyger', 'Brewski')","(49, 81)",6702
+"('Blind Tyger', 'Hispi')","(49, 82)",8057
+"('Blind Tyger', 'Dokes Pizzeria')","(49, 83)",9804
+"('Blind Tyger', ""Salvi's NQ"")","(49, 84)",2359
+"('Blind Tyger', 'Mi & Pho')","(49, 85)",9997
+"('Blind Tyger', 'Common')","(49, 86)",2207
+"('Blind Tyger', 'Vertigo Plant-Based Eatery')","(49, 87)",2690
+"('Blind Tyger', 'Casa Italia')","(49, 88)",7960
+"('Blind Tyger', 'Zouk')","(49, 89)",2398
+"('Blind Tyger', 'The Hip Hop Chip Shop')","(49, 90)",1808
+"('Blind Tyger', '63 Degrees')","(49, 91)",2297
+"('Blind Tyger', 'The Little Yeti')","(49, 92)",7500
+"('Double Down', 'Volta')","(50, 66)",7753
+"('Double Down', 'Tattu')","(50, 67)",1663
+"('Double Down', 'Bar San Juan')","(50, 68)",7204
+"('Double Down', 'Australasia')","(50, 69)",1308
+"('Double Down', 'The Edinburgh Castle')","(50, 70)",377
+"('Double Down', 'Sicilian NQ Bar and Bistro')","(50, 71)",389
+"('Double Down', '20 Stories')","(50, 72)",6344
+"('Double Down', 'The Ivy')","(50, 73)",1487
+"('Double Down', 'Delhi House Cafe')","(50, 74)",864
+"('Double Down', 'Sexy Fish')","(50, 75)",13435
+"('Double Down', 'Elnecot')","(50, 76)",419
+"('Double Down', 'Wholesome Junkies')","(50, 77)",1297
+"('Double Down', 'MUSU')","(50, 78)",1424
+"('Double Down', 'Erst')","(50, 79)",546
+"('Double Down', 'Where The Light Gets In')","(50, 80)",11727
+"('Double Down', 'Brewski')","(50, 81)",6439
+"('Double Down', 'Hispi')","(50, 82)",8951
+"('Double Down', 'Dokes Pizzeria')","(50, 83)",8090
+"('Double Down', ""Salvi's NQ"")","(50, 84)",481
+"('Double Down', 'Mi & Pho')","(50, 85)",10492
+"('Double Down', 'Common')","(50, 86)",340
+"('Double Down', 'Vertigo Plant-Based Eatery')","(50, 87)",905
+"('Double Down', 'Casa Italia')","(50, 88)",8807
+"('Double Down', 'Zouk')","(50, 89)",1654
+"('Double Down', 'The Hip Hop Chip Shop')","(50, 90)",419
+"('Double Down', '63 Degrees')","(50, 91)",434
+"('Double Down', 'The Little Yeti')","(50, 92)",7517
+"('Lions Den', 'Volta')","(51, 66)",7257
+"('Lions Den', 'Tattu')","(51, 67)",353
+"('Lions Den', 'Bar San Juan')","(51, 68)",6142
+"('Lions Den', 'Australasia')","(51, 69)",153
+"('Lions Den', 'The Edinburgh Castle')","(51, 70)",1747
+"('Lions Den', 'Sicilian NQ Bar and Bistro')","(51, 71)",1159
+"('Lions Den', '20 Stories')","(51, 72)",7711
+"('Lions Den', 'The Ivy')","(51, 73)",108
+"('Lions Den', 'Delhi House Cafe')","(51, 74)",943
+"('Lions Den', 'Sexy Fish')","(51, 75)",12043
+"('Lions Den', 'Elnecot')","(51, 76)",1786
+"('Lions Den', 'Wholesome Junkies')","(51, 77)",1239
+"('Lions Den', 'MUSU')","(51, 78)",344
+"('Lions Den', 'Erst')","(51, 79)",1933
+"('Lions Den', 'Where The Light Gets In')","(51, 80)",12118
+"('Lions Den', 'Brewski')","(51, 81)",5423
+"('Lions Den', 'Hispi')","(51, 82)",8632
+"('Lions Den', 'Dokes Pizzeria')","(51, 83)",7925
+"('Lions Den', ""Salvi's NQ"")","(51, 84)",1166
+"('Lions Den', 'Mi & Pho')","(51, 85)",9844
+"('Lions Den', 'Common')","(51, 86)",1305
+"('Lions Den', 'Vertigo Plant-Based Eatery')","(51, 87)",617
+"('Lions Den', 'Casa Italia')","(51, 88)",8455
+"('Lions Den', 'Zouk')","(51, 89)",1150
+"('Lions Den', 'The Hip Hop Chip Shop')","(51, 90)",1786
+"('Lions Den', '63 Degrees')","(51, 91)",1300
+"('Lions Den', 'The Little Yeti')","(51, 92)",6630
+"('Cloudwater Unit 9', 'Volta')","(52, 66)",7280
+"('Cloudwater Unit 9', 'Tattu')","(52, 67)",2718
+"('Cloudwater Unit 9', 'Bar San Juan')","(52, 68)",7342
+"('Cloudwater Unit 9', 'Australasia')","(52, 69)",2359
+"('Cloudwater Unit 9', 'The Edinburgh Castle')","(52, 70)",1215
+"('Cloudwater Unit 9', 'Sicilian NQ Bar and Bistro')","(52, 71)",1648
+"('Cloudwater Unit 9', '20 Stories')","(52, 72)",5904
+"('Cloudwater Unit 9', 'The Ivy')","(52, 73)",2491
+"('Cloudwater Unit 9', 'Delhi House Cafe')","(52, 74)",2116
+"('Cloudwater Unit 9', 'Sexy Fish')","(52, 75)",14235
+"('Cloudwater Unit 9', 'Elnecot')","(52, 76)",1218
+"('Cloudwater Unit 9', 'Wholesome Junkies')","(52, 77)",2557
+"('Cloudwater Unit 9', 'MUSU')","(52, 78)",2538
+"('Cloudwater Unit 9', 'Erst')","(52, 79)",1113
+"('Cloudwater Unit 9', 'Where The Light Gets In')","(52, 80)",10595
+"('Cloudwater Unit 9', 'Brewski')","(52, 81)",6542
+"('Cloudwater Unit 9', 'Hispi')","(52, 82)",8302
+"('Cloudwater Unit 9', 'Dokes Pizzeria')","(52, 83)",9239
+"('Cloudwater Unit 9', ""Salvi's NQ"")","(52, 84)",1741
+"('Cloudwater Unit 9', 'Mi & Pho')","(52, 85)",10110
+"('Cloudwater Unit 9', 'Common')","(52, 86)",1590
+"('Cloudwater Unit 9', 'Vertigo Plant-Based Eatery')","(52, 87)",2081
+"('Cloudwater Unit 9', 'Casa Italia')","(52, 88)",8188
+"('Cloudwater Unit 9', 'Zouk')","(52, 89)",1982
+"('Cloudwater Unit 9', 'The Hip Hop Chip Shop')","(52, 90)",1218
+"('Cloudwater Unit 9', '63 Degrees')","(52, 91)",1681
+"('Cloudwater Unit 9', 'The Little Yeti')","(52, 92)",7438
+"('Behind Closed Doors', 'Volta')","(53, 66)",7927
+"('Behind Closed Doors', 'Tattu')","(53, 67)",1628
+"('Behind Closed Doors', 'Bar San Juan')","(53, 68)",7312
+"('Behind Closed Doors', 'Australasia')","(53, 69)",1288
+"('Behind Closed Doors', 'The Edinburgh Castle')","(53, 70)",370
+"('Behind Closed Doors', 'Sicilian NQ Bar and Bistro')","(53, 71)",263
+"('Behind Closed Doors', '20 Stories')","(53, 72)",6322
+"('Behind Closed Doors', 'The Ivy')","(53, 73)",1477
+"('Behind Closed Doors', 'Delhi House Cafe')","(53, 74)",731
+"('Behind Closed Doors', 'Sexy Fish')","(53, 75)",13422
+"('Behind Closed Doors', 'Elnecot')","(53, 76)",406
+"('Behind Closed Doors', 'Wholesome Junkies')","(53, 77)",1128
+"('Behind Closed Doors', 'MUSU')","(53, 78)",1373
+"('Behind Closed Doors', 'Erst')","(53, 79)",565
+"('Behind Closed Doors', 'Where The Light Gets In')","(53, 80)",11926
+"('Behind Closed Doors', 'Brewski')","(53, 81)",6553
+"('Behind Closed Doors', 'Hispi')","(53, 82)",9138
+"('Behind Closed Doors', 'Dokes Pizzeria')","(53, 83)",7890
+"('Behind Closed Doors', ""Salvi's NQ"")","(53, 84)",329
+"('Behind Closed Doors', 'Mi & Pho')","(53, 85)",10656
+"('Behind Closed Doors', 'Common')","(53, 86)",159
+"('Behind Closed Doors', 'Vertigo Plant-Based Eatery')","(53, 87)",843
+"('Behind Closed Doors', 'Casa Italia')","(53, 88)",8992
+"('Behind Closed Doors', 'Zouk')","(53, 89)",1787
+"('Behind Closed Doors', 'The Hip Hop Chip Shop')","(53, 90)",406
+"('Behind Closed Doors', '63 Degrees')","(53, 91)",248
+"('Behind Closed Doors', 'The Little Yeti')","(53, 92)",7652
+"('17 Below', 'Volta')","(54, 66)",7355
+"('17 Below', 'Tattu')","(54, 67)",785
+"('17 Below', 'Bar San Juan')","(54, 68)",6459
+"('17 Below', 'Australasia')","(54, 69)",423
+"('17 Below', 'The Edinburgh Castle')","(54, 70)",1280
+"('17 Below', 'Sicilian NQ Bar and Bistro')","(54, 71)",728
+"('17 Below', '20 Stories')","(54, 72)",7252
+"('17 Below', 'The Ivy')","(54, 73)",578
+"('17 Below', 'Delhi House Cafe')","(54, 74)",680
+"('17 Below', 'Sexy Fish')","(54, 75)",12518
+"('17 Below', 'Elnecot')","(54, 76)",1320
+"('17 Below', 'Wholesome Junkies')","(54, 77)",1121
+"('17 Below', 'MUSU')","(54, 78)",609
+"('17 Below', 'Erst')","(54, 79)",1462
+"('17 Below', 'Where The Light Gets In')","(54, 80)",11921
+"('17 Below', 'Brewski')","(54, 81)",5718
+"('17 Below', 'Hispi')","(54, 82)",8670
+"('17 Below', 'Dokes Pizzeria')","(54, 83)",8003
+"('17 Below', ""Salvi's NQ"")","(54, 84)",760
+"('17 Below', 'Mi & Pho')","(54, 85)",10005
+"('17 Below', 'Common')","(54, 86)",871
+"('17 Below', 'Vertigo Plant-Based Eatery')","(54, 87)",356
+"('17 Below', 'Casa Italia')","(54, 88)",8504
+"('17 Below', 'Zouk')","(54, 89)",1123
+"('17 Below', 'The Hip Hop Chip Shop')","(54, 90)",1320
+"('17 Below', '63 Degrees')","(54, 91)",885
+"('17 Below', 'The Little Yeti')","(54, 92)",6876
+"('The Washhouse', 'Volta')","(55, 66)",8039
+"('The Washhouse', 'Tattu')","(55, 67)",1295
+"('The Washhouse', 'Bar San Juan')","(55, 68)",7216
+"('The Washhouse', 'Australasia')","(55, 69)",997
+"('The Washhouse', 'The Edinburgh Castle')","(55, 70)",792
+"('The Washhouse', 'Sicilian NQ Bar and Bistro')","(55, 71)",219
+"('The Washhouse', '20 Stories')","(55, 72)",6629
+"('The Washhouse', 'The Ivy')","(55, 73)",1194
+"('The Washhouse', 'Delhi House Cafe')","(55, 74)",292
+"('The Washhouse', 'Sexy Fish')","(55, 75)",13078
+"('The Washhouse', 'Elnecot')","(55, 76)",820
+"('The Washhouse', 'Wholesome Junkies')","(55, 77)",696
+"('The Washhouse', 'MUSU')","(55, 78)",1021
+"('The Washhouse', 'Erst')","(55, 79)",986
+"('The Washhouse', 'Where The Light Gets In')","(55, 80)",12277
+"('The Washhouse', 'Brewski')","(55, 81)",6476
+"('The Washhouse', 'Hispi')","(55, 82)",9306
+"('The Washhouse', 'Dokes Pizzeria')","(55, 83)",7553
+"('The Washhouse', ""Salvi's NQ"")","(55, 84)",122
+"('The Washhouse', 'Mi & Pho')","(55, 85)",10723
+"('The Washhouse', 'Common')","(55, 86)",291
+"('The Washhouse', 'Vertigo Plant-Based Eatery')","(55, 87)",514
+"('The Washhouse', 'Casa Italia')","(55, 88)",9150
+"('The Washhouse', 'Zouk')","(55, 89)",1814
+"('The Washhouse', 'The Hip Hop Chip Shop')","(55, 90)",820
+"('The Washhouse', '63 Degrees')","(55, 91)",224
+"('The Washhouse', 'The Little Yeti')","(55, 92)",7628
+"('Cane and Grain', 'Volta')","(56, 66)",8000
+"('Cane and Grain', 'Tattu')","(56, 67)",1446
+"('Cane and Grain', 'Bar San Juan')","(56, 68)",7270
+"('Cane and Grain', 'Australasia')","(56, 69)",1125
+"('Cane and Grain', 'The Edinburgh Castle')","(56, 70)",595
+"('Cane and Grain', 'Sicilian NQ Bar and Bistro')","(56, 71)",104
+"('Cane and Grain', '20 Stories')","(56, 72)",6480
+"('Cane and Grain', 'The Ivy')","(56, 73)",1320
+"('Cane and Grain', 'Delhi House Cafe')","(56, 74)",488
+"('Cane and Grain', 'Sexy Fish')","(56, 75)",13240
+"('Cane and Grain', 'Elnecot')","(56, 76)",625
+"('Cane and Grain', 'Wholesome Junkies')","(56, 77)",883
+"('Cane and Grain', 'MUSU')","(56, 78)",1178
+"('Cane and Grain', 'Erst')","(56, 79)",790
+"('Cane and Grain', 'Where The Light Gets In')","(56, 80)",12129
+"('Cane and Grain', 'Brewski')","(56, 81)",6521
+"('Cane and Grain', 'Hispi')","(56, 82)",9242
+"('Cane and Grain', 'Dokes Pizzeria')","(56, 83)",7692
+"('Cane and Grain', ""Salvi's NQ"")","(56, 84)",88
+"('Cane and Grain', 'Mi & Pho')","(56, 85)",10705
+"('Cane and Grain', 'Common')","(56, 86)",91
+"('Cane and Grain', 'Vertigo Plant-Based Eatery')","(56, 87)",653
+"('Cane and Grain', 'Casa Italia')","(56, 88)",9091
+"('Cane and Grain', 'Zouk')","(56, 89)",1802
+"('Cane and Grain', 'The Hip Hop Chip Shop')","(56, 90)",625
+"('Cane and Grain', '63 Degrees')","(56, 91)",61
+"('Cane and Grain', 'The Little Yeti')","(56, 92)",7650
+"('Dusk til Pawn', 'Volta')","(57, 66)",7870
+"('Dusk til Pawn', 'Tattu')","(57, 67)",1718
+"('Dusk til Pawn', 'Bar San Juan')","(57, 68)",7316
+"('Dusk til Pawn', 'Australasia')","(57, 69)",1369
+"('Dusk til Pawn', 'The Edinburgh Castle')","(57, 70)",286
+"('Dusk til Pawn', 'Sicilian NQ Bar and Bistro')","(57, 71)",382
+"('Dusk til Pawn', '20 Stories')","(57, 72)",6259
+"('Dusk til Pawn', 'The Ivy')","(57, 73)",1553
+"('Dusk til Pawn', 'Delhi House Cafe')","(57, 74)",857
+"('Dusk til Pawn', 'Sexy Fish')","(57, 75)",13503
+"('Dusk til Pawn', 'Elnecot')","(57, 76)",326
+"('Dusk til Pawn', 'Wholesome Junkies')","(57, 77)",1261
+"('Dusk til Pawn', 'MUSU')","(57, 78)",1470
+"('Dusk til Pawn', 'Erst')","(57, 79)",471
+"('Dusk til Pawn', 'Where The Light Gets In')","(57, 80)",11807
+"('Dusk til Pawn', 'Brewski')","(57, 81)",6552
+"('Dusk til Pawn', 'Hispi')","(57, 82)",9064
+"('Dusk til Pawn', 'Dokes Pizzeria')","(57, 83)",8009
+"('Dusk til Pawn', ""Salvi's NQ"")","(57, 84)",457
+"('Dusk til Pawn', 'Mi & Pho')","(57, 85)",10610
+"('Dusk til Pawn', 'Common')","(57, 86)",291
+"('Dusk til Pawn', 'Vertigo Plant-Based Eatery')","(57, 87)",943
+"('Dusk til Pawn', 'Casa Italia')","(57, 88)",8921
+"('Dusk til Pawn', 'Zouk')","(57, 89)",1770
+"('Dusk til Pawn', 'The Hip Hop Chip Shop')","(57, 90)",326
+"('Dusk til Pawn', '63 Degrees')","(57, 91)",380
+"('Dusk til Pawn', 'The Little Yeti')","(57, 92)",7633
+"('Hold Fast', 'Volta')","(58, 66)",7733
+"('Hold Fast', 'Tattu')","(58, 67)",1713
+"('Hold Fast', 'Bar San Juan')","(58, 68)",7213
+"('Hold Fast', 'Australasia')","(58, 69)",1357
+"('Hold Fast', 'The Edinburgh Castle')","(58, 70)",358
+"('Hold Fast', 'Sicilian NQ Bar and Bistro')","(58, 71)",450
+"('Hold Fast', '20 Stories')","(58, 72)",6310
+"('Hold Fast', 'The Ivy')","(58, 73)",1533
+"('Hold Fast', 'Delhi House Cafe')","(58, 74)",926
+"('Hold Fast', 'Sexy Fish')","(58, 75)",13478
+"('Hold Fast', 'Elnecot')","(58, 76)",399
+"('Hold Fast', 'Wholesome Junkies')","(58, 77)",1358
+"('Hold Fast', 'MUSU')","(58, 78)",1477
+"('Hold Fast', 'Erst')","(58, 79)",513
+"('Hold Fast', 'Where The Light Gets In')","(58, 80)",11674
+"('Hold Fast', 'Brewski')","(58, 81)",6446
+"('Hold Fast', 'Hispi')","(58, 82)",8923
+"('Hold Fast', 'Dokes Pizzeria')","(58, 83)",8142
+"('Hold Fast', ""Salvi's NQ"")","(58, 84)",542
+"('Hold Fast', 'Mi & Pho')","(58, 85)",10478
+"('Hold Fast', 'Common')","(58, 86)",398
+"('Hold Fast', 'Vertigo Plant-Based Eatery')","(58, 87)",961
+"('Hold Fast', 'Casa Italia')","(58, 88)",8780
+"('Hold Fast', 'Zouk')","(58, 89)",1657
+"('Hold Fast', 'The Hip Hop Chip Shop')","(58, 90)",399
+"('Hold Fast', '63 Degrees')","(58, 91)",491
+"('Hold Fast', 'The Little Yeti')","(58, 92)",7516
+"('Corbieres', 'Volta')","(59, 66)",7702
+"('Corbieres', 'Tattu')","(59, 67)",750
+"('Corbieres', 'Bar San Juan')","(59, 68)",6715
+"('Corbieres', 'Australasia')","(59, 69)",446
+"('Corbieres', 'The Edinburgh Castle')","(59, 70)",1257
+"('Corbieres', 'Sicilian NQ Bar and Bistro')","(59, 71)",630
+"('Corbieres', '20 Stories')","(59, 72)",7174
+"('Corbieres', 'The Ivy')","(59, 73)",643
+"('Corbieres', 'Delhi House Cafe')","(59, 74)",364
+"('Corbieres', 'Sexy Fish')","(59, 75)",12544
+"('Corbieres', 'Elnecot')","(59, 76)",1293
+"('Corbieres', 'Wholesome Junkies')","(59, 77)",762
+"('Corbieres', 'MUSU')","(59, 78)",486
+"('Corbieres', 'Erst')","(59, 79)",1452
+"('Corbieres', 'Where The Light Gets In')","(59, 80)",12260
+"('Corbieres', 'Brewski')","(59, 81)",5988
+"('Corbieres', 'Hispi')","(59, 82)",9027
+"('Corbieres', 'Dokes Pizzeria')","(59, 83)",7646
+"('Corbieres', ""Salvi's NQ"")","(59, 84)",610
+"('Corbieres', 'Mi & Pho')","(59, 85)",10337
+"('Corbieres', 'Common')","(59, 86)",771
+"('Corbieres', 'Vertigo Plant-Based Eatery')","(59, 87)",44
+"('Corbieres', 'Casa Italia')","(59, 88)",8860
+"('Corbieres', 'Zouk')","(59, 89)",1479
+"('Corbieres', 'The Hip Hop Chip Shop')","(59, 90)",1293
+"('Corbieres', '63 Degrees')","(59, 91)",746
+"('Corbieres', 'The Little Yeti')","(59, 92)",7174
+"('The Liars Club', 'Volta')","(60, 66)",7590
+"('The Liars Club', 'Tattu')","(60, 67)",364
+"('The Liars Club', 'Bar San Juan')","(60, 68)",6440
+"('The Liars Club', 'Australasia')","(60, 69)",192
+"('The Liars Club', 'The Edinburgh Castle')","(60, 70)",1645
+"('The Liars Club', 'Sicilian NQ Bar and Bistro')","(60, 71)",1020
+"('The Liars Club', '20 Stories')","(60, 72)",7559
+"('The Liars Club', 'The Ivy')","(60, 73)",330
+"('The Liars Club', 'Delhi House Cafe')","(60, 74)",692
+"('The Liars Club', 'Sexy Fish')","(60, 75)",12155
+"('The Liars Club', 'Elnecot')","(60, 76)",1682
+"('The Liars Club', 'Wholesome Junkies')","(60, 77)",917
+"('The Liars Club', 'MUSU')","(60, 78)",98
+"('The Liars Club', 'Erst')","(60, 79)",1839
+"('The Liars Club', 'Where The Light Gets In')","(60, 80)",12383
+"('The Liars Club', 'Brewski')","(60, 81)",5730
+"('The Liars Club', 'Hispi')","(60, 82)",8962
+"('The Liars Club', 'Dokes Pizzeria')","(60, 83)",7613
+"('The Liars Club', ""Salvi's NQ"")","(60, 84)",998
+"('The Liars Club', 'Mi & Pho')","(60, 85)",10176
+"('The Liars Club', 'Common')","(60, 86)",1161
+"('The Liars Club', 'Vertigo Plant-Based Eatery')","(60, 87)",433
+"('The Liars Club', 'Casa Italia')","(60, 88)",8786
+"('The Liars Club', 'Zouk')","(60, 89)",1453
+"('The Liars Club', 'The Hip Hop Chip Shop')","(60, 90)",1682
+"('The Liars Club', '63 Degrees')","(60, 91)",1134
+"('The Liars Club', 'The Little Yeti')","(60, 92)",6951
+"('The Fitzgerald', 'Volta')","(61, 66)",7955
+"('The Fitzgerald', 'Tattu')","(61, 67)",1857
+"('The Fitzgerald', 'Bar San Juan')","(61, 68)",7445
+"('The Fitzgerald', 'Australasia')","(61, 69)",1511
+"('The Fitzgerald', 'The Edinburgh Castle')","(61, 70)",142
+"('The Fitzgerald', 'Sicilian NQ Bar and Bistro')","(61, 71)",502
+"('The Fitzgerald', '20 Stories')","(61, 72)",6115
+"('The Fitzgerald', 'The Ivy')","(61, 73)",1696
+"('The Fitzgerald', 'Delhi House Cafe')","(61, 74)",966
+"('The Fitzgerald', 'Sexy Fish')","(61, 75)",13645
+"('The Fitzgerald', 'Elnecot')","(61, 76)",182
+"('The Fitzgerald', 'Wholesome Junkies')","(61, 77)",1340
+"('The Fitzgerald', 'MUSU')","(61, 78)",1606
+"('The Fitzgerald', 'Erst')","(61, 79)",331
+"('The Fitzgerald', 'Where The Light Gets In')","(61, 80)",11801
+"('The Fitzgerald', 'Brewski')","(61, 81)",6678
+"('The Fitzgerald', 'Hispi')","(61, 82)",9132
+"('The Fitzgerald', 'Dokes Pizzeria')","(61, 83)",8016
+"('The Fitzgerald', ""Salvi's NQ"")","(61, 84)",563
+"('The Fitzgerald', 'Mi & Pho')","(61, 85)",10706
+"('The Fitzgerald', 'Common')","(61, 86)",386
+"('The Fitzgerald', 'Vertigo Plant-Based Eatery')","(61, 87)",1077
+"('The Fitzgerald', 'Casa Italia')","(61, 88)",8993
+"('The Fitzgerald', 'Zouk')","(61, 89)",1891
+"('The Fitzgerald', 'The Hip Hop Chip Shop')","(61, 90)",182
+"('The Fitzgerald', '63 Degrees')","(61, 91)",462
+"('The Fitzgerald', 'The Little Yeti')","(61, 92)",7750
+"('Gas Lamp', 'Volta')","(62, 66)",7603
+"('Gas Lamp', 'Tattu')","(62, 67)",285
+"('Gas Lamp', 'Bar San Juan')","(62, 68)",6403
+"('Gas Lamp', 'Australasia')","(62, 69)",245
+"('Gas Lamp', 'The Edinburgh Castle')","(62, 70)",1743
+"('Gas Lamp', 'Sicilian NQ Bar and Bistro')","(62, 71)",1116
+"('Gas Lamp', '20 Stories')","(62, 72)",7647
+"('Gas Lamp', 'The Ivy')","(62, 73)",320
+"('Gas Lamp', 'Delhi House Cafe')","(62, 74)",768
+"('Gas Lamp', 'Sexy Fish')","(62, 75)",12063
+"('Gas Lamp', 'Elnecot')","(62, 76)",1779
+"('Gas Lamp', 'Wholesome Junkies')","(62, 77)",945
+"('Gas Lamp', 'MUSU')","(62, 78)",12
+"('Gas Lamp', 'Erst')","(62, 79)",1938
+"('Gas Lamp', 'Where The Light Gets In')","(62, 80)",12451
+"('Gas Lamp', 'Brewski')","(62, 81)",5699
+"('Gas Lamp', 'Hispi')","(62, 82)",8987
+"('Gas Lamp', 'Dokes Pizzeria')","(62, 83)",7569
+"('Gas Lamp', ""Salvi's NQ"")","(62, 84)",1091
+"('Gas Lamp', 'Mi & Pho')","(62, 85)",10174
+"('Gas Lamp', 'Common')","(62, 86)",1256
+"('Gas Lamp', 'Vertigo Plant-Based Eatery')","(62, 87)",530
+"('Gas Lamp', 'Casa Italia')","(62, 88)",8808
+"('Gas Lamp', 'Zouk')","(62, 89)",1501
+"('Gas Lamp', 'The Hip Hop Chip Shop')","(62, 90)",1779
+"('Gas Lamp', '63 Degrees')","(62, 91)",1225
+"('Gas Lamp', 'The Little Yeti')","(62, 92)",6931
+"('Arcane', 'Volta')","(63, 66)",7540
+"('Arcane', 'Tattu')","(63, 67)",511
+"('Arcane', 'Bar San Juan')","(63, 68)",6480
+"('Arcane', 'Australasia')","(63, 69)",193
+"('Arcane', 'The Edinburgh Castle')","(63, 70)",1484
+"('Arcane', 'Sicilian NQ Bar and Bistro')","(63, 71)",868
+"('Arcane', '20 Stories')","(63, 72)",7421
+"('Arcane', 'The Ivy')","(63, 73)",389
+"('Arcane', 'Delhi House Cafe')","(63, 74)",605
+"('Arcane', 'Sexy Fish')","(63, 75)",12305
+"('Arcane', 'Elnecot')","(63, 76)",1522
+"('Arcane', 'Wholesome Junkies')","(63, 77)",925
+"('Arcane', 'MUSU')","(63, 78)",278
+"('Arcane', 'Erst')","(63, 79)",1677
+"('Arcane', 'Where The Light Gets In')","(63, 80)",12242
+"('Arcane', 'Brewski')","(63, 81)",5758
+"('Arcane', 'Hispi')","(63, 82)",8891
+"('Arcane', 'Dokes Pizzeria')","(63, 83)",7719
+"('Arcane', ""Salvi's NQ"")","(63, 84)",859
+"('Arcane', 'Mi & Pho')","(63, 85)",10150
+"('Arcane', 'Common')","(63, 86)",1012
+"('Arcane', 'Vertigo Plant-Based Eatery')","(63, 87)",292
+"('Arcane', 'Casa Italia')","(63, 88)",8719
+"('Arcane', 'Zouk')","(63, 89)",1355
+"('Arcane', 'The Hip Hop Chip Shop')","(63, 90)",1522
+"('Arcane', '63 Degrees')","(63, 91)",994
+"('Arcane', 'The Little Yeti')","(63, 92)",6958
+"('Wood and Company', 'Volta')","(64, 66)",7533
+"('Wood and Company', 'Tattu')","(64, 67)",588
+"('Wood and Company', 'Bar San Juan')","(64, 68)",6512
+"('Wood and Company', 'Australasia')","(64, 69)",251
+"('Wood and Company', 'The Edinburgh Castle')","(64, 70)",1409
+"('Wood and Company', 'Sicilian NQ Bar and Bistro')","(64, 71)",797
+"('Wood and Company', '20 Stories')","(64, 72)",7352
+"('Wood and Company', 'The Ivy')","(64, 73)",447
+"('Wood and Company', 'Delhi House Cafe')","(64, 74)",567
+"('Wood and Company', 'Sexy Fish')","(64, 75)",12379
+"('Wood and Company', 'Elnecot')","(64, 76)",1447
+"('Wood and Company', 'Wholesome Junkies')","(64, 77)",926
+"('Wood and Company', 'MUSU')","(64, 78)",358
+"('Wood and Company', 'Erst')","(64, 79)",1601
+"('Wood and Company', 'Where The Light Gets In')","(64, 80)",12190
+"('Wood and Company', 'Brewski')","(64, 81)",5786
+"('Wood and Company', 'Hispi')","(64, 82)",8874
+"('Wood and Company', 'Dokes Pizzeria')","(64, 83)",7756
+"('Wood and Company', ""Salvi's NQ"")","(64, 84)",793
+"('Wood and Company', 'Mi & Pho')","(64, 85)",10154
+"('Wood and Company', 'Common')","(64, 86)",942
+"('Wood and Company', 'Vertigo Plant-Based Eatery')","(64, 87)",235
+"('Wood and Company', 'Casa Italia')","(64, 88)",8703
+"('Wood and Company', 'Zouk')","(64, 89)",1330
+"('Wood and Company', 'The Hip Hop Chip Shop')","(64, 90)",1447
+"('Wood and Company', '63 Degrees')","(64, 91)",928
+"('Wood and Company', 'The Little Yeti')","(64, 92)",6977
+"('Goodtime Games', 'Volta')","(65, 66)",30
+"('Goodtime Games', 'Tattu')","(65, 67)",7402
+"('Goodtime Games', 'Bar San Juan')","(65, 68)",3609
+"('Goodtime Games', 'Australasia')","(65, 69)",7371
+"('Goodtime Games', 'The Edinburgh Castle')","(65, 70)",8007
+"('Goodtime Games', 'Sicilian NQ Bar and Bistro')","(65, 71)",7869
+"('Goodtime Games', '20 Stories')","(65, 72)",12644
+"('Goodtime Games', 'The Ivy')","(65, 73)",7253
+"('Goodtime Games', 'Delhi House Cafe')","(65, 74)",8004
+"('Goodtime Games', 'Sexy Fish')","(65, 75)",12176
+"('Goodtime Games', 'Elnecot')","(65, 76)",8040
+"('Goodtime Games', 'Wholesome Junkies')","(65, 77)",8428
+"('Goodtime Games', 'MUSU')","(65, 78)",7561
+"('Goodtime Games', 'Erst')","(65, 79)",8052
+"('Goodtime Games', 'Where The Light Gets In')","(65, 80)",7487
+"('Goodtime Games', 'Brewski')","(65, 81)",3371
+"('Goodtime Games', 'Hispi')","(65, 82)",1703
+"('Goodtime Games', 'Dokes Pizzeria')","(65, 83)",14975
+"('Goodtime Games', ""Salvi's NQ"")","(65, 84)",7952
+"('Goodtime Games', 'Mi & Pho')","(65, 85)",2898
+"('Goodtime Games', 'Common')","(65, 86)",7956
+"('Goodtime Games', 'Vertigo Plant-Based Eatery')","(65, 87)",7676
+"('Goodtime Games', 'Casa Italia')","(65, 88)",1449
+"('Goodtime Games', 'Zouk')","(65, 89)",6205
+"('Goodtime Games', 'The Hip Hop Chip Shop')","(65, 90)",8040
+"('Goodtime Games', '63 Degrees')","(65, 91)",8025
+"('Goodtime Games', 'The Little Yeti')","(65, 92)",2395
+"('Volta', 'Depot Mayfield')","(66, 93)",6833
+"('Volta', 'Gorilla')","(66, 94)",6575
+"('Volta', 'Deaf Institute')","(66, 95)",6055
+"('Volta', 'Eagle Inn')","(66, 96)",8449
+"('Volta', 'Manchester Academy')","(66, 97)",5284
+"('Volta', 'Hidden')","(66, 98)",8797
+"('Volta', 'Albert Hall')","(66, 99)",7149
+"('Volta', 'Band On The Wall')","(66, 100)",8146
+"('Volta', 'The Loft MCR')","(66, 101)",9899
+"('Volta', 'Big Hands')","(66, 102)",5154
+"('Volta', 'Cafe Blah')","(66, 103)",1761
+"('Volta', 'Soup')","(66, 104)",7899
+"('Volta', 'O2 Ritz')","(66, 105)",6575
+"('Volta', 'O2 Apollo')","(66, 106)",5475
+"('Volta', 'YES')","(66, 107)",6570
+"('Volta', 'Gullivers')","(66, 108)",7961
+"('Volta', 'Mint Lounge')","(66, 109)",7854
+"('Volta', 'Jashua Brooks')","(66, 110)",6633
+"('Volta', 'New Century Hall')","(66, 111)",8261
+"('Volta', 'Matt and Phreds')","(66, 112)",7920
+"('Volta', 'Frog and Bucket')","(66, 113)",7875
+"('Volta', 'Firehouse')","(66, 114)",8209
+"('Volta', 'Ramona')","(66, 115)",8209
+"('Volta', 'The White Hotel')","(66, 116)",9064
+"('Tattu', 'Depot Mayfield')","(67, 93)",2180
+"('Tattu', 'Gorilla')","(67, 94)",976
+"('Tattu', 'Deaf Institute')","(67, 95)",1882
+"('Tattu', 'Eagle Inn')","(67, 96)",1047
+"('Tattu', 'Manchester Academy')","(67, 97)",2816
+"('Tattu', 'Hidden')","(67, 98)",1435
+"('Tattu', 'Albert Hall')","(67, 99)",489
+"('Tattu', 'Band On The Wall')","(67, 100)",1735
+"('Tattu', 'The Loft MCR')","(67, 101)",4259
+"('Tattu', 'Big Hands')","(67, 102)",3009
+"('Tattu', 'Cafe Blah')","(67, 103)",6523
+"('Tattu', 'Soup')","(67, 104)",1672
+"('Tattu', 'O2 Ritz')","(67, 105)",976
+"('Tattu', 'O2 Apollo')","(67, 106)",5376
+"('Tattu', 'YES')","(67, 107)",1471
+"('Tattu', 'Gullivers')","(67, 108)",1664
+"('Tattu', 'Mint Lounge')","(67, 109)",1562
+"('Tattu', 'Jashua Brooks')","(67, 110)",1496
+"('Tattu', 'New Century Hall')","(67, 111)",1434
+"('Tattu', 'Matt and Phreds')","(67, 112)",1579
+"('Tattu', 'Frog and Bucket')","(67, 113)",1631
+"('Tattu', 'Firehouse')","(67, 114)",1707
+"('Tattu', 'Ramona')","(67, 115)",1707
+"('Tattu', 'The White Hotel')","(67, 116)",1652
+"('Bar San Juan', 'Depot Mayfield')","(68, 93)",6688
+"('Bar San Juan', 'Gorilla')","(68, 94)",5653
+"('Bar San Juan', 'Deaf Institute')","(68, 95)",5671
+"('Bar San Juan', 'Eagle Inn')","(68, 96)",7164
+"('Bar San Juan', 'Manchester Academy')","(68, 97)",5407
+"('Bar San Juan', 'Hidden')","(68, 98)",7563
+"('Bar San Juan', 'Albert Hall')","(68, 99)",6096
+"('Bar San Juan', 'Band On The Wall')","(68, 100)",7512
+"('Bar San Juan', 'The Loft MCR')","(68, 101)",9852
+"('Bar San Juan', 'Big Hands')","(68, 102)",5399
+"('Bar San Juan', 'Cafe Blah')","(68, 103)",4494
+"('Bar San Juan', 'Soup')","(68, 104)",7314
+"('Bar San Juan', 'O2 Ritz')","(68, 105)",5653
+"('Bar San Juan', 'O2 Apollo')","(68, 106)",7143
+"('Bar San Juan', 'YES')","(68, 107)",6023
+"('Bar San Juan', 'Gullivers')","(68, 108)",7354
+"('Bar San Juan', 'Mint Lounge')","(68, 109)",7229
+"('Bar San Juan', 'Jashua Brooks')","(68, 110)",6109
+"('Bar San Juan', 'New Century Hall')","(68, 111)",7420
+"('Bar San Juan', 'Matt and Phreds')","(68, 112)",7283
+"('Bar San Juan', 'Frog and Bucket')","(68, 113)",7278
+"('Bar San Juan', 'Firehouse')","(68, 114)",7538
+"('Bar San Juan', 'Ramona')","(68, 115)",7538
+"('Bar San Juan', 'The White Hotel')","(68, 116)",7725
+"('Australasia', 'Depot Mayfield')","(69, 93)",1838
+"('Australasia', 'Gorilla')","(69, 94)",835
+"('Australasia', 'Deaf Institute')","(69, 95)",1650
+"('Australasia', 'Eagle Inn')","(69, 96)",1056
+"('Australasia', 'Manchester Academy')","(69, 97)",2603
+"('Australasia', 'Hidden')","(69, 98)",1396
+"('Australasia', 'Albert Hall')","(69, 99)",255
+"('Australasia', 'Band On The Wall')","(69, 100)",1413
+"('Australasia', 'The Loft MCR')","(69, 101)",3946
+"('Australasia', 'Big Hands')","(69, 102)",2796
+"('Australasia', 'Cafe Blah')","(69, 103)",6416
+"('Australasia', 'Soup')","(69, 104)",1327
+"('Australasia', 'O2 Ritz')","(69, 105)",835
+"('Australasia', 'O2 Apollo')","(69, 106)",5089
+"('Australasia', 'YES')","(69, 107)",1189
+"('Australasia', 'Gullivers')","(69, 108)",1326
+"('Australasia', 'Mint Lounge')","(69, 109)",1218
+"('Australasia', 'Jashua Brooks')","(69, 110)",1199
+"('Australasia', 'New Century Hall')","(69, 111)",1165
+"('Australasia', 'Matt and Phreds')","(69, 112)",1240
+"('Australasia', 'Frog and Bucket')","(69, 113)",1286
+"('Australasia', 'Firehouse')","(69, 114)",1396
+"('Australasia', 'Ramona')","(69, 115)",1396
+"('Australasia', 'The White Hotel')","(69, 116)",1668
+"('The Edinburgh Castle', 'Depot Mayfield')","(70, 93)",1256
+"('The Edinburgh Castle', 'Gorilla')","(70, 94)",1960
+"('The Edinburgh Castle', 'Deaf Institute')","(70, 95)",2020
+"('The Edinburgh Castle', 'Eagle Inn')","(70, 96)",1814
+"('The Edinburgh Castle', 'Manchester Academy')","(70, 97)",2769
+"('The Edinburgh Castle', 'Hidden')","(70, 98)",1782
+"('The Edinburgh Castle', 'Albert Hall')","(70, 99)",1703
+"('The Edinburgh Castle', 'Band On The Wall')","(70, 100)",365
+"('The Edinburgh Castle', 'The Loft MCR')","(70, 101)",2349
+"('The Edinburgh Castle', 'Big Hands')","(70, 102)",2920
+"('The Edinburgh Castle', 'Cafe Blah')","(70, 103)",6756
+"('The Edinburgh Castle', 'Soup')","(70, 104)",324
+"('The Edinburgh Castle', 'O2 Ritz')","(70, 105)",1960
+"('The Edinburgh Castle', 'O2 Apollo')","(70, 106)",4473
+"('The Edinburgh Castle', 'YES')","(70, 107)",1567
+"('The Edinburgh Castle', 'Gullivers')","(70, 108)",338
+"('The Edinburgh Castle', 'Mint Lounge')","(70, 109)",434
+"('The Edinburgh Castle', 'Jashua Brooks')","(70, 110)",1486
+"('The Edinburgh Castle', 'New Century Hall')","(70, 111)",824
+"('The Edinburgh Castle', 'Matt and Phreds')","(70, 112)",420
+"('The Edinburgh Castle', 'Frog and Bucket')","(70, 113)",365
+"('The Edinburgh Castle', 'Firehouse')","(70, 114)",454
+"('The Edinburgh Castle', 'Ramona')","(70, 115)",454
+"('The Edinburgh Castle', 'The White Hotel')","(70, 116)",2099
+"('Sicilian NQ Bar and Bistro', 'Depot Mayfield')","(71, 93)",1411
+"('Sicilian NQ Bar and Bistro', 'Gorilla')","(71, 94)",1515
+"('Sicilian NQ Bar and Bistro', 'Deaf Institute')","(71, 95)",1851
+"('Sicilian NQ Bar and Bistro', 'Eagle Inn')","(71, 96)",1249
+"('Sicilian NQ Bar and Bistro', 'Manchester Academy')","(71, 97)",2732
+"('Sicilian NQ Bar and Bistro', 'Hidden')","(71, 98)",1310
+"('Sicilian NQ Bar and Bistro', 'Albert Hall')","(71, 99)",1141
+"('Sicilian NQ Bar and Bistro', 'Band On The Wall')","(71, 100)",369
+"('Sicilian NQ Bar and Bistro', 'The Loft MCR')","(71, 101)",2901
+"('Sicilian NQ Bar and Bistro', 'Big Hands')","(71, 102)",2906
+"('Sicilian NQ Bar and Bistro', 'Cafe Blah')","(71, 103)",6725
+"('Sicilian NQ Bar and Bistro', 'Soup')","(71, 104)",320
+"('Sicilian NQ Bar and Bistro', 'O2 Ritz')","(71, 105)",1515
+"('Sicilian NQ Bar and Bistro', 'O2 Apollo')","(71, 106)",4781
+"('Sicilian NQ Bar and Bistro', 'YES')","(71, 107)",1328
+"('Sicilian NQ Bar and Bistro', 'Gullivers')","(71, 108)",293
+"('Sicilian NQ Bar and Bistro', 'Mint Lounge')","(71, 109)",224
+"('Sicilian NQ Bar and Bistro', 'Jashua Brooks')","(71, 110)",1269
+"('Sicilian NQ Bar and Bistro', 'New Century Hall')","(71, 111)",396
+"('Sicilian NQ Bar and Bistro', 'Matt and Phreds')","(71, 112)",212
+"('Sicilian NQ Bar and Bistro', 'Frog and Bucket')","(71, 113)",287
+"('Sicilian NQ Bar and Bistro', 'Firehouse')","(71, 114)",372
+"('Sicilian NQ Bar and Bistro', 'Ramona')","(71, 115)",372
+"('Sicilian NQ Bar and Bistro', 'The White Hotel')","(71, 116)",1646
+"('20 Stories', 'Depot Mayfield')","(72, 93)",6578
+"('20 Stories', 'Gorilla')","(72, 94)",7888
+"('20 Stories', 'Deaf Institute')","(72, 95)",7604
+"('20 Stories', 'Eagle Inn')","(72, 96)",7355
+"('20 Stories', 'Manchester Academy')","(72, 97)",7864
+"('20 Stories', 'Hidden')","(72, 98)",7069
+"('20 Stories', 'Albert Hall')","(72, 99)",7676
+"('20 Stories', 'Band On The Wall')","(72, 100)",6190
+"('20 Stories', 'The Loft MCR')","(72, 101)",3667
+"('20 Stories', 'Big Hands')","(72, 102)",7904
+"('20 Stories', 'Cafe Blah')","(72, 103)",11003
+"('20 Stories', 'Soup')","(72, 104)",6290
+"('20 Stories', 'O2 Ritz')","(72, 105)",7888
+"('20 Stories', 'O2 Apollo')","(72, 106)",7359
+"('20 Stories', 'YES')","(72, 107)",7343
+"('20 Stories', 'Gullivers')","(72, 108)",6282
+"('20 Stories', 'Mint Lounge')","(72, 109)",6397
+"('20 Stories', 'Jashua Brooks')","(72, 110)",7255
+"('20 Stories', 'New Century Hall')","(72, 111)",6514
+"('20 Stories', 'Matt and Phreds')","(72, 112)",6367
+"('20 Stories', 'Frog and Bucket')","(72, 113)",6332
+"('20 Stories', 'Firehouse')","(72, 114)",6215
+"('20 Stories', 'Ramona')","(72, 115)",6215
+"('20 Stories', 'The White Hotel')","(72, 116)",7207
+"('The Ivy', 'Depot Mayfield')","(73, 93)",1938
+"('The Ivy', 'Gorilla')","(73, 94)",759
+"('The Ivy', 'Deaf Institute')","(73, 95)",1642
+"('The Ivy', 'Eagle Inn')","(73, 96)",1165
+"('The Ivy', 'Manchester Academy')","(73, 97)",2583
+"('The Ivy', 'Hidden')","(73, 98)",1529
+"('The Ivy', 'Albert Hall')","(73, 99)",239
+"('The Ivy', 'Band On The Wall')","(73, 100)",1607
+"('The Ivy', 'The Loft MCR')","(73, 101)",4141
+"('The Ivy', 'Big Hands')","(73, 102)",2776
+"('The Ivy', 'Cafe Blah')","(73, 103)",6335
+"('The Ivy', 'Soup')","(73, 104)",1514
+"('The Ivy', 'O2 Ritz')","(73, 105)",759
+"('The Ivy', 'O2 Apollo')","(73, 106)",5128
+"('The Ivy', 'YES')","(73, 107)",1221
+"('The Ivy', 'Gullivers')","(73, 108)",1515
+"('The Ivy', 'Mint Lounge')","(73, 109)",1405
+"('The Ivy', 'Jashua Brooks')","(73, 110)",1246
+"('The Ivy', 'New Century Hall')","(73, 111)",1361
+"('The Ivy', 'Matt and Phreds')","(73, 112)",1430
+"('The Ivy', 'Frog and Bucket')","(73, 113)",1473
+"('The Ivy', 'Firehouse')","(73, 114)",1592
+"('The Ivy', 'Ramona')","(73, 115)",1592
+"('The Ivy', 'The White Hotel')","(73, 116)",1780
+"('Delhi House Cafe', 'Depot Mayfield')","(74, 93)",1812
+"('Delhi House Cafe', 'Gorilla')","(74, 94)",1494
+"('Delhi House Cafe', 'Deaf Institute')","(74, 95)",2056
+"('Delhi House Cafe', 'Eagle Inn')","(74, 96)",778
+"('Delhi House Cafe', 'Manchester Academy')","(74, 97)",2989
+"('Delhi House Cafe', 'Hidden')","(74, 98)",901
+"('Delhi House Cafe', 'Albert Hall')","(74, 99)",984
+"('Delhi House Cafe', 'Band On The Wall')","(74, 100)",751
+"('Delhi House Cafe', 'The Loft MCR')","(74, 101)",3223
+"('Delhi House Cafe', 'Big Hands')","(74, 102)",3172
+"('Delhi House Cafe', 'Cafe Blah')","(74, 103)",6941
+"('Delhi House Cafe', 'Soup')","(74, 104)",793
+"('Delhi House Cafe', 'O2 Ritz')","(74, 105)",1494
+"('Delhi House Cafe', 'O2 Apollo')","(74, 106)",5191
+"('Delhi House Cafe', 'YES')","(74, 107)",1525
+"('Delhi House Cafe', 'Gullivers')","(74, 108)",753
+"('Delhi House Cafe', 'Mint Lounge')","(74, 109)",702
+"('Delhi House Cafe', 'Jashua Brooks')","(74, 110)",1488
+"('Delhi House Cafe', 'New Century Hall')","(74, 111)",381
+"('Delhi House Cafe', 'Matt and Phreds')","(74, 112)",682
+"('Delhi House Cafe', 'Frog and Bucket')","(74, 113)",762
+"('Delhi House Cafe', 'Firehouse')","(74, 114)",697
+"('Delhi House Cafe', 'Ramona')","(74, 115)",697
+"('Delhi House Cafe', 'The White Hotel')","(74, 116)",1235
+"('Sexy Fish', 'Depot Mayfield')","(75, 93)",13551
+"('Sexy Fish', 'Gorilla')","(75, 94)",12029
+"('Sexy Fish', 'Deaf Institute')","(75, 95)",12637
+"('Sexy Fish', 'Eagle Inn')","(75, 96)",12354
+"('Sexy Fish', 'Manchester Academy')","(75, 97)",12922
+"('Sexy Fish', 'Hidden')","(75, 98)",12670
+"('Sexy Fish', 'Albert Hall')","(75, 99)",12102
+"('Sexy Fish', 'Band On The Wall')","(75, 100)",13529
+"('Sexy Fish', 'The Loft MCR')","(75, 101)",16027
+"('Sexy Fish', 'Big Hands')","(75, 102)",13011
+"('Sexy Fish', 'Cafe Blah')","(75, 103)",13199
+"('Sexy Fish', 'Soup')","(75, 104)",13462
+"('Sexy Fish', 'O2 Ritz')","(75, 105)",12029
+"('Sexy Fish', 'O2 Apollo')","(75, 106)",15345
+"('Sexy Fish', 'YES')","(75, 107)",12681
+"('Sexy Fish', 'Gullivers')","(75, 108)",13458
+"('Sexy Fish', 'Mint Lounge')","(75, 109)",13352
+"('Sexy Fish', 'Jashua Brooks')","(75, 110)",12761
+"('Sexy Fish', 'New Century Hall')","(75, 111)",13181
+"('Sexy Fish', 'Matt and Phreds')","(75, 112)",13373
+"('Sexy Fish', 'Frog and Bucket')","(75, 113)",13421
+"('Sexy Fish', 'Firehouse')","(75, 114)",13495
+"('Sexy Fish', 'Ramona')","(75, 115)",13495
+"('Sexy Fish', 'The White Hotel')","(75, 116)",12589
+"('Elnecot', 'Depot Mayfield')","(76, 93)",1281
+"('Elnecot', 'Gorilla')","(76, 94)",2001
+"('Elnecot', 'Deaf Institute')","(76, 95)",2056
+"('Elnecot', 'Eagle Inn')","(76, 96)",1837
+"('Elnecot', 'Manchester Academy')","(76, 97)",2799
+"('Elnecot', 'Hidden')","(76, 98)",1796
+"('Elnecot', 'Albert Hall')","(76, 99)",1744
+"('Elnecot', 'Band On The Wall')","(76, 100)",383
+"('Elnecot', 'The Loft MCR')","(76, 101)",2307
+"('Elnecot', 'Big Hands')","(76, 102)",2950
+"('Elnecot', 'Cafe Blah')","(76, 103)",6784
+"('Elnecot', 'Soup')","(76, 104)",362
+"('Elnecot', 'O2 Ritz')","(76, 105)",2001
+"('Elnecot', 'O2 Apollo')","(76, 106)",4481
+"('Elnecot', 'YES')","(76, 107)",1606
+"('Elnecot', 'Gullivers')","(76, 108)",372
+"('Elnecot', 'Mint Lounge')","(76, 109)",472
+"('Elnecot', 'Jashua Brooks')","(76, 110)",1525
+"('Elnecot', 'New Century Hall')","(76, 111)",843
+"('Elnecot', 'Matt and Phreds')","(76, 112)",456
+"('Elnecot', 'Frog and Bucket')","(76, 113)",404
+"('Elnecot', 'Firehouse')","(76, 114)",468
+"('Elnecot', 'Ramona')","(76, 115)",468
+"('Elnecot', 'The White Hotel')","(76, 116)",2111
+"('Wholesome Junkies', 'Depot Mayfield')","(77, 93)",2300
+"('Wholesome Junkies', 'Gorilla')","(77, 94)",1885
+"('Wholesome Junkies', 'Deaf Institute')","(77, 95)",2531
+"('Wholesome Junkies', 'Eagle Inn')","(77, 96)",413
+"('Wholesome Junkies', 'Manchester Academy')","(77, 97)",3472
+"('Wholesome Junkies', 'Hidden')","(77, 98)",406
+"('Wholesome Junkies', 'Albert Hall')","(77, 99)",1325
+"('Wholesome Junkies', 'Band On The Wall')","(77, 100)",1065
+"('Wholesome Junkies', 'The Loft MCR')","(77, 101)",3307
+"('Wholesome Junkies', 'Big Hands')","(77, 102)",3658
+"('Wholesome Junkies', 'Cafe Blah')","(77, 103)",7405
+"('Wholesome Junkies', 'Soup')","(77, 104)",1194
+"('Wholesome Junkies', 'O2 Ritz')","(77, 105)",1885
+"('Wholesome Junkies', 'O2 Apollo')","(77, 106)",5679
+"('Wholesome Junkies', 'YES')","(77, 107)",2003
+"('Wholesome Junkies', 'Gullivers')","(77, 108)",1137
+"('Wholesome Junkies', 'Mint Lounge')","(77, 109)",1124
+"('Wholesome Junkies', 'Jashua Brooks')","(77, 110)",1972
+"('Wholesome Junkies', 'New Century Hall')","(77, 111)",606
+"('Wholesome Junkies', 'Matt and Phreds')","(77, 112)",1086
+"('Wholesome Junkies', 'Frog and Bucket')","(77, 113)",1173
+"('Wholesome Junkies', 'Firehouse')","(77, 114)",982
+"('Wholesome Junkies', 'Ramona')","(77, 115)",982
+"('Wholesome Junkies', 'The White Hotel')","(77, 116)",742
+"('MUSU', 'Depot Mayfield')","(78, 93)",2046
+"('MUSU', 'Gorilla')","(78, 94)",1047
+"('MUSU', 'Deaf Institute')","(78, 95)",1883
+"('MUSU', 'Eagle Inn')","(78, 96)",857
+"('MUSU', 'Manchester Academy')","(78, 97)",2835
+"('MUSU', 'Hidden')","(78, 98)",1222
+"('MUSU', 'Albert Hall')","(78, 99)",476
+"('MUSU', 'Band On The Wall')","(78, 100)",1467
+"('MUSU', 'The Loft MCR')","(78, 101)",3985
+"('MUSU', 'Big Hands')","(78, 102)",3028
+"('MUSU', 'Cafe Blah')","(78, 103)",6630
+"('MUSU', 'Soup')","(78, 104)",1420
+"('MUSU', 'O2 Ritz')","(78, 105)",1047
+"('MUSU', 'O2 Apollo')","(78, 106)",5318
+"('MUSU', 'YES')","(78, 107)",1421
+"('MUSU', 'Gullivers')","(78, 108)",1407
+"('MUSU', 'Mint Lounge')","(78, 109)",1311
+"('MUSU', 'Jashua Brooks')","(78, 110)",1430
+"('MUSU', 'New Century Hall')","(78, 111)",1154
+"('MUSU', 'Matt and Phreds')","(78, 112)",1323
+"('MUSU', 'Frog and Bucket')","(78, 113)",1380
+"('MUSU', 'Firehouse')","(78, 114)",1435
+"('MUSU', 'Ramona')","(78, 115)",1435
+"('MUSU', 'The White Hotel')","(78, 116)",1472
+"('Erst', 'Depot Mayfield')","(79, 93)",1262
+"('Erst', 'Gorilla')","(79, 94)",2112
+"('Erst', 'Deaf Institute')","(79, 95)",2101
+"('Erst', 'Eagle Inn')","(79, 96)",2000
+"('Erst', 'Manchester Academy')","(79, 97)",2802
+"('Erst', 'Hidden')","(79, 98)",1951
+"('Erst', 'Albert Hall')","(79, 99)",1884
+"('Erst', 'Band On The Wall')","(79, 100)",546
+"('Erst', 'The Loft MCR')","(79, 101)",2191
+"('Erst', 'Big Hands')","(79, 102)",2945
+"('Erst', 'Cafe Blah')","(79, 103)",6769
+"('Erst', 'Soup')","(79, 104)",517
+"('Erst', 'O2 Ritz')","(79, 105)",2112
+"('Erst', 'O2 Apollo')","(79, 106)",4384
+"('Erst', 'YES')","(79, 107)",1677
+"('Erst', 'Gullivers')","(79, 108)",534
+"('Erst', 'Mint Lounge')","(79, 109)",626
+"('Erst', 'Jashua Brooks')","(79, 110)",1592
+"('Erst', 'New Century Hall')","(79, 111)",1004
+"('Erst', 'Matt and Phreds')","(79, 112)",616
+"('Erst', 'Frog and Bucket')","(79, 113)",557
+"('Erst', 'Firehouse')","(79, 114)",627
+"('Erst', 'Ramona')","(79, 115)",627
+"('Erst', 'The White Hotel')","(79, 116)",2262
+"('Where The Light Gets In', 'Depot Mayfield')","(80, 93)",10653
+"('Where The Light Gets In', 'Gorilla')","(80, 94)",11467
+"('Where The Light Gets In', 'Deaf Institute')","(80, 95)",10559
+"('Where The Light Gets In', 'Eagle Inn')","(80, 96)",13153
+"('Where The Light Gets In', 'Manchester Academy')","(80, 97)",9620
+"('Where The Light Gets In', 'Hidden')","(80, 98)",13345
+"('Where The Light Gets In', 'Albert Hall')","(80, 99)",11976
+"('Where The Light Gets In', 'Band On The Wall')","(80, 100)",12094
+"('Where The Light Gets In', 'The Loft MCR')","(80, 101)",12370
+"('Where The Light Gets In', 'Big Hands')","(80, 102)",9427
+"('Where The Light Gets In', 'Cafe Blah')","(80, 103)",6777
+"('Where The Light Gets In', 'Soup')","(80, 104)",11868
+"('Where The Light Gets In', 'O2 Ritz')","(80, 105)",11467
+"('Where The Light Gets In', 'O2 Apollo')","(80, 106)",7323
+"('Where The Light Gets In', 'YES')","(80, 107)",11027
+"('Where The Light Gets In', 'Gullivers')","(80, 108)",11938
+"('Where The Light Gets In', 'Mint Lounge')","(80, 109)",11894
+"('Where The Light Gets In', 'Jashua Brooks')","(80, 110)",11032
+"('Where The Light Gets In', 'New Century Hall')","(80, 111)",12451
+"('Where The Light Gets In', 'Matt and Phreds')","(80, 112)",11951
+"('Where The Light Gets In', 'Frog and Bucket')","(80, 113)",11870
+"('Where The Light Gets In', 'Firehouse')","(80, 114)",12187
+"('Where The Light Gets In', 'Ramona')","(80, 115)",12187
+"('Where The Light Gets In', 'The White Hotel')","(80, 116)",13679
+"('Brewski', 'Depot Mayfield')","(81, 93)",5893
+"('Brewski', 'Gorilla')","(81, 94)",4904
+"('Brewski', 'Deaf Institute')","(81, 95)",4880
+"('Brewski', 'Eagle Inn')","(81, 96)",6482
+"('Brewski', 'Manchester Academy')","(81, 97)",4600
+"('Brewski', 'Hidden')","(81, 98)",6878
+"('Brewski', 'Albert Hall')","(81, 99)",5368
+"('Brewski', 'Band On The Wall')","(81, 100)",6757
+"('Brewski', 'The Loft MCR')","(81, 101)",9067
+"('Brewski', 'Big Hands')","(81, 102)",4592
+"('Brewski', 'Cafe Blah')","(81, 103)",3967
+"('Brewski', 'Soup')","(81, 104)",6553
+"('Brewski', 'O2 Ritz')","(81, 105)",4904
+"('Brewski', 'O2 Apollo')","(81, 106)",6382
+"('Brewski', 'YES')","(81, 107)",5246
+"('Brewski', 'Gullivers')","(81, 108)",6594
+"('Brewski', 'Mint Lounge')","(81, 109)",6470
+"('Brewski', 'Jashua Brooks')","(81, 110)",5331
+"('Brewski', 'New Century Hall')","(81, 111)",6684
+"('Brewski', 'Matt and Phreds')","(81, 112)",6526
+"('Brewski', 'Frog and Bucket')","(81, 113)",6517
+"('Brewski', 'Firehouse')","(81, 114)",6786
+"('Brewski', 'Ramona')","(81, 115)",6786
+"('Brewski', 'The White Hotel')","(81, 116)",7058
+"('Hispi', 'Depot Mayfield')","(82, 93)",7953
+"('Hispi', 'Gorilla')","(82, 94)",7934
+"('Hispi', 'Deaf Institute')","(82, 95)",7299
+"('Hispi', 'Eagle Inn')","(82, 96)",9825
+"('Hispi', 'Manchester Academy')","(82, 97)",6435
+"('Hispi', 'Hidden')","(82, 98)",10151
+"('Hispi', 'Albert Hall')","(82, 99)",8514
+"('Hispi', 'Band On The Wall')","(82, 100)",9354
+"('Hispi', 'The Loft MCR')","(82, 101)",10843
+"('Hispi', 'Big Hands')","(82, 102)",6278
+"('Hispi', 'Cafe Blah')","(82, 103)",2448
+"('Hispi', 'Soup')","(82, 104)",9102
+"('Hispi', 'O2 Ritz')","(82, 105)",7934
+"('Hispi', 'O2 Apollo')","(82, 106)",5928
+"('Hispi', 'YES')","(82, 107)",7829
+"('Hispi', 'Gullivers')","(82, 108)",9168
+"('Hispi', 'Mint Lounge')","(82, 109)",9071
+"('Hispi', 'Jashua Brooks')","(82, 110)",7881
+"('Hispi', 'New Century Hall')","(82, 111)",9526
+"('Hispi', 'Matt and Phreds')","(82, 112)",9138
+"('Hispi', 'Frog and Bucket')","(82, 113)",9083
+"('Hispi', 'Firehouse')","(82, 114)",9426
+"('Hispi', 'Ramona')","(82, 115)",9426
+"('Hispi', 'The White Hotel')","(82, 116)",10437
+"('Dokes Pizzeria', 'Depot Mayfield')","(83, 93)",9170
+"('Dokes Pizzeria', 'Gorilla')","(83, 94)",8627
+"('Dokes Pizzeria', 'Deaf Institute')","(83, 95)",9421
+"('Dokes Pizzeria', 'Eagle Inn')","(83, 96)",6770
+"('Dokes Pizzeria', 'Manchester Academy')","(83, 97)",10375
+"('Dokes Pizzeria', 'Hidden')","(83, 98)",6518
+"('Dokes Pizzeria', 'Albert Hall')","(83, 99)",8057
+"('Dokes Pizzeria', 'Band On The Wall')","(83, 100)",7721
+"('Dokes Pizzeria', 'The Loft MCR')","(83, 101)",8141
+"('Dokes Pizzeria', 'Big Hands')","(83, 102)",10564
+"('Dokes Pizzeria', 'Cafe Blah')","(83, 103)",14198
+"('Dokes Pizzeria', 'Soup')","(83, 104)",7948
+"('Dokes Pizzeria', 'O2 Ritz')","(83, 105)",8627
+"('Dokes Pizzeria', 'O2 Apollo')","(83, 106)",12502
+"('Dokes Pizzeria', 'YES')","(83, 107)",8907
+"('Dokes Pizzeria', 'Gullivers')","(83, 108)",7877
+"('Dokes Pizzeria', 'Mint Lounge')","(83, 109)",7924
+"('Dokes Pizzeria', 'Jashua Brooks')","(83, 110)",8883
+"('Dokes Pizzeria', 'New Century Hall')","(83, 111)",7370
+"('Dokes Pizzeria', 'Matt and Phreds')","(83, 112)",7866
+"('Dokes Pizzeria', 'Frog and Bucket')","(83, 113)",7946
+"('Dokes Pizzeria', 'Firehouse')","(83, 114)",7628
+"('Dokes Pizzeria', 'Ramona')","(83, 115)",7628
+"('Dokes Pizzeria', 'The White Hotel')","(83, 116)",6193
+"(""Salvi's NQ"", 'Depot Mayfield')","(84, 93)",1514
+"(""Salvi's NQ"", 'Gorilla')","(84, 94)",1565
+"(""Salvi's NQ"", 'Deaf Institute')","(84, 95)",1939
+"(""Salvi's NQ"", 'Eagle Inn')","(84, 96)",1163
+"(""Salvi's NQ"", 'Manchester Academy')","(84, 97)",2827
+"(""Salvi's NQ"", 'Hidden')","(84, 98)",1210
+"(""Salvi's NQ"", 'Albert Hall')","(84, 99)",1161
+"(""Salvi's NQ"", 'Band On The Wall')","(84, 100)",375
+"(""Salvi's NQ"", 'The Loft MCR')","(84, 101)",2903
+"(""Salvi's NQ"", 'Big Hands')","(84, 102)",3003
+"(""Salvi's NQ"", 'Cafe Blah')","(84, 103)",6818
+"(""Salvi's NQ"", 'Soup')","(84, 104)",391
+"(""Salvi's NQ"", 'O2 Ritz')","(84, 105)",1565
+"(""Salvi's NQ"", 'O2 Apollo')","(84, 106)",4884
+"(""Salvi's NQ"", 'YES')","(84, 107)",1414
+"(""Salvi's NQ"", 'Gullivers')","(84, 108)",350
+"(""Salvi's NQ"", 'Mint Lounge')","(84, 109)",309
+"(""Salvi's NQ"", 'Jashua Brooks')","(84, 110)",1357
+"(""Salvi's NQ"", 'New Century Hall')","(84, 111)",295
+"(""Salvi's NQ"", 'Matt and Phreds')","(84, 112)",280
+"(""Salvi's NQ"", 'Frog and Bucket')","(84, 113)",364
+"(""Salvi's NQ"", 'Firehouse')","(84, 114)",351
+"(""Salvi's NQ"", 'Ramona')","(84, 115)",351
+"(""Salvi's NQ"", 'The White Hotel')","(84, 116)",1545
+"('Mi & Pho', 'Depot Mayfield')","(85, 93)",9628
+"('Mi & Pho', 'Gorilla')","(85, 94)",9196
+"('Mi & Pho', 'Deaf Institute')","(85, 95)",8786
+"('Mi & Pho', 'Eagle Inn')","(85, 96)",11013
+"('Mi & Pho', 'Manchester Academy')","(85, 97)",8082
+"('Mi & Pho', 'Hidden')","(85, 98)",11384
+"('Mi & Pho', 'Albert Hall')","(85, 99)",9751
+"('Mi & Pho', 'Band On The Wall')","(85, 100)",10875
+"('Mi & Pho', 'The Loft MCR')","(85, 101)",12740
+"('Mi & Pho', 'Big Hands')","(85, 102)",7966
+"('Mi & Pho', 'Cafe Blah')","(85, 103)",4561
+"('Mi & Pho', 'Soup')","(85, 104)",10634
+"('Mi & Pho', 'O2 Ritz')","(85, 105)",9196
+"('Mi & Pho', 'O2 Apollo')","(85, 106)",8290
+"('Mi & Pho', 'YES')","(85, 107)",9283
+"('Mi & Pho', 'Gullivers')","(85, 108)",10692
+"('Mi & Pho', 'Mint Lounge')","(85, 109)",10579
+"('Mi & Pho', 'Jashua Brooks')","(85, 110)",9352
+"('Mi & Pho', 'New Century Hall')","(85, 111)",10945
+"('Mi & Pho', 'Matt and Phreds')","(85, 112)",10644
+"('Mi & Pho', 'Frog and Bucket')","(85, 113)",10607
+"('Mi & Pho', 'Firehouse')","(85, 114)",10931
+"('Mi & Pho', 'Ramona')","(85, 115)",10931
+"('Mi & Pho', 'The White Hotel')","(85, 116)",11623
+"('Common', 'Depot Mayfield')","(86, 93)",1416
+"('Common', 'Gorilla')","(86, 94)",1646
+"('Common', 'Deaf Institute')","(86, 95)",1933
+"('Common', 'Eagle Inn')","(86, 96)",1331
+"('Common', 'Manchester Academy')","(86, 97)",2792
+"('Common', 'Hidden')","(86, 98)",1352
+"('Common', 'Albert Hall')","(86, 99)",1286
+"('Common', 'Band On The Wall')","(86, 100)",224
+"('Common', 'The Loft MCR')","(86, 101)",2756
+"('Common', 'Big Hands')","(86, 102)",2962
+"('Common', 'Cafe Blah')","(86, 103)",6791
+"('Common', 'Soup')","(86, 104)",224
+"('Common', 'O2 Ritz')","(86, 105)",1646
+"('Common', 'O2 Apollo')","(86, 106)",4767
+"('Common', 'YES')","(86, 107)",1419
+"('Common', 'Gullivers')","(86, 108)",173
+"('Common', 'Mint Lounge')","(86, 109)",169
+"('Common', 'Jashua Brooks')","(86, 110)",1354
+"('Common', 'New Century Hall')","(86, 111)",392
+"('Common', 'Matt and Phreds')","(86, 112)",117
+"('Common', 'Frog and Bucket')","(86, 113)",204
+"('Common', 'Firehouse')","(86, 114)",239
+"('Common', 'Ramona')","(86, 115)",239
+"('Common', 'The White Hotel')","(86, 116)",1683
+"('Vertigo Plant-Based Eatery', 'Depot Mayfield')","(87, 93)",1673
+"('Vertigo Plant-Based Eatery', 'Gorilla')","(87, 94)",1153
+"('Vertigo Plant-Based Eatery', 'Deaf Institute')","(87, 95)",1770
+"('Vertigo Plant-Based Eatery', 'Eagle Inn')","(87, 96)",915
+"('Vertigo Plant-Based Eatery', 'Manchester Academy')","(87, 97)",2718
+"('Vertigo Plant-Based Eatery', 'Hidden')","(87, 98)",1147
+"('Vertigo Plant-Based Eatery', 'Albert Hall')","(87, 99)",644
+"('Vertigo Plant-Based Eatery', 'Band On The Wall')","(87, 100)",942
+"('Vertigo Plant-Based Eatery', 'The Loft MCR')","(87, 101)",3471
+"('Vertigo Plant-Based Eatery', 'Big Hands')","(87, 102)",2905
+"('Vertigo Plant-Based Eatery', 'Cafe Blah')","(87, 103)",6640
+"('Vertigo Plant-Based Eatery', 'Soup')","(87, 104)",891
+"('Vertigo Plant-Based Eatery', 'O2 Ritz')","(87, 105)",1153
+"('Vertigo Plant-Based Eatery', 'O2 Apollo')","(87, 106)",5028
+"('Vertigo Plant-Based Eatery', 'YES')","(87, 107)",1248
+"('Vertigo Plant-Based Eatery', 'Gullivers')","(87, 108)",877
+"('Vertigo Plant-Based Eatery', 'Mint Lounge')","(87, 109)",783
+"('Vertigo Plant-Based Eatery', 'Jashua Brooks')","(87, 110)",1223
+"('Vertigo Plant-Based Eatery', 'New Century Hall')","(87, 111)",688
+"('Vertigo Plant-Based Eatery', 'Matt and Phreds')","(87, 112)",793
+"('Vertigo Plant-Based Eatery', 'Frog and Bucket')","(87, 113)",852
+"('Vertigo Plant-Based Eatery', 'Firehouse')","(87, 114)",918
+"('Vertigo Plant-Based Eatery', 'Ramona')","(87, 115)",918
+"('Vertigo Plant-Based Eatery', 'The White Hotel')","(87, 116)",1466
+"('Casa Italia', 'Depot Mayfield')","(88, 93)",7821
+"('Casa Italia', 'Gorilla')","(88, 94)",7759
+"('Casa Italia', 'Deaf Institute')","(88, 95)",7144
+"('Casa Italia', 'Eagle Inn')","(88, 96)",9649
+"('Casa Italia', 'Manchester Academy')","(88, 97)",6294
+"('Casa Italia', 'Hidden')","(88, 98)",9980
+"('Casa Italia', 'Albert Hall')","(88, 99)",8339
+"('Casa Italia', 'Band On The Wall')","(88, 100)",9209
+"('Casa Italia', 'The Loft MCR')","(88, 101)",10746
+"('Casa Italia', 'Big Hands')","(88, 102)",6141
+"('Casa Italia', 'Cafe Blah')","(88, 103)",2335
+"('Casa Italia', 'Soup')","(88, 104)",8958
+"('Casa Italia', 'O2 Ritz')","(88, 105)",7759
+"('Casa Italia', 'O2 Apollo')","(88, 106)",5899
+"('Casa Italia', 'YES')","(88, 107)",7673
+"('Casa Italia', 'Gullivers')","(88, 108)",9023
+"('Casa Italia', 'Mint Lounge')","(88, 109)",8924
+"('Casa Italia', 'Jashua Brooks')","(88, 110)",7726
+"('Casa Italia', 'New Century Hall')","(88, 111)",9371
+"('Casa Italia', 'Matt and Phreds')","(88, 112)",8990
+"('Casa Italia', 'Frog and Bucket')","(88, 113)",8938
+"('Casa Italia', 'Firehouse')","(88, 114)",9279
+"('Casa Italia', 'Ramona')","(88, 115)",9279
+"('Casa Italia', 'The White Hotel')","(88, 116)",10262
+"('Zouk', 'Depot Mayfield')","(89, 93)",1287
+"('Zouk', 'Gorilla')","(89, 94)",482
+"('Zouk', 'Deaf Institute')","(89, 95)",472
+"('Zouk', 'Eagle Inn')","(89, 96)",2304
+"('Zouk', 'Manchester Academy')","(89, 97)",1367
+"('Zouk', 'Hidden')","(89, 98)",2607
+"('Zouk', 'Albert Hall')","(89, 99)",1013
+"('Zouk', 'Band On The Wall')","(89, 100)",2000
+"('Zouk', 'The Loft MCR')","(89, 101)",4298
+"('Zouk', 'Big Hands')","(89, 102)",1560
+"('Zouk', 'Cafe Blah')","(89, 103)",5171
+"('Zouk', 'Soup')","(89, 104)",1778
+"('Zouk', 'O2 Ritz')","(89, 105)",482
+"('Zouk', 'O2 Apollo')","(89, 106)",4004
+"('Zouk', 'YES')","(89, 107)",465
+"('Zouk', 'Gullivers')","(89, 108)",1826
+"('Zouk', 'Mint Lounge')","(89, 109)",1705
+"('Zouk', 'Jashua Brooks')","(89, 110)",553
+"('Zouk', 'New Century Hall')","(89, 111)",2036
+"('Zouk', 'Matt and Phreds')","(89, 112)",1766
+"('Zouk', 'Frog and Bucket')","(89, 113)",1744
+"('Zouk', 'Firehouse')","(89, 114)",2044
+"('Zouk', 'Ramona')","(89, 115)",2044
+"('Zouk', 'The White Hotel')","(89, 116)",2905
+"('The Hip Hop Chip Shop', 'Depot Mayfield')","(90, 93)",1281
+"('The Hip Hop Chip Shop', 'Gorilla')","(90, 94)",2001
+"('The Hip Hop Chip Shop', 'Deaf Institute')","(90, 95)",2056
+"('The Hip Hop Chip Shop', 'Eagle Inn')","(90, 96)",1837
+"('The Hip Hop Chip Shop', 'Manchester Academy')","(90, 97)",2799
+"('The Hip Hop Chip Shop', 'Hidden')","(90, 98)",1796
+"('The Hip Hop Chip Shop', 'Albert Hall')","(90, 99)",1744
+"('The Hip Hop Chip Shop', 'Band On The Wall')","(90, 100)",383
+"('The Hip Hop Chip Shop', 'The Loft MCR')","(90, 101)",2307
+"('The Hip Hop Chip Shop', 'Big Hands')","(90, 102)",2950
+"('The Hip Hop Chip Shop', 'Cafe Blah')","(90, 103)",6784
+"('The Hip Hop Chip Shop', 'Soup')","(90, 104)",362
+"('The Hip Hop Chip Shop', 'O2 Ritz')","(90, 105)",2001
+"('The Hip Hop Chip Shop', 'O2 Apollo')","(90, 106)",4481
+"('The Hip Hop Chip Shop', 'YES')","(90, 107)",1606
+"('The Hip Hop Chip Shop', 'Gullivers')","(90, 108)",372
+"('The Hip Hop Chip Shop', 'Mint Lounge')","(90, 109)",472
+"('The Hip Hop Chip Shop', 'Jashua Brooks')","(90, 110)",1525
+"('The Hip Hop Chip Shop', 'New Century Hall')","(90, 111)",843
+"('The Hip Hop Chip Shop', 'Matt and Phreds')","(90, 112)",456
+"('The Hip Hop Chip Shop', 'Frog and Bucket')","(90, 113)",404
+"('The Hip Hop Chip Shop', 'Firehouse')","(90, 114)",468
+"('The Hip Hop Chip Shop', 'Ramona')","(90, 115)",468
+"('The Hip Hop Chip Shop', 'The White Hotel')","(90, 116)",2111
+"('63 Degrees', 'Depot Mayfield')","(91, 93)",1509
+"('63 Degrees', 'Gorilla')","(91, 94)",1679
+"('63 Degrees', 'Deaf Institute')","(91, 95)",2004
+"('63 Degrees', 'Eagle Inn')","(91, 96)",1251
+"('63 Degrees', 'Manchester Academy')","(91, 97)",2873
+"('63 Degrees', 'Hidden')","(91, 98)",1261
+"('63 Degrees', 'Albert Hall')","(91, 99)",1291
+"('63 Degrees', 'Band On The Wall')","(91, 100)",241
+"('63 Degrees', 'The Loft MCR')","(91, 101)",2767
+"('63 Degrees', 'Big Hands')","(91, 102)",3044
+"('63 Degrees', 'Cafe Blah')","(91, 103)",6870
+"('63 Degrees', 'Soup')","(91, 104)",313
+"('63 Degrees', 'O2 Ritz')","(91, 105)",1679
+"('63 Degrees', 'O2 Apollo')","(91, 106)",4862
+"('63 Degrees', 'YES')","(91, 107)",1486
+"('63 Degrees', 'Gullivers')","(91, 108)",254
+"('63 Degrees', 'Mint Lounge')","(91, 109)",263
+"('63 Degrees', 'Jashua Brooks')","(91, 110)",1423
+"('63 Degrees', 'New Century Hall')","(91, 111)",298
+"('63 Degrees', 'Matt and Phreds')","(91, 112)",210
+"('63 Degrees', 'Frog and Bucket')","(91, 113)",297
+"('63 Degrees', 'Firehouse')","(91, 114)",217
+"('63 Degrees', 'Ramona')","(91, 115)",217
+"('63 Degrees', 'The White Hotel')","(91, 116)",1591
+"('The Little Yeti', 'Depot Mayfield')","(92, 93)",6839
+"('The Little Yeti', 'Gorilla')","(92, 94)",6052
+"('The Little Yeti', 'Deaf Institute')","(92, 95)",5868
+"('The Little Yeti', 'Eagle Inn')","(92, 96)",7742
+"('The Little Yeti', 'Manchester Academy')","(92, 97)",5403
+"('The Little Yeti', 'Hidden')","(92, 98)",8131
+"('The Little Yeti', 'Albert Hall')","(92, 99)",6560
+"('The Little Yeti', 'Band On The Wall')","(92, 100)",7864
+"('The Little Yeti', 'The Loft MCR')","(92, 101)",10041
+"('The Little Yeti', 'Big Hands')","(92, 102)",5350
+"('The Little Yeti', 'Cafe Blah')","(92, 103)",3547
+"('The Little Yeti', 'Soup')","(92, 104)",7643
+"('The Little Yeti', 'O2 Ritz')","(92, 105)",6052
+"('The Little Yeti', 'O2 Apollo')","(92, 106)",6666
+"('The Little Yeti', 'YES')","(92, 107)",6296
+"('The Little Yeti', 'Gullivers')","(92, 108)",7692
+"('The Little Yeti', 'Mint Lounge')","(92, 109)",7570
+"('The Little Yeti', 'Jashua Brooks')","(92, 110)",6377
+"('The Little Yeti', 'New Century Hall')","(92, 111)",7844
+"('The Little Yeti', 'Matt and Phreds')","(92, 112)",7630
+"('The Little Yeti', 'Frog and Bucket')","(92, 113)",7610
+"('The Little Yeti', 'Firehouse')","(92, 114)",7903
+"('The Little Yeti', 'Ramona')","(92, 115)",7903
+"('The Little Yeti', 'The White Hotel')","(92, 116)",8334
