@@ -57,9 +57,18 @@ def get_edges_distances(gdf):
         dis = points_df.distance(points_df2)
         #Append distance to list
         distance.append(int(dis[1]))
+    
+    #Normalise distances by dividing by max distance
+    
+    distance_norm = []
+
+    for x in distance:
+        dis_norm = x/max(distance)
+        distance_norm.append(dis_norm)
+
 
     df_edges["edges"] = edges
-    df_edges["distance"] = distance
+    df_edges["distance"] = distance_norm
     df_edges["names"] = name
 
     df_edges.to_csv("edges.csv", index=False)
@@ -72,7 +81,7 @@ def init_matrix(df, df_edges, matrix_size):
 
     R = np.zeros((matrix_size,matrix_size))
     #40,000 to be assigned to all un-desirable edges
-    R = np.full_like(R, -40000)
+    R = np.full_like(R, 0)
 
     #Identify list of goal points
     goal = []
@@ -90,25 +99,25 @@ def init_matrix(df, df_edges, matrix_size):
         dis = df_edges.distance[ind]
         edge = df_edges.edges[ind]
         if edge[1] in goal:
-            R[edge] = 2000
+            R[edge] = 200
         else:
-            R[edge] = -abs(dis)*0.5
+            R[edge] = 1-dis
 
         if edge[0] in goal:
-            R[edge[::-1]] = 2000
+            R[edge[::-1]] = 200
         else:
             # reverse of point
-            R[edge[::-1]]= -abs(dis)*0.5
+            R[edge[::-1]]= 1-dis
 
     #Add goal point round trip
-    R[goal,goal]= 2000
+    R[goal,goal]= 200
 
     return R
 
 def available_actions(state, R):
     '''Returns list of available actions'''
     current_state_row = R[state,]
-    av_act = np.where(current_state_row > -40000)[0]
+    av_act = np.where(current_state_row > 0)[0]
     return av_act
 
 def sample_next_action(available_actions_range):
@@ -128,7 +137,7 @@ def update(current_state, action, gamma, Q, R):
 
     Q[current_state, action] = R[current_state, action] - gamma * max_value
 
-    if (np.max(Q) > -40000):
+    if (np.max(Q) > 0):
         return(np.sum(Q/np.max(Q)*100))
     else:
         return (0)
@@ -142,7 +151,7 @@ def training(Q, gamma, verbose,R):
         action = sample_next_action(available_act)
         score = update(current_state,action,gamma, Q, R)
         scores.append(score)
-    print(scores)
+    # print(scores)
 
 
 def opt_route(current_state, trained_Q, df):
@@ -154,17 +163,36 @@ def opt_route(current_state, trained_Q, df):
 
     while current_state_hr != 4:
 
-        print(trained_Q[current_state,])
-
         next_step_index = np.where(trained_Q[current_state,] == np.max(trained_Q[current_state,]))[1]
         
         if next_step_index.shape[0] > 1:
             next_step_index = int(np.random.choice(next_step_index, size = 1))
+            next_state_hr = df["hierarchy"][next_step_index]
+
+            if next_state_hr == current_state_hr+1:
+
+                # print(next_step_index, next_state_hr)
+                steps.append(next_step_index)
+                current_state = next_step_index
+                current_state_hr = next_state_hr
+            
+            else:
+                trained_Q[current_state, next_step_index] = 0
+                continue
         else:
             next_step_index = int(next_step_index)
-        steps.append(next_step_index)
-        current_state = next_step_index
-        current_state_hr = df["hierarchy"][next_step_index]
+            next_state_hr = df["hierarchy"][next_step_index]
+
+
+            if next_state_hr == current_state_hr+1:
+                # print(next_step_index, next_state_hr)
+                steps.append(next_step_index)
+                current_state = next_step_index
+                current_state_hr = next_state_hr
+            
+            else:
+                trained_Q[current_state, next_step_index] = 0
+                continue
     
     return steps
 
@@ -195,32 +223,32 @@ if __name__ == "__main__":
 
     #Framing Q Matrix
     Q = np.matrix(np.zeros([MATRIX_SIZE, MATRIX_SIZE]))
-    Q = np.full_like(Q, -40000)
+    Q = np.full_like(Q, 0)
 
     # learning parameter
-    gamma = 0.6
+    gamma = 0.8
 
     training(Q=Q, gamma= gamma, verbose=True, R=R)
 
-    state = 3
-    steps = opt_route(current_state=state, trained_Q=Q, df=df)
-    print(steps)
-    # states = list(df.index[df.hierarchy == 0])
-    # names = list(df.name[df.hierarchy == 0])
-    # opt_routes = []
+    # state = 3
+    # steps = opt_route(current_state=state, trained_Q=Q, df=df)
+    # print(steps)
+    states = list(df.index[df.hierarchy == 0])
+    names = list(df.name[df.hierarchy == 0])
+    opt_routes = []
 
-    # for state in states:
-    #     steps = opt_route(current_state=state, trained_Q=Q, df=df)
-    #     opt_routes.append(steps)
+    for state in states:
+        steps = opt_route(current_state=state, trained_Q=Q, df=df)
+        opt_routes.append(steps)
 
-    # df_opt = pd.DataFrame(columns= ["original_index", "name", "opt_route"])
+    df_opt = pd.DataFrame(columns= ["original_index", "name", "opt_route"])
 
-    # df_opt["original_index"] = states
-    # df_opt["name"] = names
-    # df_opt["opt_route"] = opt_routes
-    # print(opt_routes)
+    df_opt["original_index"] = states
+    df_opt["name"] = names
+    df_opt["opt_route"] = opt_routes
+    print(opt_routes)
 
-    # df_opt.to_csv("OptimalRoutes.csv", index=False)
+    df_opt.to_csv("OptimalRoutes.csv", index=False)
 
 
 
