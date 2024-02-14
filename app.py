@@ -32,12 +32,14 @@ if button:
     route_idx = random.randint(0, len(route_data))
     #Get list of stops
     stops_lst = list(route_data["opt_route"].iloc[route_idx])
+    modified_list = stops_lst.strip('][').split(', ')
+
     #Pull out individual stops
-    stop_0 = stops_lst[0]
-    stop_1 = stops_lst[1]
-    stop_2 = stops_lst[2]
-    stop_3 = stops_lst[3]
-    stop_4 = stops_lst[4]
+    stop_0 = int(modified_list[0])
+    stop_1 = int(modified_list[1])
+    stop_2 = int(modified_list[2])
+    stop_3 = int(modified_list[3])
+    stop_4 = int(modified_list[4])
 
     #Brunch
     st.write("1. Brunch:")

@@ -238,21 +238,26 @@ def get_route_data(df):
 
 if __name__ == "__main__":
 
-    df = pd.read_csv("./ItineraryGenerator_Dataset.csv")
+    dataset = pd.read_csv("./ItineraryGenerator_Dataset.csv")
     
-    df_opt = pd.read_csv("./OptimalRoutes.csv")
+    route_data = pd.read_csv("./OptimalRoutes.csv")
 
+    #Select random route index
+    route_idx = random.randint(0, len(route_data))
+    #Get list of stops
+    stops_lst = route_data["opt_route"].iloc[route_idx]
+    modified_list = stops_lst.strip('][').split(', ')
 
-    current_state = random.choice(list(df_opt.original_index))
-    current_state = 6
+    #Pull out individual stops
+    stop_0 = int(modified_list[0])
+    stop_1 = int(modified_list[1])
+    stop_2 = int(modified_list[2])
+    stop_3 = int(modified_list[3])
+    stop_4 = int(modified_list[4])
 
-    steps = df_opt.opt_route.loc[current_state]
-    steps = steps.strip('][').split(', ')
-    
-    for i in steps:
-        location = df.name.loc[int(i)]
-        hierarchy = df.hierarchy.loc[int(i)]
-        print(location, hierarchy)
+    print("1. Brunch:")
+    print(str(dataset.name.iloc[int(stop_0)]))
+    print(str(dataset.address.iloc[stop_0]))
 
 
 
