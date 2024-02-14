@@ -6,7 +6,7 @@ import random
 st.title("Manchester Itinerary Generator")
 
 route_data = "./OptimalRoutes.csv"
-dataset = ",/ItineraryGenerator_Dataset.csv"
+dataset = "./ItineraryGenerator_Dataset.csv"
 
 @st.cache_data
 def load_data(route_data_path, dataset_path):
