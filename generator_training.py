@@ -196,23 +196,11 @@ def opt_route(current_state, trained_Q, df):
     
     return steps
 
-if __name__ == "__main__":
-
-    df = pd.read_csv("./ItineraryGenerator_Dataset.csv")
-    # df_opt = pd.read_csv("./OptimalRoutes.csv")
-
-
-    # current_state = random.choice(list(df_opt.original_index))
-    # current_state = 6
-
-    # steps = df_opt.opt_route.loc[current_state]
-    # steps = steps.strip('][').split(', ')
+def get_route_data(df):
+    '''This function trains a reinforcement matrix based on distance between points in ascending hierarchichal order.
+    The matrix is used to find the optimal route from a starting point (hierarchy 0) to an end goal (hierarchy 4). Routes
+    are compiled in a dataframe and saved as csv file.'''
     
-    # for i in steps:
-    #     location = df.name.loc[int(i)]
-    #     hierarchy = df.hierarchy.loc[int(i)]
-    #     print(location, hierarchy)
-
     gdf = convert_geo(df)
 
     df_edges = get_edges_distances(gdf)
@@ -230,9 +218,6 @@ if __name__ == "__main__":
 
     training(Q=Q, gamma= gamma, verbose=True, R=R)
 
-    # state = 3
-    # steps = opt_route(current_state=state, trained_Q=Q, df=df)
-    # print(steps)
     states = list(df.index[df.hierarchy == 0])
     names = list(df.name[df.hierarchy == 0])
     opt_routes = []
@@ -246,9 +231,30 @@ if __name__ == "__main__":
     df_opt["original_index"] = states
     df_opt["name"] = names
     df_opt["opt_route"] = opt_routes
-    print(opt_routes)
 
     df_opt.to_csv("OptimalRoutes.csv", index=False)
+
+    return df_opt
+
+if __name__ == "__main__":
+
+    df = pd.read_csv("./ItineraryGenerator_Dataset.csv")
+    
+    df_opt = pd.read_csv("./OptimalRoutes.csv")
+
+
+    current_state = random.choice(list(df_opt.original_index))
+    current_state = 6
+
+    steps = df_opt.opt_route.loc[current_state]
+    steps = steps.strip('][').split(', ')
+    
+    for i in steps:
+        location = df.name.loc[int(i)]
+        hierarchy = df.hierarchy.loc[int(i)]
+        print(location, hierarchy)
+
+
 
 
 
