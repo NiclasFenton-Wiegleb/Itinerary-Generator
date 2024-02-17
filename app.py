@@ -30,8 +30,10 @@ if button:
 
     #Select random route index
     route_idx = random.randint(0, len(route_data))
+    st.write(route_idx)
     #Get list of stops
     stops_lst = list(route_data["opt_route"].iloc[route_idx])
+    st.write(stops_lst)
     modified_list = stops_lst.strip('][').split(', ')
 
     #Pull out individual stops
