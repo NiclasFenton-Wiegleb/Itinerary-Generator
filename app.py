@@ -32,9 +32,7 @@ if button:
     route_idx = random.randint(0, len(route_data))
     #Get list of stops
     stops_lst = list(route_data["opt_route"].iloc[route_idx])
-    modified_list = str(stops_lst).strip('][').split(', ')
-    st.write(modified_list)
-    st.write(type(modified_list))
+    modified_list = stops_lst.strip('][').split(', ')
 
     #Pull out individual stops
     stop_0 = int(modified_list[0])
@@ -45,7 +43,7 @@ if button:
 
     #Brunch
     st.write("1. Brunch:")
-    st.write(type(dataset.name.iloc[stop_0]))
+    st.write(str(dataset.name.iloc[stop_0]))
     st.write(str(dataset.address.iloc[stop_0]))
 
     #Activity
