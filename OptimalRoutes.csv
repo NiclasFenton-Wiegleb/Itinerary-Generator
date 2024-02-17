@@ -1,22 +1,22 @@
-original_index,name,opt_route
-0,The Refuge,"[0, 21, 54, 89, 108]"
-1,Platzki,"[1, 24, 47, 71, 108]"
-2,The Koffee Pot,"[2, 29, 56, 71, 108]"
-3,The Beagle,"[3, 31, 56, 73, 97]"
-4,Evelyn’s,"[4, 22, 47, 86, 108]"
-5,Banyan - Spinningfields,"[5, 31, 56, 78, 96]"
-6,Victors,"[6, 28, 54, 73, 112]"
-7,The Pen And Pencil,"[7, 34, 47, 79, 101]"
-8,Crazy Pedro’s,"[8, 42, 56, 85, 96]"
-9,Gaucho Manchester,"[9, 31, 56, 69, 100]"
-10,Campo Blanco,"[10, 28, 54, 80, 108]"
-11,Menagerie,"[11, 29, 56, 84, 101]"
-12,Motley,"[12, 29, 56, 85, 104]"
-13,La Bandera,"[13, 21, 54, 83, 97]"
-14,Fress,"[14, 31, 56, 69, 113]"
-15,Dishoom,"[15, 27, 51, 66, 96]"
-16,Pot Kettle Black,"[16, 31, 56, 69, 100]"
-17,Idle Hands Coffee,"[17, 35, 46, 67, 112]"
-18,Takk,"[18, 31, 56, 73, 113]"
-19,Kong's,"[19, 42, 56, 71, 108]"
-20,Escape to Freight Island,"[20, 21, 54, 85, 104]"
+original_index,name,stop_1,stop_2,stop_3,stop_4,stop_5
+0,The Refuge,0,24,64,80,115
+1,Platzki,1,24,64,80,115
+2,The Koffee Pot,2,38,45,78,106
+3,The Beagle,3,32,56,75,98
+4,Evelyn’s,4,42,56,75,98
+5,Banyan - Spinningfields,5,23,55,73,99
+6,Victors,6,22,65,66,98
+7,The Pen And Pencil,7,22,65,82,97
+8,Crazy Pedro’s,8,22,65,70,109
+9,Gaucho Manchester,9,30,64,92,98
+10,Campo Blanco,10,24,64,89,97
+11,Menagerie,11,35,56,75,98
+12,Motley,12,42,56,75,98
+13,La Bandera,13,24,64,89,97
+14,Fress,14,22,65,75,98
+15,Dishoom,15,29,45,67,98
+16,Pot Kettle Black,16,32,56,75,98
+17,Idle Hands Coffee,17,42,56,75,98
+18,Takk,18,21,65,87,97
+19,Kong's,19,42,56,75,98
+20,Escape to Freight Island,20,42,56,75,98

@@ -30,23 +30,18 @@ if button:
 
     #Select random route index
     route_idx = random.randint(0, len(route_data))
-    st.write(route_idx)
-    #Get list of stops
-    stops_lst = list(route_data["opt_route"].iloc[route_idx])
-    st.write(stops_lst)
-    modified_list = stops_lst.strip('][').split(', ')
 
     #Pull out individual stops
-    stop_0 = int(modified_list[0])
-    stop_1 = int(modified_list[1])
-    stop_2 = int(modified_list[2])
-    stop_3 = int(modified_list[3])
-    stop_4 = int(modified_list[4])
+    stop_1 = int(route_data.stop_1[route_idx])
+    stop_2 = int(route_data.stop_2[route_idx])
+    stop_3 = int(route_data.stop_3[route_idx])
+    stop_4 = int(route_data.stop_4[route_idx])
+    stop_5 = int(route_data.stop_5[route_idx])
 
     #Brunch
     st.write("1. Brunch:")
-    st.write(str(dataset.name.iloc[stop_0]))
-    st.write(str(dataset.address.iloc[stop_0]))
+    st.write(str(dataset.name.iloc[stop_1]))
+    st.write(str(dataset.address.iloc[stop_1]))
 
     #Activity
     st.write("2. Activity:")

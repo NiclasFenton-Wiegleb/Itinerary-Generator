@@ -218,19 +218,34 @@ def get_route_data(df):
 
     training(Q=Q, gamma= gamma, verbose=True, R=R)
 
+    df_opt = pd.DataFrame(columns= ["original_index", "name", "stop_1", "stop_2", "stop_3", "stop_4", "stop_5"])
+
     states = list(df.index[df.hierarchy == 0])
     names = list(df.name[df.hierarchy == 0])
-    opt_routes = []
-
-    for state in states:
-        steps = opt_route(current_state=state, trained_Q=Q, df=df)
-        opt_routes.append(steps)
-
-    df_opt = pd.DataFrame(columns= ["original_index", "name", "opt_route"])
 
     df_opt["original_index"] = states
     df_opt["name"] = names
-    df_opt["opt_route"] = opt_routes
+
+    stop_1 = []
+    stop_2 = []
+    stop_3 = []
+    stop_4 = []
+    stop_5 = []
+
+    for state in states:
+        steps = opt_route(current_state=state, trained_Q=Q, df=df)
+        
+        stop_1.append(steps[0])
+        stop_2.append(steps[1])
+        stop_3.append(steps[2])
+        stop_4.append(steps[3])
+        stop_5.append(steps[4])
+
+    df_opt["stop_1"] = stop_1
+    df_opt["stop_2"] = stop_2
+    df_opt["stop_3"] = stop_3
+    df_opt["stop_4"] = stop_4
+    df_opt["stop_5"] = stop_5
 
     df_opt.to_csv("OptimalRoutes.csv", index=False)
 
@@ -238,26 +253,33 @@ def get_route_data(df):
 
 if __name__ == "__main__":
 
-    dataset = pd.read_csv("./ItineraryGenerator_Dataset.csv")
+    df = pd.read_csv("./ItineraryGenerator_Dataset.csv")
+
+    df_opt = get_route_data(df)
+
+    print(df_opt)
+
+    # dataset = pd.read_csv("./ItineraryGenerator_Dataset.csv")
     
-    route_data = pd.read_csv("./OptimalRoutes.csv")
+    # route_data = pd.read_csv("./OptimalRoutes.csv")
 
-    #Select random route index
-    route_idx = random.randint(0, len(route_data))
-    #Get list of stops
-    stops_lst = route_data["opt_route"].iloc[route_idx]
-    modified_list = stops_lst.strip('][').split(', ')
+    # #Select random route index
+    # route_idx = random.randint(0, len(route_data))
+    # #Get list of stops
+    # stops_lst = list(route_data["opt_route"].iloc[route_idx])
+    # print (stops_lst, type(stops_lst))
+    # modified_list = stops_lst.strip('][').split(', ')
 
-    #Pull out individual stops
-    stop_0 = int(modified_list[0])
-    stop_1 = int(modified_list[1])
-    stop_2 = int(modified_list[2])
-    stop_3 = int(modified_list[3])
-    stop_4 = int(modified_list[4])
+    # #Pull out individual stops
+    # stop_0 = int(modified_list[0])
+    # stop_1 = int(modified_list[1])
+    # stop_2 = int(modified_list[2])
+    # stop_3 = int(modified_list[3])
+    # stop_4 = int(modified_list[4])
 
-    print("1. Brunch:")
-    print(str(dataset.name.iloc[int(stop_0)]))
-    print(str(dataset.address.iloc[stop_0]))
+    # print("1. Brunch:")
+    # print(str(dataset.name.iloc[int(stop_0)]))
+    # print(str(dataset.address.iloc[stop_0]))
 
 
 
