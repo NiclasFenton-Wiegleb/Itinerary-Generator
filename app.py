@@ -43,7 +43,7 @@ if button:
 
     #Brunch
     st.write("1. Brunch:")
-    st.write(str(dataset.name.iloc[stop_0]))
+    st.write(type(dataset.name.iloc[stop_0]))
     st.write(str(dataset.address.iloc[stop_0]))
 
     #Activity
