@@ -45,22 +45,22 @@ if button:
 
     #Activity
     st.write("2. Activity:")
-    st.write(str(dataset.name.iloc[stop_1]))
-    st.write(str(dataset.address.iloc[stop_1]))
-
-    #Afternoon Drinks
-    st.write("3. Afternoon Drinks:")
     st.write(str(dataset.name.iloc[stop_2]))
     st.write(str(dataset.address.iloc[stop_2]))
 
-    #Dinner
-    st.write("4. Dinner:")
+    #Afternoon Drinks
+    st.write("3. Afternoon Drinks:")
     st.write(str(dataset.name.iloc[stop_3]))
     st.write(str(dataset.address.iloc[stop_3]))
 
-    #Evening Out
-    st.write("5. Evening Out:")
+    #Dinner
+    st.write("4. Dinner:")
     st.write(str(dataset.name.iloc[stop_4]))
     st.write(str(dataset.address.iloc[stop_4]))
+
+    #Evening Out
+    st.write("5. Evening Out:")
+    st.write(str(dataset.name.iloc[stop_5]))
+    st.write(str(dataset.address.iloc[stop_5]))
 
 
