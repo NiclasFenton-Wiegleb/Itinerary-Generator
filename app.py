@@ -21,7 +21,7 @@ data_load_state = st.text("Loading data...")
 # Load 10,000 rows of data into the dataframe
 route_data, dataset = load_data(route_data_path=route_data, dataset_path=dataset)
 # Notify the reader that the data was successfully loaded
-data_load_state.text("Done! (using st.cache_data)")
+data_load_state.text("Done! Data is loaded in.")
 
 st.write("This is an introduction paragraph to the tool.")
 button = st.button("Generate Itinerary")
