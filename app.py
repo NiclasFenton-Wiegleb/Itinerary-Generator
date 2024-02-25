@@ -6,7 +6,7 @@ import random
 st.title("Manchester Itinerary Generator")
 
 route_data = "./OptimalRoutes.csv"
-dataset = "./ItineraryGenerator_Dataset.csv"
+dataset = "./IG_neighbours.csv"
 
 @st.cache_data
 def load_data(route_data_path, dataset_path):
@@ -40,26 +40,64 @@ if button:
 
     #Brunch
     st.write("1. Brunch:")
+
+    alt_1 = int(dataset.neighbour_1.iloc[stop_1])
+    alt_2 = int(dataset.neighbour_2.iloc[stop_1])
+    alt_3 = int(dataset.neighbour_3.iloc[stop_1])
+
     st.write(str(dataset.name.iloc[stop_1]))
     st.write(str(dataset.address.iloc[stop_1]))
 
+    col1, col2, col3 = st.columns([1,1])
+
+    n = 0
+
+    with col1:
+        next = st.button('next')
+        if next:
+            neighbour = f"alt_{n+1}"
+            st.write(str(dataset.name.iloc[neighbour]))
+            st.write(str(dataset.address.iloc[neighbour]))
+    with col2:
+        st.button('previous')
+
     #Activity
     st.write("2. Activity:")
+
+    alt_1 = int(dataset.neighbour_1.iloc[stop_2])
+    alt_2 = int(dataset.neighbour_2.iloc[stop_2])
+    alt_3 = int(dataset.neighbour_3.iloc[stop_2])
+
     st.write(str(dataset.name.iloc[stop_2]))
     st.write(str(dataset.address.iloc[stop_2]))
 
     #Afternoon Drinks
     st.write("3. Afternoon Drinks:")
+
+    alt_1 = int(dataset.neighbour_1.iloc[stop_3])
+    alt_2 = int(dataset.neighbour_2.iloc[stop_3])
+    alt_3 = int(dataset.neighbour_3.iloc[stop_3])
+
     st.write(str(dataset.name.iloc[stop_3]))
     st.write(str(dataset.address.iloc[stop_3]))
 
     #Dinner
     st.write("4. Dinner:")
+
+    alt_1 = int(dataset.neighbour_1.iloc[stop_4])
+    alt_2 = int(dataset.neighbour_2.iloc[stop_4])
+    alt_3 = int(dataset.neighbour_3.iloc[stop_4])
+
     st.write(str(dataset.name.iloc[stop_4]))
     st.write(str(dataset.address.iloc[stop_4]))
 
     #Evening Out
     st.write("5. Evening Out:")
+
+    alt_1 = int(dataset.neighbour_1.iloc[stop_5])
+    alt_2 = int(dataset.neighbour_2.iloc[stop_5])
+    alt_3 = int(dataset.neighbour_3.iloc[stop_5])
+
     st.write(str(dataset.name.iloc[stop_5]))
     st.write(str(dataset.address.iloc[stop_5]))
 
