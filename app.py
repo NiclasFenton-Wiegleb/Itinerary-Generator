@@ -82,58 +82,56 @@ if st.session_state.clicked[1]:
         name = str(dataset.name.iloc[next_idx])
         address = str(dataset.address.iloc[next_idx])
 
-        col1.write(name)
-        col1.write(address)
+        col1.markdown(name)
+        col1.markdown(address)
+        
+        if n < 3:
+            n += 1
+        
+        else:
+            n = 1
 
         button_phold.empty()  #  remove button
 
-    # with col1:
-    #     next = st.button('next')
-    #     if next:
-    #         neighbour = f"alt_{n+1}"
-    #         col1.write(str(dataset.name.iloc[neighbour]))
-    #         col1.write(str(dataset.address.iloc[neighbour]))
-    # with col2:
-    #     st.button('previous')
 
     #Activity
-    st.write("2. Activity:")
+    col1.write("2. Activity:")
 
     alt_1 = int(dataset.neighbour_1.iloc[stop_2])
     alt_2 = int(dataset.neighbour_2.iloc[stop_2])
     alt_3 = int(dataset.neighbour_3.iloc[stop_2])
 
-    st.write(str(dataset.name.iloc[stop_2]))
-    st.write(str(dataset.address.iloc[stop_2]))
+    col1.write(str(dataset.name.iloc[stop_2]))
+    col1.write(str(dataset.address.iloc[stop_2]))
 
     #Afternoon Drinks
-    st.write("3. Afternoon Drinks:")
+    col1.write("3. Afternoon Drinks:")
 
     alt_1 = int(dataset.neighbour_1.iloc[stop_3])
     alt_2 = int(dataset.neighbour_2.iloc[stop_3])
     alt_3 = int(dataset.neighbour_3.iloc[stop_3])
 
-    st.write(str(dataset.name.iloc[stop_3]))
-    st.write(str(dataset.address.iloc[stop_3]))
+    col1.write(str(dataset.name.iloc[stop_3]))
+    col1.write(str(dataset.address.iloc[stop_3]))
 
     #Dinner
-    st.write("4. Dinner:")
+    col1.write("4. Dinner:")
 
     alt_1 = int(dataset.neighbour_1.iloc[stop_4])
     alt_2 = int(dataset.neighbour_2.iloc[stop_4])
     alt_3 = int(dataset.neighbour_3.iloc[stop_4])
 
-    st.write(str(dataset.name.iloc[stop_4]))
-    st.write(str(dataset.address.iloc[stop_4]))
+    col1.write(str(dataset.name.iloc[stop_4]))
+    col1.write(str(dataset.address.iloc[stop_4]))
 
     #Evening Out
-    st.write("5. Evening Out:")
+    col1.write("5. Evening Out:")
 
     alt_1 = int(dataset.neighbour_1.iloc[stop_5])
     alt_2 = int(dataset.neighbour_2.iloc[stop_5])
     alt_3 = int(dataset.neighbour_3.iloc[stop_5])
 
-    st.write(str(dataset.name.iloc[stop_5]))
-    st.write(str(dataset.address.iloc[stop_5]))
+    col1.write(str(dataset.name.iloc[stop_5]))
+    col1.write(str(dataset.address.iloc[stop_5]))
 
 
