@@ -45,21 +45,38 @@ if button:
     alt_2 = int(dataset.neighbour_2.iloc[stop_1])
     alt_3 = int(dataset.neighbour_3.iloc[stop_1])
 
-    st.write(str(dataset.name.iloc[stop_1]))
-    st.write(str(dataset.address.iloc[stop_1]))
+    name = str(dataset.name.iloc[stop_1])
+    address = str(dataset.address.iloc[stop_1])
+
+    st.write(name)
+    st.write(address)
 
     col1, col2 = st.columns([1,1])
 
-    n = 0
+    n = 1
 
-    with col1:
-        next = st.button('next')
-        if next:
-            neighbour = f"alt_{n+1}"
-            col1.write(str(dataset.name.iloc[neighbour]))
-            col1.write(str(dataset.address.iloc[neighbour]))
-    with col2:
-        st.button('previous')
+    button_type = "Next"
+    button_phold = col2.empty()  # create a placeholder
+    do_action = button_phold.button(button_type, key=stop_1)
+
+    if do_action:
+        next_idx = f"alt_{n}"
+        name = str(dataset.name.iloc[next_idx])
+        address = str(dataset.address.iloc[next_idx])
+
+        st.write(name)
+        st.write(address)
+
+        button_phold.empty()  #  remove button
+
+    # with col1:
+    #     next = st.button('next')
+    #     if next:
+    #         neighbour = f"alt_{n+1}"
+    #         col1.write(str(dataset.name.iloc[neighbour]))
+    #         col1.write(str(dataset.address.iloc[neighbour]))
+    # with col2:
+    #     st.button('previous')
 
     #Activity
     st.write("2. Activity:")
