@@ -56,8 +56,8 @@ if button:
         next = st.button('next')
         if next:
             neighbour = f"alt_{n+1}"
-            st.write(str(dataset.name.iloc[neighbour]))
-            st.write(str(dataset.address.iloc[neighbour]))
+            col1.write(str(dataset.name.iloc[neighbour]))
+            col1.write(str(dataset.address.iloc[neighbour]))
     with col2:
         st.button('previous')
 
