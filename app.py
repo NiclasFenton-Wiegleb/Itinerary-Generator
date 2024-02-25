@@ -35,11 +35,11 @@ def clicked(button):
 
 
 # Conditional based on value in session state, not the output
-if st.session_state.clicked[1]:
-    st.write('The first button was clicked.')
-    st.button('Second Button', on_click=clicked, args=[2])
-    if st.session_state.clicked[2]:
-        st.write('The second button was clicked')
+# if st.session_state.clicked[1]:
+#     st.write('The first button was clicked.')
+#     st.button('Second Button', on_click=clicked, args=[2])
+#     if st.session_state.clicked[2]:
+#         st.write('The second button was clicked')
 
 # Button with callback function
 button = st.button("Generate Itinerary", on_click=clicked, args=[1])
@@ -75,7 +75,7 @@ if button:
 
     button_type = "Next"
     button_phold = col2.empty()  # create a placeholder
-    do_action = button_phold.button(button_type, key=stop_1)
+    do_action = button_phold.button(button_type, key=stop_1, on_click=clicked, args=[2])
 
     if do_action:
         next_idx = f"alt_{n}"
