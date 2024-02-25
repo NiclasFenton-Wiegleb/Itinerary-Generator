@@ -44,7 +44,7 @@ def clicked(button):
 # Button with callback function
 button = st.button("Generate Itinerary", on_click=clicked, args=[1])
 
-if button:
+if st.session_state.clicked[1]:
 
     #Select random route index
     route_idx = random.randint(0, len(route_data))
@@ -72,12 +72,12 @@ if button:
     col1.markdown(address)
 
     n = 1
-
+        
     button_type = "Next"
     button_phold = col2.empty()  # create a placeholder
     do_action = button_phold.button(button_type, key=stop_1, on_click=clicked, args=[2])
 
-    if do_action:
+    if st.session_state.clicked[2]:
         next_idx = f"alt_{n}"
         name = str(dataset.name.iloc[next_idx])
         address = str(dataset.address.iloc[next_idx])
