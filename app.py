@@ -82,8 +82,8 @@ if button:
         name = str(dataset.name.iloc[next_idx])
         address = str(dataset.address.iloc[next_idx])
 
-        st.write(name)
-        st.write(address)
+        col1.write(name)
+        col1.write(address)
 
         button_phold.empty()  #  remove button
 
