@@ -24,7 +24,25 @@ route_data, dataset = load_data(route_data_path=route_data, dataset_path=dataset
 data_load_state.text("Done! Data is loaded in.")
 
 st.write("This is an introduction paragraph to the tool.")
-button = st.button("Generate Itinerary")
+
+# Initialize the key in session state
+if 'clicked' not in st.session_state:
+    st.session_state.clicked = {1:False,2:False, 3:False}
+
+# Function to update the value in session state
+def clicked(button):
+    st.session_state.clicked[button] = True
+
+
+# Conditional based on value in session state, not the output
+if st.session_state.clicked[1]:
+    st.write('The first button was clicked.')
+    st.button('Second Button', on_click=clicked, args=[2])
+    if st.session_state.clicked[2]:
+        st.write('The second button was clicked')
+
+# Button with callback function
+button = st.button("Generate Itinerary", on_click=clicked, args=[1])
 
 if button:
 
@@ -38,8 +56,10 @@ if button:
     stop_4 = int(route_data.stop_4[route_idx])
     stop_5 = int(route_data.stop_5[route_idx])
 
+    col1, col2 = st.columns([1,1])
+
     #Brunch
-    st.write("1. Brunch:")
+    col1.markdown("1. Brunch:")
 
     alt_1 = int(dataset.neighbour_1.iloc[stop_1])
     alt_2 = int(dataset.neighbour_2.iloc[stop_1])
@@ -48,10 +68,8 @@ if button:
     name = str(dataset.name.iloc[stop_1])
     address = str(dataset.address.iloc[stop_1])
 
-    st.write(name)
-    st.write(address)
-
-    col1, col2 = st.columns([1,1])
+    col1.markdown(name)
+    col1.markdown(address)
 
     n = 1
 
