@@ -48,7 +48,7 @@ if button:
     st.write(str(dataset.name.iloc[stop_1]))
     st.write(str(dataset.address.iloc[stop_1]))
 
-    col1, col2, col3 = st.columns([1,1])
+    col1, col2 = st.columns([1,1])
 
     n = 0
 
