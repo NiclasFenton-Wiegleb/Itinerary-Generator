@@ -33,14 +33,6 @@ if 'clicked' not in st.session_state:
 def clicked(button):
     st.session_state.clicked[button] = True
 
-
-# Conditional based on value in session state, not the output
-# if st.session_state.clicked[1]:
-#     st.write('The first button was clicked.')
-#     st.button('Second Button', on_click=clicked, args=[2])
-#     if st.session_state.clicked[2]:
-#         st.write('The second button was clicked')
-
 # Button with callback function
 button = st.button("Generate Itinerary", on_click=clicked, args=[1])
 
@@ -56,82 +48,125 @@ if st.session_state.clicked[1]:
     stop_4 = int(route_data.stop_4[route_idx])
     stop_5 = int(route_data.stop_5[route_idx])
 
-    col1, col2 = st.columns([1,1])
+    stop_lst = [stop_1, stop_2, stop_3, stop_4, stop_5]
+    title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
+    alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
 
-    #Brunch
-    col1.markdown("1. Brunch:")
 
-    alt_1 = int(dataset.neighbour_1.iloc[stop_1])
-    alt_2 = int(dataset.neighbour_2.iloc[stop_1])
-    alt_3 = int(dataset.neighbour_3.iloc[stop_1])
+     # # Show users table 
+    colms = st.columns((1, 3, 1))
+    fields = ["Previous", "", "Next"]
+    for col, field_name in zip(colms, fields):
+        # header
+        col.write(field_name)
 
-    name = str(dataset.name.iloc[stop_1])
-    address = str(dataset.address.iloc[stop_1])
+    for x, stop in enumerate(stop_lst):
+        col1, col2, col3 = st.columns((1, 3,1))
+        col2.write(title_lst[x])  # title
+        col2.write(dataset.name.iloc[stop])  # name
+        col2.write(dataset.address.iloc[stop])  # address
 
-    col1.markdown(name)
-    col1.markdown(address)
+        next_txt = "Next"
+        next_button = col3.empty()  # create a placeholder
+        next_stop = next_button.button(next_txt, key=x, on_click=clicked, args=[2])
 
-    n = 1
+        previous_txt = "Previous"
+        next_button = col1.empty()  # create a placeholder
+        next_stop = next_button.button(previous_txt, key=x, on_click=clicked, args=[3])
+
+
+        n = 0
+        if st.session_state.clicked[2]:
+            
+            idx = dataset[alt_lst[n]].iloc[stop]
+            name = str(dataset.name.iloc[idx])
+            address = str(dataset.address.iloc[idx])
+
+            col2.markdown(name)
+            col2.markdown(address)
+            
+            if n < 2:
+                n += 1
+            
+            else:
+                n = 1    
+
+    # col1, col2 = st.columns([1,1])
+
+    # #Brunch
+    # col1.markdown("1. Brunch:")
+
+    # alt_1 = int(dataset.neighbour_1.iloc[stop_1])
+    # alt_2 = int(dataset.neighbour_2.iloc[stop_1])
+    # alt_3 = int(dataset.neighbour_3.iloc[stop_1])
+
+    # name = str(dataset.name.iloc[stop_1])
+    # address = str(dataset.address.iloc[stop_1])
+
+    # col1.markdown(name)
+    # col1.markdown(address)
+
+    # n = 1
         
-    button_type = "Next"
-    button_phold = col2.empty()  # create a placeholder
-    do_action = button_phold.button(button_type, key=stop_1, on_click=clicked, args=[2])
+    # button_type = "Next"
+    # button_phold = col2.empty()  # create a placeholder
+    # do_action = button_phold.button(button_type, key=stop_1, on_click=clicked, args=[2])
 
-    if st.session_state.clicked[2]:
-        next_idx = f"alt_{n}"
-        name = str(dataset.name.iloc[next_idx])
-        address = str(dataset.address.iloc[next_idx])
+    # if st.session_state.clicked[2]:
+    #     next_idx = f"alt_{n}"
+    #     name = str(dataset.name.iloc[next_idx])
+    #     address = str(dataset.address.iloc[next_idx])
 
-        col1.markdown(name)
-        col1.markdown(address)
+    #     col1.markdown(name)
+    #     col1.markdown(address)
         
-        if n < 3:
-            n += 1
+    #     if n < 3:
+    #         n += 1
         
-        else:
-            n = 1
+    #     else:
+    #         n = 1
 
-        button_phold.empty()  #  remove button
+    #     button_phold.empty()  #  remove button
 
 
-    #Activity
-    col1.write("2. Activity:")
+    # #Activity
+    # col1.write("2. Activity:")
 
-    alt_1 = int(dataset.neighbour_1.iloc[stop_2])
-    alt_2 = int(dataset.neighbour_2.iloc[stop_2])
-    alt_3 = int(dataset.neighbour_3.iloc[stop_2])
+    # alt_1 = int(dataset.neighbour_1.iloc[stop_2])
+    # alt_2 = int(dataset.neighbour_2.iloc[stop_2])
+    # alt_3 = int(dataset.neighbour_3.iloc[stop_2])
 
-    col1.write(str(dataset.name.iloc[stop_2]))
-    col1.write(str(dataset.address.iloc[stop_2]))
+    # col1.write(str(dataset.name.iloc[stop_2]))
+    # col1.write(str(dataset.address.iloc[stop_2]))
 
-    #Afternoon Drinks
-    col1.write("3. Afternoon Drinks:")
+    # #Afternoon Drinks
+    # col1.write("3. Afternoon Drinks:")
 
-    alt_1 = int(dataset.neighbour_1.iloc[stop_3])
-    alt_2 = int(dataset.neighbour_2.iloc[stop_3])
-    alt_3 = int(dataset.neighbour_3.iloc[stop_3])
+    # alt_1 = int(dataset.neighbour_1.iloc[stop_3])
+    # alt_2 = int(dataset.neighbour_2.iloc[stop_3])
+    # alt_3 = int(dataset.neighbour_3.iloc[stop_3])
 
-    col1.write(str(dataset.name.iloc[stop_3]))
-    col1.write(str(dataset.address.iloc[stop_3]))
+    # col1.write(str(dataset.name.iloc[stop_3]))
+    # col1.write(str(dataset.address.iloc[stop_3]))
 
-    #Dinner
-    col1.write("4. Dinner:")
+    # #Dinner
+    # col1.write("4. Dinner:")
 
-    alt_1 = int(dataset.neighbour_1.iloc[stop_4])
-    alt_2 = int(dataset.neighbour_2.iloc[stop_4])
-    alt_3 = int(dataset.neighbour_3.iloc[stop_4])
+    # alt_1 = int(dataset.neighbour_1.iloc[stop_4])
+    # alt_2 = int(dataset.neighbour_2.iloc[stop_4])
+    # alt_3 = int(dataset.neighbour_3.iloc[stop_4])
 
-    col1.write(str(dataset.name.iloc[stop_4]))
-    col1.write(str(dataset.address.iloc[stop_4]))
+    # col1.write(str(dataset.name.iloc[stop_4]))
+    # col1.write(str(dataset.address.iloc[stop_4]))
 
-    #Evening Out
-    col1.write("5. Evening Out:")
+    # #Evening Out
+    # col1.write("5. Evening Out:")
 
-    alt_1 = int(dataset.neighbour_1.iloc[stop_5])
-    alt_2 = int(dataset.neighbour_2.iloc[stop_5])
-    alt_3 = int(dataset.neighbour_3.iloc[stop_5])
+    # alt_1 = int(dataset.neighbour_1.iloc[stop_5])
+    # alt_2 = int(dataset.neighbour_2.iloc[stop_5])
+    # alt_3 = int(dataset.neighbour_3.iloc[stop_5])
 
-    col1.write(str(dataset.name.iloc[stop_5]))
-    col1.write(str(dataset.address.iloc[stop_5]))
+    # col1.write(str(dataset.name.iloc[stop_5]))
+    # col1.write(str(dataset.address.iloc[stop_5]))
 
 
