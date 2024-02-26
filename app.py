@@ -70,9 +70,9 @@ if st.session_state.clicked[1]:
         next_button = col3.empty()  # create a placeholder
         next_stop = next_button.button(next_txt, key=x, on_click=clicked, args=[2])
 
-        previous_txt = "Previous"
-        next_button = col1.empty()  # create a placeholder
-        next_stop = next_button.button(previous_txt, key=x, on_click=clicked, args=[3])
+        # previous_txt = "Previous"
+        # next_button = col1.empty()  # create a placeholder
+        # next_stop = next_button.button(previous_txt, key=x, on_click=clicked, args=[3])
 
 
         n = 0
