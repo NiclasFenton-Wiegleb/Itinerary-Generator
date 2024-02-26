@@ -86,7 +86,7 @@ if st.session_state.clicked[1]:
             col2.markdown(name)
             col2.markdown(address)
 
-            next_button = col3.empty()
+            st.session_state.clicked[2] = False            
             if n < 2:
                 n += 1
             
