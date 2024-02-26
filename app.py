@@ -60,6 +60,8 @@ if st.session_state.clicked[1]:
         # header
         col.write(field_name)
 
+
+
     for x, stop in enumerate(stop_lst):
         col1, col2, col3 = st.columns((1, 3,1))
         col2.write(title_lst[x])  # title
@@ -73,12 +75,11 @@ if st.session_state.clicked[1]:
         # previous_txt = "Previous"
         # next_button = col1.empty()  # create a placeholder
         # next_stop = next_button.button(previous_txt, key=x, on_click=clicked, args=[3])
-
-
+        
         n = 0
         if st.session_state.clicked[2]:
             
-            idx = dataset[alt_lst[n]].iloc[stop]
+            idx = dataset[alt_lst[n]].iloc[stop_lst[x]]
             name = str(dataset.name.iloc[idx])
             address = str(dataset.address.iloc[idx])
 
