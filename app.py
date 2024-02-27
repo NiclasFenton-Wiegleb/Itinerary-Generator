@@ -64,9 +64,10 @@ if st.session_state.clicked[1]:
 
     for x, stop in enumerate(stop_lst):
         col1, col2, col3 = st.columns((1, 3,1))
+
         col2.write(title_lst[x])  # title
-        col2.write(dataset.name.iloc[stop])  # name
-        col2.write(dataset.address.iloc[stop])  # address
+        col2.write(dataset.name.iloc[stop_lst[x]])  # name
+        col2.write(dataset.address.iloc[stop_lst[x]])  # address
 
         next_txt = "Next"
         next_button = col3.empty()  # create a placeholder
