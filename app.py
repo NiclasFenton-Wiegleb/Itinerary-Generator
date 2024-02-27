@@ -30,19 +30,22 @@ if 'clicked' not in st.session_state:
     st.session_state.clicked = {1:False,2:False, 3:False}
 
 # Function to update the value in session state
+@st.cache_data
 def clicked(button):
     st.session_state.clicked[button] = True
 
+if 'route_idx' not in st.session_state:
+    st.session_state.route_idx = 0
+
+@st.cache_data
+def select_route():
+    st.session_state.route_idx = random.randint(0, len(route_data))
+
 # Button with callback function
-button = st.button("Generate Itinerary", on_click=clicked, args=[1])
+button = st.button("Generate Itinerary", on_click=select_route, args=[1])
 
-int = random.randint(0, 100)
 
-st.session_state.int = int
-
-st.write(st.session_state.int)
-
-if st.session_state.clicked[1]:
+if st.session_state.route_ix != 0:
 
     #Select random route index
     st.session_state.route_idx = random.randint(0, len(route_data))
