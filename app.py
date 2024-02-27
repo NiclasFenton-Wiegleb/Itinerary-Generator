@@ -41,7 +41,7 @@ if st.session_state.clicked[1]:
     #Select random route index
     route_idx = random.randint(0, len(route_data))
 
-    st.write(route_data[route_idx])
+    st.write(route_data.iloc[route_idx])
 
     #Pull out individual stops
     stop_1 = int(route_data.stop_1[route_idx])
