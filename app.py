@@ -66,6 +66,7 @@ if st.session_state.clicked[1]:
         col1, col2, col3 = st.columns((1, 3,1))
 
         col2.write(title_lst[x])  # title
+        col2.write(stop)
         col2.write(dataset.name.iloc[stop_lst[x]])  # name
         col2.write(dataset.address.iloc[stop_lst[x]])  # address
 
