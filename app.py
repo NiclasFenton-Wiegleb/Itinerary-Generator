@@ -81,10 +81,11 @@ if st.session_state.clicked[1]:
         # next_stop = next_button.button(previous_txt, key=x, on_click=clicked, args=[3])
         col3.write(st.session_state.clicked[2])
         n = 0
+
         if st.session_state.clicked[2]:
 
             stop = dataset[alt_lst[n]].iloc[stop_lst[x]]
-            next_button = col3.empty()
+            st.session_state.clicked[2]= False
 
             if n < 2:
                 n += 1
