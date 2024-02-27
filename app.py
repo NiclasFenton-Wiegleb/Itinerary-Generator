@@ -35,7 +35,12 @@ def clicked(button):
 
 # Button with callback function
 button = st.button("Generate Itinerary", on_click=clicked, args=[1])
-st.write(random.randint(0, 100))
+
+int = random.randint(0, 100)
+
+st.session_state.int = int
+
+st.write(st.session_state.int)
 
 if st.session_state.clicked[1]:
 
