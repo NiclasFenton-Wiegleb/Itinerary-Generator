@@ -84,15 +84,17 @@ if st.session_state.clicked[1]:
 
         # if st.session_state.clicked[2]:
         if next_stop:
+            pass
+            next_button = col3.empty()
 
-            stop_lst[x] = dataset[alt_lst[n]].iloc[stop_lst[x]]
+            # stop_lst[x] = dataset[alt_lst[n]].iloc[stop_lst[x]]
             # st.session_state.clicked[2]= False
 
-            if n < 2:
-                n += 1
+            # if n < 2:
+            #     n += 1
             
-            else:
-                n = 1    
+            # else:
+            #     n = 1    
 
     # col1, col2 = st.columns([1,1])
 
