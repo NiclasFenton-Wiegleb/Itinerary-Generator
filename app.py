@@ -77,8 +77,9 @@ if st.session_state.clicked[1]:
         # next_stop = next_button.button(previous_txt, key=x, on_click=clicked, args=[3])
         
         n = 0
-        if st.session_state.clicked[2]:
-            
+        # if st.session_state.clicked[2]:
+
+        if next_stop:   
             idx = dataset[alt_lst[n]].iloc[stop_lst[x]]
             name = str(dataset.name.iloc[idx])
             address = str(dataset.address.iloc[idx])
@@ -86,7 +87,6 @@ if st.session_state.clicked[1]:
             col2.markdown(name)
             col2.markdown(address)
 
-            st.session_state.clicked[2] = False            
             if n < 2:
                 n += 1
             
