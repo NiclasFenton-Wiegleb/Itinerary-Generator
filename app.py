@@ -35,7 +35,7 @@ def clicked(button):
     st.session_state.clicked[button] = True
 
 if 'route_idx' not in st.session_state:
-    st.session_state.route_idx = [1:0]
+    st.session_state.route_idx = {1:0}
 
 st.write(st.session_state.route_idx)
 
