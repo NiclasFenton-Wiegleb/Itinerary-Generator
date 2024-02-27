@@ -37,6 +37,8 @@ def clicked(button):
 if 'route_idx' not in st.session_state:
     st.session_state.route_idx = 0
 
+st.write(st.session_state.route_idx)
+
 @st.cache_data
 def select_route(button):
     st.session_state.route_idx = random.randint(0, len(route_data))
@@ -44,6 +46,7 @@ def select_route(button):
 # Button with callback function
 button = st.button("Generate Itinerary", on_click=select_route, args=[1])
 
+st.write(st.session_state.route_idx)
 
 if st.session_state.route_idx != 0:
 
