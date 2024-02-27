@@ -45,7 +45,7 @@ def select_route(button):
 button = st.button("Generate Itinerary", on_click=select_route, args=[1])
 
 
-if st.session_state.route_ix != 0:
+if st.session_state.route_idx != 0:
 
     #Select random route index
     st.session_state.route_idx = random.randint(0, len(route_data))
