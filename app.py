@@ -65,6 +65,8 @@ if st.session_state.clicked[1]:
     for x, stop in enumerate(stop_lst):
         col1, col2, col3 = st.columns((1, 3,1))
 
+        col1.write(st.session_state.clicked[1])
+
         col2.write(title_lst[x])  # title
         col2.write(stop)
         col2.write(dataset.name.iloc[stop_lst[x]])  # name
