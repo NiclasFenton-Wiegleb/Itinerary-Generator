@@ -39,16 +39,18 @@ button = st.button("Generate Itinerary", on_click=clicked, args=[1])
 if st.session_state.clicked[1]:
 
     #Select random route index
-    route_idx = random.randint(0, len(route_data))
+    st.session_state.route_idx = random.randint(0, len(route_data))
 
-    st.write(route_data.iloc[route_idx])
+    r_idx = st.session_state.route_idx
+
+    st.write(route_data.iloc[r_idx])
 
     #Pull out individual stops
-    stop_1 = int(route_data.stop_1[route_idx])
-    stop_2 = int(route_data.stop_2[route_idx])
-    stop_3 = int(route_data.stop_3[route_idx])
-    stop_4 = int(route_data.stop_4[route_idx])
-    stop_5 = int(route_data.stop_5[route_idx])
+    stop_1 = int(route_data.stop_1[r_idx])
+    stop_2 = int(route_data.stop_2[r_idx])
+    stop_3 = int(route_data.stop_3[r_idx])
+    stop_4 = int(route_data.stop_4[r_idx])
+    stop_5 = int(route_data.stop_5[r_idx])
 
     stop_lst = [stop_1, stop_2, stop_3, stop_4, stop_5]
     title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
