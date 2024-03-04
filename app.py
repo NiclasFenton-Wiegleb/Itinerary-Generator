@@ -49,6 +49,9 @@ st.write(button)
 
 if button:
 
+    #Set session state 
+    clicked(1)
+
     #Select random route index
     st.session_state.route_idx = random.randint(0, len(route_data))
 
