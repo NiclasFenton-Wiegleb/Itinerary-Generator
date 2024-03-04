@@ -39,6 +39,7 @@ def clicked(button):
 def select_route():
     route_idx = random.randint(0, len(route_data))
     st.session_state.clicked[1] = True
+    st.write("clicked")
 
     return route_idx
 
