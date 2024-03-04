@@ -43,7 +43,7 @@ def select_route():
     return route_idx
 
 # Button with callback function
-button = st.button("Generate Itinerary", on_click=select_route)
+button = st.button("Geaqawnerate Itinerary", on_click=select_route)
 
 if st.session_state.clicked[1] == True:
 
@@ -96,8 +96,8 @@ if st.session_state.clicked[1] == True:
         col3.write(st.session_state.clicked[2])
         n = 0
 
-        # if st.session_state.clicked[2]:
-        if next_stop:
+        if st.session_state.clicked[2]:
+        # if next_stop:
 
             stop_lst[x] = dataset[alt_lst[n]].iloc[stop_lst[x]]
             st.session_state.clicked[2]= False
