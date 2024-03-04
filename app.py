@@ -43,7 +43,9 @@ def select_route():
     return route_idx
 
 # Button with callback function
-button = st.button("Geaqawnerate Itinerary", on_click=select_route)
+button = st.button("Generate Itinerary", on_click=select_route)
+
+st.write(st.session_state.clicked[1])
 
 if st.session_state.clicked[1] == True:
 
