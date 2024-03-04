@@ -50,9 +50,6 @@ st.write(st.session_state.clicked[1])
 
 if st.session_state.clicked[1] == True:
 
-    #Set session state 
-    st.write(st.session_state.clicked[1])
-
     #Select random route index
     st.session_state.route_idx = random.randint(0, len(route_data))
 
