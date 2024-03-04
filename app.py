@@ -90,7 +90,7 @@ if button:
 
         next_txt = "Next"
         next_button = col3.empty()  # create a placeholder
-        next_stop = next_button.button(next_txt, key=x)
+        next_stop = next_button.button(next_txt, key=x, on_click=clicked, args=[2])
 
         # previous_txt = "Previous"
         # next_button = col1.empty()  # create a placeholder
@@ -100,17 +100,15 @@ if button:
 
         # if st.session_state.clicked[2]:
         if next_stop:
-            pass
-            next_button = col3.empty()
 
-            # stop_lst[x] = dataset[alt_lst[n]].iloc[stop_lst[x]]
-            # st.session_state.clicked[2]= False
+            stop_lst[x] = dataset[alt_lst[n]].iloc[stop_lst[x]]
+            st.session_state.clicked[2]= False
 
-            # if n < 2:
-            #     n += 1
+            if n < 2:
+                n += 1
             
-            # else:
-            #     n = 1    
+            else:
+                n = 1    
 
     # col1, col2 = st.columns([1,1])
 
