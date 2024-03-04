@@ -36,7 +36,7 @@ def clicked(button):
 
 
 @st.cache_data
-def select_route(button):
+def select_route():
     route_idx = random.randint(0, len(route_data))
 
     return route_idx
