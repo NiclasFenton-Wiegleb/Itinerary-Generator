@@ -44,9 +44,6 @@ def select_route():
 # Button with callback function
 button = st.button("Generate Itinerary", on_click=select_route)
 
-st.write(button)
-
-
 if button:
 
     #Set session state 
