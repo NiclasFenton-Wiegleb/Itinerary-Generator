@@ -39,6 +39,8 @@ def clicked(button):
 def select_route():
     route_idx = random.randint(0, len(route_data))
     st.session_state.clicked[1] = True
+    if st.session_state.clicked[1] == True:
+        st.write("session state 1 = True")
 
     return route_idx
 
@@ -50,6 +52,7 @@ def select_route():
 button = st.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.clicked[1] == True:
+
     st.write(st.session_state.clicked[1])
 
     # Show users table 
