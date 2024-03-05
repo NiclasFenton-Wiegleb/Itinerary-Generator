@@ -39,8 +39,6 @@ def clicked(button):
 def select_route():
     route_idx = random.randint(0, len(route_data))
     st.session_state.clicked[1] = True
-    st.write("clicked")
-    st.write(st.session_state.clicked[1])
 
     return route_idx
 
@@ -50,8 +48,6 @@ def select_route():
 
 # Button with callback function
 button = st.button("Generate Itinerary", on_click=select_route)
-
-st.write(st.session_state.clicked[1])
 
 if st.session_state.clicked[1] == True:
     st.write(st.session_state.clicked[1])
