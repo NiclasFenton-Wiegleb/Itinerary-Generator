@@ -98,7 +98,7 @@ if st.session_state.clicked[1] == True:
     if next_stop:
 
         column = str(alt_lst[n])
-        st.write(route_data.columns)
+        st.write(n)
         stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
 
         col1.write(st.session_state.clicked[1])
