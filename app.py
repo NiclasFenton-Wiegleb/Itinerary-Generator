@@ -107,15 +107,18 @@ if st.session_state.clicked[1] == True:
         col2.write(dataset.name.iloc[stop_1])  # name
         col2.write(dataset.address.iloc[stop_1])  # address
 
-        next_button = col3.empty() 
         #Change n to go to next alternative stop
         if n < 2:
             n += 1
             st.write(n)
+            next_button = col3.empty()  # create a placeholder
+
             
         else:
             n = 1
             st.write(n)
+            next_button = col3.empty()  # create a placeholder
+
         
 
     #     if st.session_state.clicked[2]:
