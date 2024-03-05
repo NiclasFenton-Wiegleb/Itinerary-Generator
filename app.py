@@ -99,7 +99,7 @@ if st.session_state.clicked[1] == True:
 
         column = str(alt_lst[n])
         st.write(route_data.columns)
-        stop_1 = int(route_data[column][st.session_state.route_idx])
+        stop_1 = int(dataset[column][stop_1])
 
         col1.write(st.session_state.clicked[1])
 
