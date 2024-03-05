@@ -111,13 +111,13 @@ if st.session_state.clicked[1] == True:
         if n < 2:
             n += 1
             st.write(n)
-            next_button = col3.empty()  # create a placeholder
+            next_button = False  # create a placeholder
 
             
         else:
             n = 1
             st.write(n)
-            next_button = col3.empty()  # create a placeholder
+            next_button = False  # create a placeholder
 
         
 
