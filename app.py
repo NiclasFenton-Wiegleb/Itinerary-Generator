@@ -41,7 +41,7 @@ def clicked(button):
 
 @st.cache_data
 def select_route():
-    st.session_state.route_idx[1] = random.randint(0, len(route_data))
+    st.session_state.route_idx[0] = random.randint(0, len(route_data))
     st.session_state.clicked[1] = True
     if st.session_state.clicked[1] == True:
         st.write("session state 1 = True")
@@ -51,6 +51,9 @@ def select_route():
 #     stop_idx = dataset[alt_lst[n]].iloc[stop_lst[stop_idx]]
 
 # Button with callback function
+        
+st.write(st.session_state.route_idx[0])
+
 button = st.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.clicked[1] == True:
