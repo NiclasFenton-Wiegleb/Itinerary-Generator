@@ -31,7 +31,7 @@ if 'clicked' not in st.session_state:
 
 # Initialise route index in session state
 if 'route_idx' not in st.session_state:
-    st.session_state.route_idx = {1:None}
+    st.session_state.route_idx = [None]
 
 # Function to update the value in session state
 @st.cache_data
