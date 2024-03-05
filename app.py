@@ -34,7 +34,6 @@ if 'route_idx' not in st.session_state:
     st.session_state.route_idx = [0]
 
 # Function to update the value in session state
-@st.cache_data
 def clicked(button):
     st.session_state.clicked[button] = True
 
