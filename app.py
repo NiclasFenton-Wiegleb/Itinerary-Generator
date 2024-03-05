@@ -25,9 +25,13 @@ data_load_state.text("Done! Data is loaded in.")
 
 st.write("This is an introduction paragraph to the tool.")
 
-# Initialize the key in session state
+# Initialise the key in session state
 if 'clicked' not in st.session_state:
     st.session_state.clicked = {1:False,2:False, 3:False}
+
+# Initialise route index in session state
+if 'route_idx' not in st.session_state:
+    st.session_state.route_idx = {1:None}
 
 # Function to update the value in session state
 @st.cache_data
@@ -37,12 +41,10 @@ def clicked(button):
 
 @st.cache_data
 def select_route():
-    route_idx = random.randint(0, len(route_data))
+    st.session_state.route_idx[1] = random.randint(0, len(route_data))
     st.session_state.clicked[1] = True
     if st.session_state.clicked[1] == True:
         st.write("session state 1 = True")
-
-    return route_idx
 
 # @st.cache_data
 # def next_button(stop_idx, n):
