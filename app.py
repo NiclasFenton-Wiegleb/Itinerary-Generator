@@ -39,7 +39,6 @@ def clicked(button):
     st.session_state.clicked[button] = True
 
 
-@st.cache_data
 def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
     st.session_state.clicked[1] = True
