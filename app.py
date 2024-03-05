@@ -54,6 +54,7 @@ button = st.button("Generate Itinerary", on_click=select_route)
 st.write(st.session_state.clicked[1])
 
 if st.session_state.clicked[1] == True:
+    st.write(st.session_state.clicked[1])
 
     # Show users table 
     colms = st.columns((1, 3, 1))
