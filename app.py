@@ -111,9 +111,11 @@ if st.session_state.clicked[1] == True:
         #Change n to go to next alternative stop
         if n < 2:
             n += 1
+            st.write(n)
             
         else:
             n = 1
+            st.write(n)
         
 
     #     if st.session_state.clicked[2]:
