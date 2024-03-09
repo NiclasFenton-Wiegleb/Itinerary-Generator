@@ -53,9 +53,9 @@ def next_brunch(button):
 def previous_brunch(button):
     '''When the Previous button is clicked, the text of the previous
     alternative stop should be displayed'''
-    if button <= 3:
+    if button <= 3 and button > 0:
         st.session_state.b -= 1
-    elif button == 0:
+    else:
         st.session_state.b = 3
 
 def select_route():
