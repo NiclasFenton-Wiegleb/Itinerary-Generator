@@ -59,10 +59,7 @@ def clicked_brunch(button):
 def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
     st.session_state.button[1] = True
-    if st.session_state.button[1] == True:
-# @st.cache_data
-# def next_button(stop_idx, n):
-#     stop_idx = dataset[alt_lst[n]].iloc[stop_lst[stop_idx]]
+
 
 # Button with callback function
         
