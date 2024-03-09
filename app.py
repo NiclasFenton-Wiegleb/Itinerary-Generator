@@ -176,6 +176,11 @@ if st.session_state.button[1] == True:
 
     col1, col2, col3 = st.columns((1, 3,1))
 
+    title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
+    alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
+
+    #1. Brunch
+
     # Next Button
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
@@ -186,10 +191,6 @@ if st.session_state.button[1] == True:
     next_button = col1.empty()  # create a placeholder
     next_stop = next_button.button(next_txt, on_click=previous_brunch, args=[st.session_state.brunch])
 
-    title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
-    alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
-
-    #1. Brunch
 
     if st.session_state.brunch == 3:
 
@@ -211,8 +212,37 @@ if st.session_state.button[1] == True:
         col2.write(dataset.name.iloc[stop_1])  # name
         col2.write(dataset.address.iloc[stop_1])  # address
 
+    # 2. Activity
+
+    # Next Button
+    next_txt = "Next"
+    next_button = col3.empty()  # create a placeholder
+    next_stop = next_button.button(next_txt, on_click=next_activity, args=[st.session_state.activity])
+
+    # Previous Button
+    next_txt = "Previous"
+    next_button = col1.empty()  # create a placeholder
+    next_stop = next_button.button(next_txt, on_click=previous_activity, args=[st.session_state.activity])
 
 
+    if st.session_state.activity == 3:
+
+        #Id stop for Brunch
+        stop_2 = int(route_data.stop_2[st.session_state.route_idx])
+
+        col2.write(title_lst[1])  # title
+        col2.write(stop_2)
+        col2.write(dataset.name.iloc[stop_2])  # name
+        col2.write(dataset.address.iloc[stop_2])  # address
+    
+    else:
+        column = str(alt_lst[st.session_state.activity])
+        stop_2 = int(dataset[column][int(route_data.stop_2[st.session_state.route_idx])])
+
+        col2.write(title_lst[1])  # title
+        col2.write(stop_2)
+        col2.write(dataset.name.iloc[stop_2])  # name
+        col2.write(dataset.address.iloc[stop_2])  # address
             
     
 
