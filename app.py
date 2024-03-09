@@ -121,7 +121,7 @@ if st.session_state.clicked[1] == True:
             '''When the Next button is clicked we invoke the select_next_stop() function'''
             select_next_stop()
             st.write(st.session_state.clicked[2])
-            st.session_state.clicked[2] == False
+            # st.session_state.clicked[2] == False
 
         
 
