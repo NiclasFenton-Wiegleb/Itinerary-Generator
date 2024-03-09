@@ -70,7 +70,7 @@ if st.session_state.clicked[1] == True:
     col1, col2, col3 = st.columns((1, 3,1))
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt)
+    next_stop = next_button.button(next_txt, on_click=clicked, args=2)
 
     col3.write(st.session_state.clicked[2])
 
@@ -82,20 +82,22 @@ if st.session_state.clicked[1] == True:
 
     #1. Brunch
 
-    if not next_stop:
+    # if not next_stop:
 
-        #Id stop for Brunch
-        stop_1 = int(route_data.stop_1[st.session_state.route_idx])
+    #Id stop for Brunch
+    stop_1 = int(route_data.stop_1[st.session_state.route_idx])
 
-        col1.write(st.session_state.clicked[1])
+    col1.write(st.session_state.clicked[1])
 
-        col2.write(title_lst[1])  # title
-        col2.write(stop_1)
-        col2.write(dataset.name.iloc[stop_1])  # name
-        col2.write(dataset.address.iloc[stop_1])  # address
+    col2.write(title_lst[1])  # title
+    col2.write(stop_1)
+    col2.write(dataset.name.iloc[stop_1])  # name
+    col2.write(dataset.address.iloc[stop_1])  # address
     
-    if next_stop:
+    # if next_stop:
 
+    def select_next_stop():
+        '''This function will select the next alternative stop'''
         column = str(alt_lst[n])
         st.write(n)
         stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
@@ -111,13 +113,15 @@ if st.session_state.clicked[1] == True:
         if n < 2:
             n += 1
             st.write(n)
-            next_button = False  # create a placeholder
-
-            
         else:
-            n = 1
+            n = 0
             st.write(n)
-            next_button = False  # create a placeholder
+        
+        if st.session_state.clicked[2] == True:
+            '''When the Next button is clicked we invoke the select_next_stop() function'''
+            select_next_stop()
+            st.write(st.session_state.clicked[2])
+            st.session_state.clicked[2] == False
 
         
 
