@@ -183,13 +183,13 @@ if st.session_state.button[1] == True:
 
     # Next Button
     next_txt = "Next"
-    next_button = col3.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=next_brunch, args=[st.session_state.brunch])
+    # next_button = col3.empty()  # create a placeholder
+    next_stop = col3.button(next_txt, on_click=next_brunch, args=[st.session_state.brunch])
 
     # Previous Button
-    next_txt = "Previous"
-    next_button = col1.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=previous_brunch, args=[st.session_state.brunch])
+    prev_txt = "Previous"
+    # next_button = col1.empty()  # create a placeholder
+    prev_stop = col1.button(prev_txt, on_click=previous_brunch, args=[st.session_state.brunch])
 
 
     if st.session_state.brunch == 3:
