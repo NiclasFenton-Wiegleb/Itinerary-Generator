@@ -100,9 +100,7 @@ if st.session_state.button[1] == True:
         #Id stop for Brunch
         stop_1 = int(route_data.stop_1[st.session_state.route_idx])
 
-        col1.write(st.session_state.clicked[1])
-
-        col2.write(title_lst[1])  # title
+        col2.write(title_lst[0])  # title
         col2.write(stop_1)
         col2.write(dataset.name.iloc[stop_1])  # name
         col2.write(dataset.address.iloc[stop_1])  # address
@@ -111,10 +109,9 @@ if st.session_state.button[1] == True:
     # if next_stop:
     else:
         column = str(alt_lst[n])
-        st.write(n)
-        stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
 
-        col1.write(st.session_state.clicked[1])
+        col3.write(n)
+        stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
 
         col2.write(title_lst[1])  # title
         col2.write(stop_1)
