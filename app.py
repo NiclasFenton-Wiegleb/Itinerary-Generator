@@ -89,7 +89,7 @@ if st.session_state.button[1] == True:
 
     # Previous Button
     next_txt = "Previous"
-    next_button = col3.empty()  # create a placeholder
+    next_button = col1.empty()  # create a placeholder
     next_stop = next_button.button(next_txt, on_click=previous_brunch, args=[st.session_state.b])
 
     title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
