@@ -50,7 +50,7 @@ def next_brunch(button):
     else:
         st.session_state.b = 0
 
-def next_brunch(button):
+def previous_brunch(button):
     '''When the Previous button is clicked, the text of the previous
     alternative stop should be displayed'''
     if button < 3:
