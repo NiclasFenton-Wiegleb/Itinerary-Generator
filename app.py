@@ -41,7 +41,7 @@ if 'b' not in st.session_state:
 
 # Initialise Brunch session state
 if 'brunch' not in st.session_state:
-    st.session_state.brunch = [3]
+    st.session_state.brunch = [4]
 
 st.write(f"Brunch session state: {st.session_state.b}")
 
@@ -49,7 +49,7 @@ st.write(f"Brunch session state: {st.session_state.b}")
 def clicked_brunch(button):
     '''When the Next button is clicked, the text of the next
     alternative stop should be displayed'''
-    if button < 3:
+    if button < 4:
         st.session_state.b += 1
         st.session_state.brunch = [st.session_state.b]
     else:
