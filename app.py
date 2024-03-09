@@ -70,7 +70,7 @@ button = st.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
 
-    st.write(st.session_state.clicked[1])
+    st.write(st.session_state.button[1])
 
     # Show users table 
     colms = st.columns((1, 3, 1))
@@ -85,8 +85,6 @@ if st.session_state.button[1] == True:
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
     next_stop = next_button.button(next_txt, on_click=clicked_brunch, args= n)
-
-    col3.write(st.session_state.clicked[2])
 
     #Select random route index
     st.write(route_data.iloc[st.session_state.route_idx])
