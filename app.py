@@ -37,7 +37,7 @@ if 'route_idx' not in st.session_state:
 
 # Initialise n for brunch stop
 if 'b' not in st.session_state:
-    st.session_state.b = 0
+    st.session_state.b = 3
 
 # Initialise Brunch session state
 if 'brunch' not in st.session_state:
@@ -49,7 +49,7 @@ st.write(f"Brunch session state: {st.session_state.b}")
 def clicked_brunch(button):
     '''When the Next button is clicked, the text of the next
     alternative stop should be displayed'''
-    if button < 3:
+    if button <= 3:
         st.session_state.b += 1
         st.session_state.brunch = [st.session_state.b]
     else:
@@ -88,7 +88,7 @@ if st.session_state.button[1] == True:
 
     #1. Brunch
 
-    if st.session_state.b == 0:
+    if st.session_state.b == 3:
 
         #Id stop for Brunch
         stop_1 = int(route_data.stop_1[st.session_state.route_idx])
