@@ -41,7 +41,7 @@ if 'b' not in st.session_state:
 
 # Initialise Brunch session state
 if 'brunch' not in st.session_state:
-    st.session_state.brunch = [4]
+    st.session_state.brunch = [3]
 
 st.write(f"Brunch session state: {st.session_state.b}")
 
@@ -49,12 +49,12 @@ st.write(f"Brunch session state: {st.session_state.b}")
 def clicked_brunch(button):
     '''When the Next button is clicked, the text of the next
     alternative stop should be displayed'''
-    if button < 4:
+    if button < 3:
         st.session_state.b += 1
         st.session_state.brunch = [st.session_state.b]
     else:
         st.session_state.b = 0
-        st.session_state.brunch = [st.session_state.b]
+        st.session_state.brunch = [3]
 
 def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
@@ -88,7 +88,7 @@ if st.session_state.button[1] == True:
 
     #1. Brunch
 
-    if st.session_state.brunch[0] == 4:
+    if st.session_state.brunch[0] == 3:
 
         #Id stop for Brunch
         stop_1 = int(route_data.stop_1[st.session_state.route_idx])
