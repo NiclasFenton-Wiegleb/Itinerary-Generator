@@ -7,8 +7,7 @@ st.title("Manchester Itinerary Generator")
 
 route_data = "./OptimalRoutes.csv"
 dataset = "./IG_neighbours.csv"
-n = 0
-st.write(f"Brunch session state: {n}")
+
 
 
 @st.cache_data
@@ -36,6 +35,12 @@ if 'button' not in st.session_state:
 if 'route_idx' not in st.session_state:
     st.session_state.route_idx = [0]
 
+# Initialise n for brunch stop
+if 'n' not in st.session_state:
+    st.session_state.n = 0
+
+st.write(f"Brunch session state: {st.session_state.n}")
+
 # Initialise Brunch session state
 if 'brunch' not in st.session_state:
     st.session_state.brunch = [3]
@@ -45,11 +50,11 @@ def clicked_brunch(button):
     '''When the Next button is clicked, the text of the next
     alternative stop should be displayed'''
     if button < 2:
-        n += 1
-        st.session_state.brunch = [n]
+        st.session_state.n += 1
+        st.session_state.brunch = [st.session_state.n]
     else:
-        n = 0
-        st.session_state.brunch = [n]
+        st.session_state.n = 0
+        st.session_state.brunch = [st.session_state.n]
 
 def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
@@ -81,7 +86,7 @@ if st.session_state.button[1] == True:
     col1, col2, col3 = st.columns((1, 3,1))
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args=[n])
+    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args=[st.session_state.n])
 
     #Select random route index
     st.write(route_data.iloc[st.session_state.route_idx])
@@ -105,9 +110,7 @@ if st.session_state.button[1] == True:
     
     # if next_stop:
     else:
-        column = str(alt_lst[n])
-
-        col3.write(n)
+        column = str(alt_lst[st.session_state.n])
         stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
 
         col2.write(title_lst[1])  # title
