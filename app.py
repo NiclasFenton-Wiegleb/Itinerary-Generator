@@ -53,10 +53,10 @@ def next_brunch(button):
 def previous_brunch(button):
     '''When the Previous button is clicked, the text of the previous
     alternative stop should be displayed'''
-    if button < 3:
+    if button <= 3:
         st.session_state.b -= 1
-    else:
-        st.session_state.b = 0
+    elif button == 0:
+        st.session_state.b = 3
 
 def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
@@ -112,7 +112,7 @@ if st.session_state.button[1] == True:
         column = str(alt_lst[st.session_state.b])
         stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
 
-        col2.write(title_lst[1])  # title
+        col2.write(title_lst[0])  # title
         col2.write(stop_1)
         col2.write(dataset.name.iloc[stop_1])  # name
         col2.write(dataset.address.iloc[stop_1])  # address
