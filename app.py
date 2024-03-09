@@ -7,6 +7,7 @@ st.title("Manchester Itinerary Generator")
 
 route_data = "./OptimalRoutes.csv"
 dataset = "./IG_neighbours.csv"
+n = 0
 
 @st.cache_data
 def load_data(route_data_path, dataset_path):
@@ -78,8 +79,6 @@ if st.session_state.button[1] == True:
     for col, field_name in zip(colms, fields):
         # header
         col.write(field_name)
-
-    n = 0
 
     col1, col2, col3 = st.columns((1, 3,1))
     next_txt = "Next"
