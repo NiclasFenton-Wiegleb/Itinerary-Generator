@@ -49,7 +49,7 @@ if 'brunch' not in st.session_state:
 def clicked_brunch(button):
     '''When the Next button is clicked, the text of the next
     alternative stop should be displayed'''
-    if button < 2:
+    if button < 3:
         st.session_state.n += 1
         st.session_state.brunch = [st.session_state.n]
     else:
