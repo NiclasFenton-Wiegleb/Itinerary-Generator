@@ -8,6 +8,8 @@ st.title("Manchester Itinerary Generator")
 route_data = "./OptimalRoutes.csv"
 dataset = "./IG_neighbours.csv"
 n = 0
+st.write(f"Brunch session state: {n}")
+
 
 @st.cache_data
 def load_data(route_data_path, dataset_path):
@@ -45,13 +47,9 @@ def clicked_brunch(button):
     if button < 2:
         n += 1
         st.session_state.brunch = [n]
-        st.write(f"Brunch sessiont stat: {st.session_state.brunch[0]}")
-
     else:
         n = 0
         st.session_state.brunch = [n]
-        st.write(f"Brunch sessiont stat: {st.session_state.brunch[0]}")
-
 
 def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
