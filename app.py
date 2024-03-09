@@ -53,7 +53,7 @@ def clicked_brunch(button):
         st.session_state.b += 1
         st.session_state.brunch = [st.session_state.b]
     else:
-        st.session_state.n = 0
+        st.session_state.b = 0
         st.session_state.brunch = [st.session_state.b]
 
 def select_route():
