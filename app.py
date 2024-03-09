@@ -36,27 +36,121 @@ if 'route_idx' not in st.session_state:
     st.session_state.route_idx = [0]
 
 # Initialise Brunch session state
-if 'b' not in st.session_state:
-    st.session_state.b = 3
+if 'brunch' not in st.session_state:
+    st.session_state.brunch = 3
 
-st.write(f"Brunch session state: {st.session_state.b}")
+st.write(f"Brunch session state: {st.session_state.brunch}")
 
 # Function to update the value in session state
 def next_brunch(button):
     '''When the Next button is clicked, the text of the next
     alternative stop should be displayed'''
     if button < 3:
-        st.session_state.b += 1
+        st.session_state.brunch += 1
     else:
-        st.session_state.b = 0
+        st.session_state.brunch = 0
 
 def previous_brunch(button):
     '''When the Previous button is clicked, the text of the previous
     alternative stop should be displayed'''
     if button <= 3 and button > 0:
-        st.session_state.b -= 1
+        st.session_state.brunch -= 1
     else:
-        st.session_state.b = 3
+        st.session_state.brunch = 3
+
+# Initialise Activity session state
+if 'activity' not in st.session_state:
+    st.session_state.activity = 3
+
+st.write(f"Activity session state: {st.session_state.activity}")
+
+# Function to update the value in session state
+def next_activity(button):
+    '''When the Next button is clicked, the text of the next
+    alternative stop should be displayed'''
+    if button < 3:
+        st.session_state.activity += 1
+    else:
+        st.session_state.activity = 0
+
+def previous_activity(button):
+    '''When the Previous button is clicked, the text of the previous
+    alternative stop should be displayed'''
+    if button <= 3 and button > 0:
+        st.session_state.activity -= 1
+    else:
+        st.session_state.activity = 3
+
+# Initialise Drinks session state
+if 'drinks' not in st.session_state:
+    st.session_state.drinks = 3
+
+st.write(f"Afternoon Drinks session state: {st.session_state.drinks}")
+
+# Function to update the value in session state
+def next_drinks(button):
+    '''When the Next button is clicked, the text of the next
+    alternative stop should be displayed'''
+    if button < 3:
+        st.session_state.drinks += 1
+    else:
+        st.session_state.drinks = 0
+
+def previous_drinks(button):
+    '''When the Previous button is clicked, the text of the previous
+    alternative stop should be displayed'''
+    if button <= 3 and button > 0:
+        st.session_state.drinks -= 1
+    else:
+        st.session_state.drinks = 3
+
+# Initialise Dinner session state
+if 'dinner' not in st.session_state:
+    st.session_state.dinner = 3
+
+st.write(f"Dinner session state: {st.session_state.dinner}")
+
+# Function to update the value in session state
+def next_dinner(button):
+    '''When the Next button is clicked, the text of the next
+    alternative stop should be displayed'''
+    if button < 3:
+        st.session_state.dinner += 1
+    else:
+        st.session_state.dinner = 0
+
+def previous_dinner(button):
+    '''When the Previous button is clicked, the text of the previous
+    alternative stop should be displayed'''
+    if button <= 3 and button > 0:
+        st.session_state.dinner -= 1
+    else:
+        st.session_state.dinner = 3
+
+# Initialise Evening session state
+if 'evening' not in st.session_state:
+    st.session_state.evening = 3
+
+st.write(f"Evening Out session state: {st.session_state.evening}")
+
+# Function to update the value in session state
+def next_evening(button):
+    '''When the Next button is clicked, the text of the next
+    alternative stop should be displayed'''
+    if button < 3:
+        st.session_state.evening += 1
+    else:
+        st.session_state.evening = 0
+
+def previous_evening(button):
+    '''When the Previous button is clicked, the text of the previous
+    alternative stop should be displayed'''
+    if button <= 3 and button > 0:
+        st.session_state.evening -= 1
+    else:
+        st.session_state.evening = 3
+
+
 
 def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
@@ -85,19 +179,19 @@ if st.session_state.button[1] == True:
     # Next Button
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=next_brunch, args=[st.session_state.b])
+    next_stop = next_button.button(next_txt, on_click=next_brunch, args=[st.session_state.brunch])
 
     # Previous Button
     next_txt = "Previous"
     next_button = col1.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=previous_brunch, args=[st.session_state.b])
+    next_stop = next_button.button(next_txt, on_click=previous_brunch, args=[st.session_state.brunch])
 
     title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
     alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
 
     #1. Brunch
 
-    if st.session_state.b == 3:
+    if st.session_state.brunch == 3:
 
         #Id stop for Brunch
         stop_1 = int(route_data.stop_1[st.session_state.route_idx])
@@ -109,7 +203,7 @@ if st.session_state.button[1] == True:
     
     # if next_stop:
     else:
-        column = str(alt_lst[st.session_state.b])
+        column = str(alt_lst[st.session_state.brunch])
         stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
 
         col2.write(title_lst[0])  # title
