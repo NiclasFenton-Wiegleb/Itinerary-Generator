@@ -36,32 +36,30 @@ if 'route_idx' not in st.session_state:
     st.session_state.route_idx = [0]
 
 # Initialise n for brunch stop
-if 'n' not in st.session_state:
-    st.session_state.n = 0
-
-st.write(f"Brunch session state: {st.session_state.n}")
+if 'b' not in st.session_state:
+    st.session_state.b = 0
 
 # Initialise Brunch session state
 if 'brunch' not in st.session_state:
     st.session_state.brunch = [3]
+
+st.write(f"Brunch session state: {st.session_state.b}")
 
 # Function to update the value in session state
 def clicked_brunch(button):
     '''When the Next button is clicked, the text of the next
     alternative stop should be displayed'''
     if button < 3:
-        st.session_state.n += 1
-        st.session_state.brunch = [st.session_state.n]
+        st.session_state.b += 1
+        st.session_state.brunch = [st.session_state.b]
     else:
         st.session_state.n = 0
-        st.session_state.brunch = [st.session_state.n]
+        st.session_state.brunch = [st.session_state.b]
 
 def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
     st.session_state.button[1] = True
     if st.session_state.button[1] == True:
-        st.write("session state 1 = True")
-
 # @st.cache_data
 # def next_button(stop_idx, n):
 #     stop_idx = dataset[alt_lst[n]].iloc[stop_lst[stop_idx]]
@@ -86,17 +84,12 @@ if st.session_state.button[1] == True:
     col1, col2, col3 = st.columns((1, 3,1))
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args=[st.session_state.n])
-
-    #Select random route index
-    st.write(route_data.iloc[st.session_state.route_idx])
+    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args=[st.session_state.b])
 
     title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
     alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
 
     #1. Brunch
-
-    # if not next_stop:
 
     if st.session_state.brunch[0] == 3:
 
@@ -110,7 +103,7 @@ if st.session_state.button[1] == True:
     
     # if next_stop:
     else:
-        column = str(alt_lst[st.session_state.n])
+        column = str(alt_lst[st.session_state.b])
         stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
 
         col2.write(title_lst[1])  # title
@@ -118,26 +111,7 @@ if st.session_state.button[1] == True:
         col2.write(dataset.name.iloc[stop_1])  # name
         col2.write(dataset.address.iloc[stop_1])  # address
 
-        #Change n to go to next alternative stop
-        # if n < 2:
-        #     n += 1
-        #     st.write(n)
-        # else:
-        #     n = 0
-        #     st.write(n)
-        
-        # if st.session_state.clicked[2] == True:
-        #     '''When the Next button is clicked we invoke the select_next_stop() function'''
-        #     select_next_stop()
-        #     st.write(st.session_state.clicked[2])
-            # st.session_state.clicked[2] == False
 
-        
-
-    #     if st.session_state.clicked[2]:
-
-    #         stop_lst[x] = dataset[alt_lst[n]].iloc[stop_lst[x]]
-    #         st.session_state.clicked[2]= False
 
             
     
@@ -149,8 +123,6 @@ if st.session_state.button[1] == True:
     # stop_4 = int(route_data.stop_4[st.session_state.route_idx])
     # stop_5 = int(route_data.stop_5[st.session_state.route_idx])
 
-
-    # for x, stop in enumerate(stop_lst):
 
         
 
