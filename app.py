@@ -42,11 +42,19 @@ if 'b' not in st.session_state:
 st.write(f"Brunch session state: {st.session_state.b}")
 
 # Function to update the value in session state
-def clicked_brunch(button):
+def next_brunch(button):
     '''When the Next button is clicked, the text of the next
     alternative stop should be displayed'''
     if button < 3:
         st.session_state.b += 1
+    else:
+        st.session_state.b = 0
+
+def next_brunch(button):
+    '''When the Previous button is clicked, the text of the previous
+    alternative stop should be displayed'''
+    if button < 3:
+        st.session_state.b -= 1
     else:
         st.session_state.b = 0
 
@@ -73,9 +81,16 @@ if st.session_state.button[1] == True:
         col.write(field_name)
 
     col1, col2, col3 = st.columns((1, 3,1))
+
+    # Next Button
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args=[st.session_state.b])
+    next_stop = next_button.button(next_txt, on_click=next_brunch, args=[st.session_state.b])
+
+    # Previous Button
+    next_txt = "Previous"
+    next_button = col3.empty()  # create a placeholder
+    next_stop = next_button.button(next_txt, on_click=previous_brunch, args=[st.session_state.b])
 
     title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
     alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
