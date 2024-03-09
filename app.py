@@ -213,6 +213,8 @@ if st.session_state.button[1] == True:
         col2.write(dataset.address.iloc[stop_1])  # address
 
     # 2. Activity
+    
+    col1, col2, col3 = st.columns((1, 3,1))
 
     # Next Button
     next_txt = "Next"
