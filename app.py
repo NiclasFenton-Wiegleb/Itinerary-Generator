@@ -26,22 +26,33 @@ data_load_state.text("Done! Data is loaded in.")
 st.write("This is an introduction paragraph to the tool.")
 
 # Initialise the key in session state
-if 'clicked' not in st.session_state:
-    st.session_state.clicked = {1:False,2:False, 3:False}
+if 'button' not in st.session_state:
+    st.session_state.button = {1:False,2:False, 3:False}
 
 # Initialise route index in session state
 if 'route_idx' not in st.session_state:
     st.session_state.route_idx = [0]
 
+# Initialise Brunch session state
+if 'brunch' not in st.session_state:
+    st.session_state.brunch = [3]
+
 # Function to update the value in session state
-def clicked(button):
-    st.session_state.clicked[button] = True
+def clicked_brunch(button):
+    '''When the Next button is clicked, the text of the next
+    alternative stop should be displayed'''
+    if button < 2:
+        n += 1
+        st.session_state.brunch = [n]
+    else:
+        n = 0
+        st.session_state.brunch = [n]
 
 
 def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
-    st.session_state.clicked[1] = True
-    if st.session_state.clicked[1] == True:
+    st.session_state.button[1] = True
+    if st.session_state.button[1] == True:
         st.write("session state 1 = True")
 
 # @st.cache_data
@@ -54,7 +65,7 @@ st.write(st.session_state.route_idx[0])
 
 button = st.button("Generate Itinerary", on_click=select_route)
 
-if st.session_state.clicked[1] == True:
+if st.session_state.button[1] == True:
 
     st.write(st.session_state.clicked[1])
 
@@ -70,7 +81,7 @@ if st.session_state.clicked[1] == True:
     col1, col2, col3 = st.columns((1, 3,1))
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=clicked, args=[2])
+    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args=n)
 
     col3.write(st.session_state.clicked[2])
 
@@ -84,20 +95,21 @@ if st.session_state.clicked[1] == True:
 
     # if not next_stop:
 
-    #Id stop for Brunch
-    stop_1 = int(route_data.stop_1[st.session_state.route_idx])
+    if st.session_state.brunch[0] == 3:
 
-    col1.write(st.session_state.clicked[1])
+        #Id stop for Brunch
+        stop_1 = int(route_data.stop_1[st.session_state.route_idx])
 
-    col2.write(title_lst[1])  # title
-    col2.write(stop_1)
-    col2.write(dataset.name.iloc[stop_1])  # name
-    col2.write(dataset.address.iloc[stop_1])  # address
+        col1.write(st.session_state.clicked[1])
+
+        col2.write(title_lst[1])  # title
+        col2.write(stop_1)
+        col2.write(dataset.name.iloc[stop_1])  # name
+        col2.write(dataset.address.iloc[stop_1])  # address
+        st.write(st.session_state.brunch[0])
     
     # if next_stop:
-
-    def select_next_stop():
-        '''This function will select the next alternative stop'''
+    else:
         column = str(alt_lst[n])
         st.write(n)
         stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
@@ -108,19 +120,20 @@ if st.session_state.clicked[1] == True:
         col2.write(stop_1)
         col2.write(dataset.name.iloc[stop_1])  # name
         col2.write(dataset.address.iloc[stop_1])  # address
+        st.write(st.session_state.brunch[0])
 
         #Change n to go to next alternative stop
-        if n < 2:
-            n += 1
-            st.write(n)
-        else:
-            n = 0
-            st.write(n)
+        # if n < 2:
+        #     n += 1
+        #     st.write(n)
+        # else:
+        #     n = 0
+        #     st.write(n)
         
-        if st.session_state.clicked[2] == True:
-            '''When the Next button is clicked we invoke the select_next_stop() function'''
-            select_next_stop()
-            st.write(st.session_state.clicked[2])
+        # if st.session_state.clicked[2] == True:
+        #     '''When the Next button is clicked we invoke the select_next_stop() function'''
+        #     select_next_stop()
+        #     st.write(st.session_state.clicked[2])
             # st.session_state.clicked[2] == False
 
         
