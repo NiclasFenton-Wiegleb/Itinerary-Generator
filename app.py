@@ -84,7 +84,7 @@ if st.session_state.button[1] == True:
     col1, col2, col3 = st.columns((1, 3,1))
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args= n)
+    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args= (n))
 
     #Select random route index
     st.write(route_data.iloc[st.session_state.route_idx])
