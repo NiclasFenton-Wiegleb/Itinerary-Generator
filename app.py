@@ -44,9 +44,12 @@ def clicked_brunch(button):
     if button < 2:
         n += 1
         st.session_state.brunch = [n]
+        st.write(f"Brunch sessiont stat: {st.session_state.brunch[0]}")
+
     else:
         n = 0
         st.session_state.brunch = [n]
+        st.write(f"Brunch sessiont stat: {st.session_state.brunch[0]}")
 
 
 def select_route():
@@ -81,7 +84,7 @@ if st.session_state.button[1] == True:
     col1, col2, col3 = st.columns((1, 3,1))
     next_txt = "Next"
     next_button = col3.empty()  # create a placeholder
-    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args=n)
+    next_stop = next_button.button(next_txt, on_click=clicked_brunch, args= n)
 
     col3.write(st.session_state.clicked[2])
 
@@ -104,7 +107,6 @@ if st.session_state.button[1] == True:
         col2.write(stop_1)
         col2.write(dataset.name.iloc[stop_1])  # name
         col2.write(dataset.address.iloc[stop_1])  # address
-        st.write(st.session_state.brunch[0])
     
     # if next_stop:
     else:
@@ -117,7 +119,6 @@ if st.session_state.button[1] == True:
         col2.write(stop_1)
         col2.write(dataset.name.iloc[stop_1])  # name
         col2.write(dataset.address.iloc[stop_1])  # address
-        st.write(st.session_state.brunch[0])
 
         #Change n to go to next alternative stop
         # if n < 2:
