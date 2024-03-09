@@ -88,7 +88,7 @@ if st.session_state.button[1] == True:
 
     #1. Brunch
 
-    if st.session_state.brunch[0] == 3:
+    if st.session_state.b == 0:
 
         #Id stop for Brunch
         stop_1 = int(route_data.stop_1[st.session_state.route_idx])
