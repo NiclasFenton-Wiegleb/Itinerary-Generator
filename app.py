@@ -190,7 +190,7 @@ if st.session_state.button[1] == True:
         state = state_lst[x]
         next_func = next_lst[x]
         prev_func = prev_lst[x]
-        y = x*10
+        y = x+10
 
          # Next Button
         next_txt = "Next"
