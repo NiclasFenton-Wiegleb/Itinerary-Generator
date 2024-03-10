@@ -207,6 +207,7 @@ if st.session_state.button[1] == True:
         if state == 3:
 
             #Id stop for Brunch
+            col2.write (int(route_data[item][st.session_state.route_idx]))
             stop = int(route_data[item][st.session_state.route_idx])
 
             col2.write(title_lst[x])  # title
