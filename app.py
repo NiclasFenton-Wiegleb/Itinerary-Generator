@@ -185,6 +185,8 @@ if st.session_state.button[1] == True:
 
         col1, col2, col3 = st.columns((1, 3,1))
 
+        col2.write(x, item)
+
         state = state_lst[x]
 
          # Next Button
