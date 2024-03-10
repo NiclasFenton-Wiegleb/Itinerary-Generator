@@ -39,7 +39,6 @@ if 'route_idx' not in st.session_state:
 if 'brunch' not in st.session_state:
     st.session_state.brunch = 3
 
-st.write(f"Brunch session state: {st.session_state.brunch}")
 
 # Function to update the value in session state
 def next_brunch(button):
@@ -62,7 +61,6 @@ def previous_brunch(button):
 if 'activity' not in st.session_state:
     st.session_state.activity = 3
 
-st.write(f"Activity session state: {st.session_state.activity}")
 
 # Function to update the value in session state
 def next_activity(button):
@@ -85,7 +83,6 @@ def previous_activity(button):
 if 'drinks' not in st.session_state:
     st.session_state.drinks = 3
 
-st.write(f"Afternoon Drinks session state: {st.session_state.drinks}")
 
 # Function to update the value in session state
 def next_drinks(button):
@@ -108,8 +105,6 @@ def previous_drinks(button):
 if 'dinner' not in st.session_state:
     st.session_state.dinner = 3
 
-st.write(f"Dinner session state: {st.session_state.dinner}")
-
 # Function to update the value in session state
 def next_dinner(button):
     '''When the Next button is clicked, the text of the next
@@ -130,8 +125,6 @@ def previous_dinner(button):
 # Initialise Evening session state
 if 'evening' not in st.session_state:
     st.session_state.evening = 3
-
-st.write(f"Evening Out session state: {st.session_state.evening}")
 
 # Function to update the value in session state
 def next_evening(button):
@@ -158,23 +151,11 @@ def select_route():
 
 
 # Button with callback function
-        
-st.write(st.session_state.route_idx[0])
-
 button = st.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
 
-    st.write(st.session_state.button[1])
-
-    # Show users table 
-    colms = st.columns((1, 3, 1))
-    fields = ["Previous", "", "Next"]
-    for col, field_name in zip(colms, fields):
-        # header
-        col.write(field_name)
-
-
+    # Initialise listes for each entry to draw from
     title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
     alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
     stop_lst = ["stop_1", "stop_2", "stop_3", "stop_4", "stop_5"]
@@ -215,91 +196,8 @@ if st.session_state.button[1] == True:
             stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
 
             col2.write(title_lst[x])  # title
-            col2.write(stop)
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(dataset.address.iloc[stop])  # address
-    
-    
-    
-    
-    
-    # #1. Brunch
-
-    # col1, col2, col3 = st.columns((1, 3,1))
-
-    # # Next Button
-    # next_txt = "Next"
-    # # next_button = col3.empty()  # create a placeholder
-    # next_stop = col3.button(next_txt, on_click=next_brunch, key=1, args=[st.session_state.brunch])
-
-    # # Previous Button
-    # prev_txt = "Previous"
-    # # next_button = col1.empty()  # create a placeholder
-    # prev_stop = col1.button(prev_txt, on_click=previous_brunch, key=2, args=[st.session_state.brunch])
-
-
-    # if st.session_state.brunch == 3:
-
-    #     #Id stop for Brunch
-    #     stop_1 = int(route_data.stop_1[st.session_state.route_idx])
-
-    #     col2.write(title_lst[0])  # title
-    #     col2.write(stop_1)
-    #     col2.write(dataset.name.iloc[stop_1])  # name
-    #     col2.write(dataset.address.iloc[stop_1])  # address
-    
-    # # if next_stop:
-    # else:
-    #     column = str(alt_lst[st.session_state.brunch])
-    #     stop_1 = int(dataset[column][int(route_data.stop_1[st.session_state.route_idx])])
-
-    #     col2.write(title_lst[0])  # title
-    #     col2.write(stop_1)
-    #     col2.write(dataset.name.iloc[stop_1])  # name
-    #     col2.write(dataset.address.iloc[stop_1])  # address
-
-    # # 2. Activity
-    
-    # col1, col2, col3 = st.columns((1, 3,1))
-
-    # # Next Button
-    # next_txt = "Next"
-    # # next_button = col3.empty()  # create a placeholder
-    # next_stop = col3.button(next_txt, on_click=next_activity, key=3, args=[st.session_state.activity])
-
-    # # Previous Button
-    # prev_txt = "Previous"
-    # # next_button = col1.empty()  # create a placeholder
-    # prev_stop = col1.button(prev_txt, on_click=previous_activity, key=4, args=[st.session_state.activity])
-
-
-    # if st.session_state.activity == 3:
-
-    #     #Id stop for Brunch
-    #     stop_2 = int(route_data.stop_2[st.session_state.route_idx])
-
-    #     col2.write(title_lst[1])  # title
-    #     col2.write(stop_2)
-    #     col2.write(dataset.name.iloc[stop_2])  # name
-    #     col2.write(dataset.address.iloc[stop_2])  # address
-    
-    # else:
-    #     column = str(alt_lst[st.session_state.activity])
-    #     stop_2 = int(dataset[column][int(route_data.stop_2[st.session_state.route_idx])])
-
-    #     col2.write(title_lst[1])  # title
-    #     col2.write(stop_2)
-    #     col2.write(dataset.name.iloc[stop_2])  # name
-    #     col2.write(dataset.address.iloc[stop_2])  # address
-            
-    
-
-    # #Pull out individual stops
-    # stop_1 = int(route_data.stop_1[st.session_state.route_idx])
-    # stop_2 = int(route_data.stop_2[st.session_state.route_idx])
-    # stop_3 = int(route_data.stop_3[st.session_state.route_idx])
-    # stop_4 = int(route_data.stop_4[st.session_state.route_idx])
-    # stop_5 = int(route_data.stop_5[st.session_state.route_idx])
 
 
         
