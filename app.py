@@ -179,6 +179,8 @@ if st.session_state.button[1] == True:
     alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
     stop_lst = ["stop_1", "stop_2", "stop_3", "stop_4", "stop_5"]
     state_lst = [st.session_state.brunch, st.session_state.activity, st.session_state.drinks, st.session_state.dinner, st.session_state.evening]
+    next_lst = [next_brunch, next_activity, next_drinks, next_dinner, next_evening]
+    prev_lst = [previous_brunch, previous_activity, previous_drinks, previous_dinner, previous_evening]
     
     
     for x, item in enumerate(stop_lst):
@@ -188,14 +190,18 @@ if st.session_state.button[1] == True:
         col2.write(x, item)
 
         state = state_lst[x]
+        next_func = next_lst[x]
+        prev_func = prev_lst[x]
+        y = x+1
+
 
          # Next Button
         next_txt = "Next"
-        next_stop = col3.button(next_txt, on_click=next_brunch, key=x, args=[state])
+        next_stop = col3.button(next_txt, on_click=next_func, key=x, args=[state])
 
         # Previous Button
         prev_txt = "Previous"
-        prev_stop = col1.button(prev_txt, on_click=previous_brunch, key=int(x+1), args=[state])
+        prev_stop = col1.button(prev_txt, on_click=prev_func, key=y, args=[state])
 
         if state == 3:
 
