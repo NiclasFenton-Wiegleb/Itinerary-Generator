@@ -189,7 +189,7 @@ if st.session_state.button[1] == True:
     # Previous Button
     prev_txt = "Previous"
     # next_button = col1.empty()  # create a placeholder
-    prev_stop = col1.button(prev_txt, on_click=previous_brunch, key=1, args=[st.session_state.brunch])
+    prev_stop = col1.button(prev_txt, on_click=previous_brunch, key=2, args=[st.session_state.brunch])
 
 
     if st.session_state.brunch == 3:
@@ -217,12 +217,12 @@ if st.session_state.button[1] == True:
     # Next Button
     next_txt = "Next"
     # next_button = col3.empty()  # create a placeholder
-    next_stop = col3.button(next_txt, on_click=next_activity, key=2, args=[st.session_state.activity])
+    next_stop = col3.button(next_txt, on_click=next_activity, key=3, args=[st.session_state.activity])
 
     # Previous Button
     prev_txt = "Previous"
     # next_button = col1.empty()  # create a placeholder
-    prev_stop = col1.button(prev_txt, on_click=previous_activity, key=2, args=[st.session_state.activity])
+    prev_stop = col1.button(prev_txt, on_click=previous_activity, key=4, args=[st.session_state.activity])
 
 
     if st.session_state.activity == 3:
