@@ -174,12 +174,12 @@ if st.session_state.button[1] == True:
         # header
         col.write(field_name)
 
-    col1, col2, col3 = st.columns((1, 3,1))
-
     title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
     alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
 
     #1. Brunch
+
+    col1, col2, col3 = st.columns((1, 3,1))
 
     # Next Button
     next_txt = "Next"
@@ -214,6 +214,8 @@ if st.session_state.button[1] == True:
 
     # 2. Activity
     
+    col1, col2, col3 = st.columns((1, 3,1))
+
     # Next Button
     next_txt = "Next"
     # next_button = col3.empty()  # create a placeholder
