@@ -187,9 +187,6 @@ if st.session_state.button[1] == True:
 
         col1, col2, col3 = st.columns((1, 3,1))
 
-        col2.write(x)
-        col2.write(item)
-
         state = state_lst[x]
         next_func = next_lst[x]
         prev_func = prev_lst[x]
@@ -207,13 +204,11 @@ if st.session_state.button[1] == True:
         if state == 3:
 
             #Id stop for Brunch
-            col2.write (type(int(route_data[item][st.session_state.route_idx])))
             stop = int(route_data[item][st.session_state.route_idx])
 
             col2.write(title_lst[x])  # title
-            col2.write(stop)
-            col2.write(dataset.name.iloc[item])  # name
-            col2.write(dataset.address.iloc[item])  # address
+            col2.write(dataset.name.iloc[stop])  # name
+            col2.write(dataset.address.iloc[stop])  # address
         
         else:
 
