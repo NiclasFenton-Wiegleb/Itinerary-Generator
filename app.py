@@ -235,7 +235,7 @@ if st.session_state.button[1] == True:
         
         #Add each row to the map
         folium.Marker(location=[row['lat'],row['long']],
-                    popup = popup, c=row['Name']).add_to(m)
+                    popup = popup, c=row['name']).add_to(m)
 
     st_data = folium_static(m, width=700)
 
