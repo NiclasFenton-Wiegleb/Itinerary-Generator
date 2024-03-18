@@ -214,12 +214,14 @@ if st.session_state.button[1] == True:
             lat_lst[x] = dataset.lat_coordinates #latitude
             name_lst[x] = str(dataset.name.iloc[stop])
     
+    st.write(long_lst)
+    
     df.long = long_lst
     df.lat = lat_lst
     df.name = name_lst
 
     st.write(df.head())
-    
+
     m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
                  zoom_start=3, control_scale=True)
 
