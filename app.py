@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import random
+import folium
+from streamlit_folium import st_folium, folium_static
 
 st.title("Manchester Itinerary Generator")
 
@@ -163,6 +165,11 @@ if st.session_state.button[1] == True:
     next_lst = [next_brunch, next_activity, next_drinks, next_dinner, next_evening]
     prev_lst = [previous_brunch, previous_activity, previous_drinks, previous_dinner, previous_evening]
     
+    long_lst = [0,0,0,0,0]
+    lat_lst = [0,0,0,0,0]
+    name_lst = ["", "", "", "", ""]
+
+    df = pd.DataFrame(columns=["long", "lat", "name"])
     
     for x, item in enumerate(stop_lst):
 
@@ -189,6 +196,10 @@ if st.session_state.button[1] == True:
             col2.write(title_lst[x])  # title
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(dataset.address.iloc[stop])  # address
+
+            long_lst[x] = dataset.long_coordinates #longitude
+            lat_lst[x] = dataset.lat_coordinates #latitude
+            name_lst[x] = str(dataset.name.iloc[stop])
         
         else:
 
@@ -199,6 +210,30 @@ if st.session_state.button[1] == True:
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(dataset.address.iloc[stop])  # address
 
+            long_lst[x] = dataset.long_coordinates #longitude
+            lat_lst[x] = dataset.lat_coordinates #latitude
+            name_lst[x] = str(dataset.name.iloc[stop])
+    
+    df.long = long_lst
+    df.lat = lat_lst
+    df.name = name_lst
+
+    m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
+                 zoom_start=3, control_scale=True)
+
+    #Loop through each row in the dataframe
+    for i,row in df.iterrows():
+        #Setup the content of the popup
+        iframe = folium.IFrame(str(row.name))
+        
+        #Initialise the popup using the iframe
+        popup = folium.Popup(iframe, min_width=300, max_width=300)
+        
+        #Add each row to the map
+        folium.Marker(location=[row['lat'],row['long']],
+                    popup = popup, c=row['Name']).add_to(m)
+
+    st_data = st_folium(m, width=700)
 
         
 
