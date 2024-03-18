@@ -218,6 +218,8 @@ if st.session_state.button[1] == True:
     df.lat = lat_lst
     df.name = name_lst
 
+    st.write(df.head())
+    
     m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
                  zoom_start=3, control_scale=True)
 
@@ -233,7 +235,7 @@ if st.session_state.button[1] == True:
         folium.Marker(location=[row['lat'],row['long']],
                     popup = popup, c=row['Name']).add_to(m)
 
-    st_data = st_folium(m, width=700)
+    st_data = folium_static(m, width=700)
 
         
 
