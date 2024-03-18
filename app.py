@@ -223,7 +223,7 @@ if st.session_state.button[1] == True:
     st.write(df.head())
 
     m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
-                 zoom_start=6, control_scale=True)
+                 zoom_start=12, control_scale=True)
 
     #Loop through each row in the dataframe
     for i,row in df.iterrows():
