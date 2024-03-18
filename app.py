@@ -169,7 +169,7 @@ if st.session_state.button[1] == True:
     lat_lst = [0,0,0,0,0]
     name_lst = ["", "", "", "", ""]
 
-    df = pd.DataFrame(columns=["long", "lat", "name"])
+    df = pd.DataFrame(columns=["long", "lat", "name", "stop"])
     
     for x, item in enumerate(stop_lst):
 
@@ -213,14 +213,11 @@ if st.session_state.button[1] == True:
             long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
             lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
             name_lst[x] = str(dataset.name.iloc[stop])
-    
-    st.write(long_lst)
-    
+        
     df.long = long_lst
     df.lat = lat_lst
     df.name = name_lst
-
-    st.write(df.head())
+    df.stop = title_lst
 
     m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
                  zoom_start=11, control_scale=True)
@@ -228,7 +225,7 @@ if st.session_state.button[1] == True:
     #Loop through each row in the dataframe
     for i,row in df.iterrows():
         #Setup the content of the popup
-        iframe = folium.IFrame("Stop: " + str(row["name"]))
+        iframe = folium.IFrame(f"{str(row["stop"])}: {str(row["name"])}")
         
         #Initialise the popup using the iframe
         popup = folium.Popup(iframe, min_width=300, max_width=300)
