@@ -197,8 +197,8 @@ if st.session_state.button[1] == True:
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(dataset.address.iloc[stop])  # address
 
-            long_lst[x] = dataset.long_coordinates #longitude
-            lat_lst[x] = dataset.lat_coordinates #latitude
+            long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
+            lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
             name_lst[x] = str(dataset.name.iloc[stop])
         
         else:
@@ -210,8 +210,8 @@ if st.session_state.button[1] == True:
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(dataset.address.iloc[stop])  # address
 
-            long_lst[x] = dataset.long_coordinates #longitude
-            lat_lst[x] = dataset.lat_coordinates #latitude
+            long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
+            lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
             name_lst[x] = str(dataset.name.iloc[stop])
     
     st.write(long_lst)
