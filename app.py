@@ -223,12 +223,12 @@ if st.session_state.button[1] == True:
     st.write(df.head())
 
     m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
-                 zoom_start=3, control_scale=True)
+                 zoom_start=6, control_scale=True)
 
     #Loop through each row in the dataframe
     for i,row in df.iterrows():
         #Setup the content of the popup
-        iframe = folium.IFrame(str(row.name))
+        iframe = folium.IFrame("Stop: " + str(row["name"]))
         
         #Initialise the popup using the iframe
         popup = folium.Popup(iframe, min_width=300, max_width=300)
