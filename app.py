@@ -151,9 +151,10 @@ def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
     st.session_state.button[1] = True
 
+col1, col2, col3 = st.columns((1, 3,1))
 
 # Button with callback function
-button = st.button("Generate Itinerary", on_click=select_route)
+button = col2.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
 
