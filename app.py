@@ -7,14 +7,12 @@ from streamlit_folium import st_folium, folium_static
 import streamlit.components.v1 as components  # Import Streamlit
 
 #Adding AdSense code here
-google_adsense_verify = """
+
+st.markdown("""
 <head>
     <meta name="google-adsense-account" content="ca-pub-6270659904604748">
 </head>
-    """
-
-#st.components.v1.html(fb_comments)
-st.components.v1.iframe(google_adsense_verify, height=1, scrolling=False)
+    """, unsafe_allow_html=True)
 
 # components.html("""""<head><meta name="google-adsense-account" content="ca-pub-6270659904604748"></head>""", width=200, height=200)
 # HtmlFile = open('./test.html', 'r', encoding='utf-8')
