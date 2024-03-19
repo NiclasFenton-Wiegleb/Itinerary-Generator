@@ -7,10 +7,11 @@ from streamlit_folium import st_folium, folium_static
 import streamlit.components.v1 as components  # Import Streamlit
 
 #Adding AdSense code here
-HtmlFile = open('./test.html', 'r', encoding='utf-8')
-source_code = HtmlFile.read()
-print(source_code)
-components.html(source_code, height=600)
+components.html("""""<head><meta name="google-adsense-account" content="ca-pub-6270659904604748"></head>""", width=200, height=200)
+# HtmlFile = open('./test.html', 'r', encoding='utf-8')
+# source_code = HtmlFile.read()
+# print(source_code)
+# components.html(source_code, height=600)
 
 
 st.title("Manchester Itinerary Generator")
