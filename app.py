@@ -181,7 +181,7 @@ if st.session_state.button[1] == True:
         y = x+10
 
          # Next Button
-        next_txt = "Next"
+        next_txt = "➵"
         next_stop = col3.button(next_txt, on_click=next_func, key=x, args=[state])
 
         # Previous Button
