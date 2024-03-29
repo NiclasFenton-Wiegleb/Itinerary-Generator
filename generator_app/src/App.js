@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <iframe
+      allowfullscreen
+      id="myiframe"
+      src="https://itinerary-generator-hg7qp7yihprqdbjzvylk5u.streamlit.app/?embed=true&?embed_options=light_theme"
+      height="800"
+      width="1000"
+      style={{border: "none" }}
+      title="Itinerary Generator"></iframe>
+      <script>
+        var iframe = document.getElementById("myiframe");
+        iframe.width = iframe.contentWindow.document.body.scrollWidth;
+        iframe.height = iframe.contentWindow.document.body.scrollHeight;
+      </script>
     </div>
   );
 }
