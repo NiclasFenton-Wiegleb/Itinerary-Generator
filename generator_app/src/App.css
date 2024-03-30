@@ -37,3 +37,13 @@
     transform: rotate(360deg);
   }
 }
+
+.left-component { 
+  float: left; 
+  width: 25%; 
+} 
+ 
+.right-component { 
+  float: right; 
+  width: 25%; 
+} 
