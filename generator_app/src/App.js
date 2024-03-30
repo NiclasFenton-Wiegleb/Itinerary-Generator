@@ -1,24 +1,24 @@
 import './App.css';
-import AdsenseComponent from './AdSenseComponent';
+// import AdsenseComponent from './AdSenseComponent';
         
 
 function App() {
   return (
   <div className="App">
-    <div className="left-component">
+    {/* <div className="left-component">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6270659904604748"
      crossorigin="anonymous">
      </script>
      {/* <!-- left component --> */}
-     <ins class="adsbygoogle"
+     {/* <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-6270659904604748"
      data-ad-slot="4698668960"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
      <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
+     (adsbygoogle = window.adsbygoogle || []).push({});</script> */}
+    {/* </div> */}
     <div className="iFrame">
     <iframe
       allowfullscreen
