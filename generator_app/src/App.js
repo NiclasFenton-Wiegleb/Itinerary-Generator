@@ -17,11 +17,12 @@ function NotFoundPage() {
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-      <body>
-      </body>
-      <iframe
+  <div className="App">
+    <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6270659904604748"
+     crossorigin="anonymous"></script>
+    </head>
+    <iframe
       allowfullscreen
       id="myiframe"
       src="https://itinerary-generator-hg7qp7yihprqdbjzvylk5u.streamlit.app/?embed=true&?embed_options=light_theme"
@@ -29,9 +30,7 @@ function App() {
       width="1000"
       style={{border: "none" }}
       title="Itinerary Generator"></iframe>
-      <Routes><Route path="/*" element={<NotFoundPage />}/></Routes>
-      </BrowserRouter>
-    </div>
+      </div>
   );
 }
 
