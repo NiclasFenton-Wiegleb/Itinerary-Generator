@@ -46,4 +46,9 @@
 .right-component { 
   float: right; 
   width: 25%; 
-} 
+}
+
+.iFrame{
+  float: center;
+  width: 50%;
+}
