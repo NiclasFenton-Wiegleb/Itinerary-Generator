@@ -165,10 +165,10 @@ def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
     st.session_state.button[1] = True
 
-col1, col2, col3 = st.columns((1, 5,1))
+col1, col2, col3 = st.beta_columns(3)
 
 # Button with callback function
-button = col2.button("<h1 style='text-align: center; color: black;'>Generate Itinerary</h1>", unsafe_allow_html=True, on_click=select_route)
+button = col2.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
 
