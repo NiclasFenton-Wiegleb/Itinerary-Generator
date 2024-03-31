@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import './App.css';
+
 
 const AdsenseComponent = ({ adClient, adSlot, adFormat }) => {
     useEffect(() => {

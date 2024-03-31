@@ -1,18 +1,7 @@
-/* .App {
+.App {
   text-align: center;
-} */
-/* 
-.left-component { 
-  float: left; 
-  width: 25%; 
-} 
- 
-.right-component { 
-  float: right; 
-  width: 25%; 
 }
 
-.iFrame{
-  float: center;
-  width: 50%;
-} */
+.adsbygoogle {
+  text-align: left;
+}
