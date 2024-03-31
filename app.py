@@ -27,8 +27,8 @@ route_data, dataset = load_data(route_data_path=route_data, dataset_path=dataset
 data_load_state.text("")
 
 st.markdown("""## Build Your Day \n
-            \n
-            You live in Manchester and love its bustling shops,
+            \n""")
+st.write("""You live in Manchester and love its bustling shops,
             cafes, bars, restaurants, music venues and all the other great things there are to do around here? 
             It seems like someone tells you every day about a hidden gem that just opened up or a really fun workshop 
             that they went to. Not only is it hard to keep track of all the different places, gigs and activities, 
