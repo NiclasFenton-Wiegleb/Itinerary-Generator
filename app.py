@@ -26,20 +26,7 @@ route_data, dataset = load_data(route_data_path=route_data, dataset_path=dataset
 # Notify the reader that the data was successfully loaded
 data_load_state.text("")
 
-st.markdown("""## Build Your Day \n
-            \n""")
-st.write("""You live in Manchester and love its bustling shops,
-            cafes, bars, restaurants, music venues and all the other great things there are to do around here? 
-            It seems like someone tells you every day about a hidden gem that just opened up or a really fun workshop 
-            that they went to. Not only is it hard to keep track of all the different places, gigs and activities, 
-            but when your friends come to visit and you want to show them the city you love so much - 
-            all of a sudden you’re stumped as to what to do.
-            Fear not though. This app accesses a carefully curated dataset of recommendations that allow you to build 
-            your day out!  Enjoy the carefully collected top recommendations of brunch places, activities, 
-            attractions, afternoon drink spots, restaurants and venues in the city.
-            When you hit the button below, it will give you the whole itinerary! 
-            And if you don’t like one of the suggested stops, simply swap it with another option close by, 
-            without any detours and staying on schedule.""")
+
 
 # Initialise the key in session state
 if 'button' not in st.session_state:
@@ -163,7 +150,22 @@ def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
     st.session_state.button[1] = True
 
-col1, col2, col3 = st.columns((1, 3,1))
+col1, col2, col3 = st.columns((1, 5,1))
+
+col2.markdown("""## Build Your Day \n
+            \n""")
+col2.write("""You live in Manchester and love its bustling shops,
+            cafes, bars, restaurants, music venues and all the other great things there are to do around here? 
+            It seems like someone tells you every day about a hidden gem that just opened up or a really fun workshop 
+            that they went to. Not only is it hard to keep track of all the different places, gigs and activities, 
+            but when your friends come to visit and you want to show them the city you love so much - 
+            all of a sudden you’re stumped as to what to do.
+            Fear not though. This app accesses a carefully curated dataset of recommendations that allow you to build 
+            your day out!  Enjoy the carefully collected top recommendations of brunch places, activities, 
+            attractions, afternoon drink spots, restaurants and venues in the city.
+            When you hit the button below, it will give you the whole itinerary! 
+            And if you don’t like one of the suggested stops, simply swap it with another option close by, 
+            without any detours and staying on schedule.""")
 
 # Button with callback function
 button = col2.button("Generate Itinerary", on_click=select_route)
