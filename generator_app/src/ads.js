@@ -8,13 +8,15 @@ const AdsenseComponent = ({ adClient, adSlot, adFormat }) => {
   }, []);
 
   return (
-    <ins className="adsbygoogle"
-    height="800"
-    width="300"
-    style={{border: "none" }}
-    data-ad-client={adClient}
-    data-ad-slot={adSlot}
-    data-ad-format={adFormat}></ins>
+    <div className="adsbygoogle">
+        <ins className="adsbygoogle"
+        height="800"
+        width="300"
+        style={{border: "none" }}
+        data-ad-client={adClient}
+        data-ad-slot={adSlot}
+        data-ad-format={adFormat}></ins>
+    </div>
   );
 };
 
