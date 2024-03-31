@@ -6,27 +6,10 @@ import folium
 from streamlit_folium import st_folium, folium_static
 import streamlit.components.v1 as components  # Import Streamlit
 
-#Adding AdSense code here
-
-st.markdown("""
-<head>
-    <meta name="google-adsense-account" content="ca-pub-6270659904604748">
-</head>
-    """, unsafe_allow_html=True)
-
-# components.html("""""<head><meta name="google-adsense-account" content="ca-pub-6270659904604748"></head>""", width=200, height=200)
-# HtmlFile = open('./test.html', 'r', encoding='utf-8')
-# source_code = HtmlFile.read()
-# print(source_code)
-# components.html(source_code, height=600)
-
-
 st.title("Manchester Itinerary Generator")
 
 route_data = "./OptimalRoutes.csv"
 dataset = "./IG_neighbours.csv"
-
-
 
 @st.cache_data
 def load_data(route_data_path, dataset_path):
@@ -40,10 +23,10 @@ def load_data(route_data_path, dataset_path):
 data_load_state = st.text("Loading data...")
 # Load 10,000 rows of data into the dataframe
 route_data, dataset = load_data(route_data_path=route_data, dataset_path=dataset)
-# Notify the reader that the data was successfully loaded
-data_load_state.text("Done! Data is loaded in.")
 
-st.write("This is an introduction paragraph to the tool.")
+st.markdown("""## About \n
+            \n
+            """)
 
 # Initialise the key in session state
 if 'button' not in st.session_state:
