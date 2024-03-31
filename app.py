@@ -6,7 +6,7 @@ import folium
 from streamlit_folium import st_folium, folium_static
 import streamlit.components.v1 as components  # Import Streamlit
 
-st.title("Manchester Itinerary Generator")
+st.title("Manchester: Build Your Day!")
 
 route_data = "./OptimalRoutes.csv"
 dataset = "./IG_neighbours.csv"
@@ -23,10 +23,23 @@ def load_data(route_data_path, dataset_path):
 data_load_state = st.text("Loading data...")
 # Load 10,000 rows of data into the dataframe
 route_data, dataset = load_data(route_data_path=route_data, dataset_path=dataset)
+# Notify the reader that the data was successfully loaded
+data_load_state.text("")
 
-st.markdown("""## About \n
+st.markdown("""## Build Your Day \n
             \n
-            """)
+            You live in Manchester and love its bustling shops,
+            cafes, bars, restaurants, music venues and all the other great things there are to do around here? 
+            It seems like someone tells you every day about a hidden gem that just opened up or a really fun workshop 
+            that they went to. Not only is it hard to keep track of all the different places, gigs and activities, 
+            but when your friends come to visit and you want to show them the city you love so much - 
+            all of a sudden you’re stumped as to what to do.
+            Fear not though. This app accesses a carefully curated dataset of recommendations that allow you to build 
+            your day out!  Enjoy the carefully collected top recommendations of brunch places, activities, 
+            attractions, afternoon drink spots, restaurants and venues in the city.
+            When you hit the button below, it will give you the whole itinerary! 
+            And if you don’t like one of the suggested stops, simply swap it with another option close by, 
+            without any detours and staying on schedule.""")
 
 # Initialise the key in session state
 if 'button' not in st.session_state:
