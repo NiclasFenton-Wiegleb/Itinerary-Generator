@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AdsenseComponent from './ads';
+import AdSense from 'react-adsense';
+
 
 const root_1 = ReactDOM.createRoot(document.getElementById('root_1'));
 root_1.render(
@@ -15,10 +17,14 @@ root_1.render(
 const root_2 = ReactDOM.createRoot(document.getElementById('root_2'));
 root_2.render(
   <React.StrictMode>
-    <AdsenseComponent 
-    adClient= "ca-pub-6270659904604748"
-    adSlot="4526444425"
-    adFormat="auto"/>
+    // responsive and native ads
+    <AdSense.Google
+    className= "adsbygoogle"
+    client="ca-pub-6270659904604748"
+    slot="4526444425"
+    style={{ display: 'block' }}
+    // layout='in-article'
+    format="auto"/>
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
