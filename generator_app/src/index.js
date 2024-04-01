@@ -17,14 +17,14 @@ root_1.render(
 const root_2 = ReactDOM.createRoot(document.getElementById('root_2'));
 root_2.render(
   <React.StrictMode>
-    // responsive and native ads
     <AdSense.Google
     className= "adsbygoogle"
     client="ca-pub-6270659904604748"
     slot="4526444425"
     style={{ display: 'block' }}
     // layout='in-article'
-    format="auto"/>
+    format="auto"
+    responsive="true"/>
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function

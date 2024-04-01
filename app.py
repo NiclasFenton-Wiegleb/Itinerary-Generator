@@ -8,8 +8,6 @@ import streamlit.components.v1 as components  # Import Streamlit
 
 st.title("Manchester: Build Your Day!")
 
-st.markdown("""## Build Your Day \n
-            \n""")
 st.write("""You live in Manchester and love its bustling shops,
             cafes, bars, restaurants, music venues and all the other great things there are to do around here? 
             It seems like someone tells you every day about a hidden gem that just opened up or a really fun workshop 
@@ -196,11 +194,11 @@ if st.session_state.button[1] == True:
         y = x+10
 
          # Next Button
-        next_txt = "⇀"
+        next_txt = "⇨"
         next_stop = col3.button(next_txt, on_click=next_func, key=x, args=[state])
 
         # Previous Button
-        prev_txt = "↼"
+        prev_txt = "⇦"
         prev_stop = col1.button(prev_txt, on_click=prev_func, key=y, args=[state])
 
         if state == 3:
@@ -208,7 +206,7 @@ if st.session_state.button[1] == True:
             #Id stop for Brunch
             stop = int(route_data[item][st.session_state.route_idx])
 
-            col2.write(title_lst[x])  # title
+            col2.markdown(f"""### {title_lst[x]}""")  # title
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(dataset.address.iloc[stop])  # address
 
@@ -221,7 +219,7 @@ if st.session_state.button[1] == True:
             column = str(alt_lst[state])
             stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
 
-            col2.write(title_lst[x])  # title
+            col2.markdown(f"""### {title_lst[x]}""")  # title
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(dataset.address.iloc[stop])  # address
 
