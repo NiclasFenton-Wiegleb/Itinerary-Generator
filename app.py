@@ -186,7 +186,7 @@ if st.session_state.button[1] == True:
     
     for x, item in enumerate(stop_lst):
 
-        col1, col2, col3 = st.columns((1, 2,1))
+        col1, col2, col3 = st.columns([1, 1,1])
 
         state = state_lst[x]
         next_func = next_lst[x]
