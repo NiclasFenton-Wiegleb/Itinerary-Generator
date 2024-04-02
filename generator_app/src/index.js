@@ -21,7 +21,25 @@ root_2.render(
     className= "adsbygoogle"
     client="ca-pub-6270659904604748"
     slot="4526444425"
-    style={{ display: 'block' }}
+    style={{
+      display: "block"
+    }}
+    // layout='in-article'
+    format="auto"
+    responsive="true"/>
+  </React.StrictMode>
+);
+
+const root_3 = ReactDOM.createRoot(document.getElementById('root_3'));
+root_3.render(
+  <React.StrictMode>
+    <AdSense.Google
+    className= "adsbygoogle"
+    client="ca-pub-6270659904604748"
+    slot="4526444425"
+    style={{
+      display: "block"
+    }}
     // layout='in-article'
     format="auto"
     responsive="true"/>

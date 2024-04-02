@@ -4,7 +4,6 @@ and finding the optimised routes for each starting point.'''
 import numpy as np
 import pandas as pd
 import geopandas as gpd
-import matplotlib.pyplot as plt
 import random
 
 
@@ -258,28 +257,6 @@ if __name__ == "__main__":
     df_opt = get_route_data(df)
 
     print(df_opt)
-
-    # dataset = pd.read_csv("./ItineraryGenerator_Dataset.csv")
-    
-    # route_data = pd.read_csv("./OptimalRoutes.csv")
-
-    # #Select random route index
-    # route_idx = random.randint(0, len(route_data))
-    # #Get list of stops
-    # stops_lst = list(route_data["opt_route"].iloc[route_idx])
-    # print (stops_lst, type(stops_lst))
-    # modified_list = stops_lst.strip('][').split(', ')
-
-    # #Pull out individual stops
-    # stop_0 = int(modified_list[0])
-    # stop_1 = int(modified_list[1])
-    # stop_2 = int(modified_list[2])
-    # stop_3 = int(modified_list[3])
-    # stop_4 = int(modified_list[4])
-
-    # print("1. Brunch:")
-    # print(str(dataset.name.iloc[int(stop_0)]))
-    # print(str(dataset.address.iloc[stop_0]))
 
 
 
