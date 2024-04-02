@@ -8,7 +8,7 @@ import streamlit.components.v1 as components  # Import Streamlit
 
 col1 = st.columns((1))
 
-col1.markdown("## Manchester: Build Your Day!")
+col1.write("## Manchester: Build Your Day!")
 
 # col1.markdown("""You live in Manchester and love its bustling shops,
 #             cafes, bars, restaurants, music venues and all the other great things there are to do around here? 
