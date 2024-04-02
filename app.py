@@ -6,9 +6,11 @@ import folium
 from streamlit_folium import st_folium, folium_static
 import streamlit.components.v1 as components  # Import Streamlit
 
-st.title("Manchester: Build Your Day!")
+col1 = st. columns(1)
 
-st.write("""You live in Manchester and love its bustling shops,
+col1.title("Manchester: Build Your Day!")
+
+col1.write("""You live in Manchester and love its bustling shops,
             cafes, bars, restaurants, music venues and all the other great things there are to do around here? 
             It seems like someone tells you every day about a hidden gem that just opened up or a really fun workshop 
             that they went to. Not only is it hard to keep track of all the different places, gigs and activities, 
@@ -247,7 +249,7 @@ if st.session_state.button[1] == True:
         folium.Marker(location=[row['lat'],row['long']],
                     popup = popup, c=row['name']).add_to(m)
 
-    st_data = folium_static(m, width=700)
+    st_data = folium_static(m, width=650)
 
         
 
