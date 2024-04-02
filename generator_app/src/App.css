@@ -1,3 +1,35 @@
 .App {
-  text-align: center;
+  position: relative;
+  padding-block: 50px 10px;
+  overflow: hidden;
+}
+
+.iframe {
+  /* overflow: hidden; */
+  align-self: center;
+  position: absolute;
+  width: 3440px;
+  height: 800px;
+}
+
+.mobile-class {
+  height: 100%;
+  width: 100%;
+  
+  /* top: 10%;
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  border: none; */
+}
+
+.desktop-class {
+  height: 100%;
+  width: 100%;
+  /* top: 50px;
+  position: absolute;
+  left: 20%;
+  height: 100%;
+  width: 60%;
+  border: none; */
 }

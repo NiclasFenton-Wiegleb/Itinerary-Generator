@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import AdsenseComponent from './ads';
 import AdSense from 'react-adsense';
 
 
 const root_1 = ReactDOM.createRoot(document.getElementById('root_1'));
+
 root_1.render(
+  
   <React.StrictMode>
     <App />
   </React.StrictMode>
