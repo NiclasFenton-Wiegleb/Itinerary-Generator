@@ -186,7 +186,7 @@ if st.session_state.button[1] == True:
     
     for x, item in enumerate(stop_lst):
 
-        col1, col2, col3 = st.columns((1, 1,1), gap="small")
+        col1, col2, col3 = st.columns((1,3,1), gap="small")
 
         state = state_lst[x]
         next_func = next_lst[x]
@@ -247,7 +247,7 @@ if st.session_state.button[1] == True:
         folium.Marker(location=[row['lat'],row['long']],
                     popup = popup, c=row['name']).add_to(m)
 
-    st_data = folium_static(m, width=400)
+    st_data = folium_static(m, width=600)
 
         
 
