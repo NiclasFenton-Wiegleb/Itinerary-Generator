@@ -241,7 +241,7 @@ if st.session_state.button[1] == True:
         iframe = folium.IFrame(str(row["stop"]) + ": " + str(row["name"]))
         
         #Initialise the popup using the iframe
-        popup = folium.Popup(iframe, min_width=300, max_width=300)
+        popup = folium.Popup(iframe, min_width=100, max_width=300)
         
         #Add each row to the map
         folium.Marker(location=[row['lat'],row['long']],

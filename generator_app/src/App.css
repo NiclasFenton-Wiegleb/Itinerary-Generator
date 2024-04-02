@@ -8,13 +8,13 @@
   /* overflow: hidden; */
   align-self: center;
   position: absolute;
-  width: 3440px;
+  width: 1000px;
   height: 800px;
 }
 
 .mobile-class {
   height: 100%;
-  width: 100%;
+  width: 60%;
   
   /* top: 10%;
   position: absolute;
