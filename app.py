@@ -208,8 +208,10 @@ if st.session_state.button[1] == True:
             stop = int(route_data[item][st.session_state.route_idx])
 
             col2.markdown(f"""### {title_lst[x]}""")  # title
+            col2.write(f"""Source: {dataset.source.iloc[stop]}""") # image source
             col2.write(dataset.name.iloc[stop])  # name
-            col2.write(dataset.address.iloc[stop])  # address
+            col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
+            col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
             long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
             lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
@@ -221,8 +223,10 @@ if st.session_state.button[1] == True:
             stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
 
             col2.markdown(f"""### {title_lst[x]}""")  # title
+            col2.write(f"""Source: {dataset.source.iloc[stop]}""") # image source
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(dataset.address.iloc[stop])  # address
+            col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
             long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
             lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
