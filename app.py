@@ -253,27 +253,27 @@ if st.session_state.button[1] == True:
             lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
             name_lst[x] = str(dataset.name.iloc[stop])
         
-    df.long = long_lst
-    df.lat = lat_lst
-    df.name = name_lst
-    df.stop = title_lst
+        df.long = long_lst
+        df.lat = lat_lst
+        df.name = name_lst
+        df.stop = title_lst
 
-    m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
-                 zoom_start=11, control_scale=True)
+        m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
+                    zoom_start=11, control_scale=True)
 
-    #Loop through each row in the dataframe
-    for i,row in df.iterrows():
-        #Setup the content of the popup
-        iframe = folium.IFrame(str(row["stop"]) + ": " + str(row["name"]))
-        
-        #Initialise the popup using the iframe
-        popup = folium.Popup(iframe, min_width=300, max_width=300)
-        
-        #Add each row to the map
-        folium.Marker(location=[row['lat'],row['long']],
-                    popup = popup, c=row['name']).add_to(m)
+        #Loop through each row in the dataframe
+        for i,row in df.iterrows():
+            #Setup the content of the popup
+            iframe = folium.IFrame(str(row["stop"]) + ": " + str(row["name"]))
+            
+            #Initialise the popup using the iframe
+            popup = folium.Popup(iframe, min_width=300, max_width=300)
+            
+            #Add each row to the map
+            folium.Marker(location=[row['lat'],row['long']],
+                        popup = popup, c=row['name']).add_to(m)
 
-    st_data = folium_static(m, width=650)
+        col2.folium_static(m, width=650)
 
         
 
