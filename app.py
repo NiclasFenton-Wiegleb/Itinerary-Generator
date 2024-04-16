@@ -183,8 +183,10 @@ if st.session_state.button[1] == True:
     long_lst = [0,0,0,0,0]
     lat_lst = [0,0,0,0,0]
     name_lst = ["", "", "", "", ""]
+    address_lst = ["", "", "", "", ""]
+    link_lst = ["", "", "", "", ""]
 
-    df = pd.DataFrame(columns=["long", "lat", "name", "stop"])
+    df = pd.DataFrame(columns=["long", "lat", "name", "stop", "address", "link"])
     
     for x, item in enumerate(stop_lst):
 
@@ -227,6 +229,9 @@ if st.session_state.button[1] == True:
             long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
             lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
             name_lst[x] = str(dataset.name.iloc[stop])
+            address_lst[x] = str(dataset.address.iloc[stop])
+            link_lst[x] = str(dataset.link.iloc[stop])
+
         
         else:
 
@@ -252,11 +257,15 @@ if st.session_state.button[1] == True:
             long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
             lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
             name_lst[x] = str(dataset.name.iloc[stop])
+            address_lst[x] = str(dataset.address.iloc[stop])
+            link_lst[x] = str(dataset.link.iloc[stop])
         
         df.long = long_lst
         df.lat = lat_lst
         df.name = name_lst
         df.stop = title_lst
+        df.address = address_lst
+        df.link = link_lst
 
         m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
                     zoom_start=11, control_scale=True)
