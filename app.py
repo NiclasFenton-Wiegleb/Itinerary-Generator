@@ -281,6 +281,8 @@ if st.session_state.button[1] == True:
                         popup = popup, c=row['name']).add_to(m)
     
     col1, col2, col3 = st.columns((1,3,1), gap="small")
+    col1.button("Next")
+    col3.button("Prev")
 
     with col2:
         st_data = folium_static(m)
