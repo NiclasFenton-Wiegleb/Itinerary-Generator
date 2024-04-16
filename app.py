@@ -220,8 +220,8 @@ if st.session_state.button[1] == True:
             # image_2 = image_2.resize((400,400))
 
             col2.markdown(f"""## {title_lst[x]}""")  # title
-            col2.image([image_1, image_2]) # images
-            col2.write(f"""Source: {dataset.img_source.iloc[stop]}""") # image source
+            col2.image([image_1, image_2], caption= f"""Source: {dataset.img_source.iloc[stop]}""") # images
+            # col2.write(f"""Source: {dataset.img_source.iloc[stop]}""") # image source
             col2.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
             col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
             col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
@@ -248,7 +248,7 @@ if st.session_state.button[1] == True:
             # image_2 = image_2.resize((400,400))
 
             col2.markdown(f"""## {title_lst[x]}""")  # title
-            col2.image([image_1, image_2]) # images
+            col2.image([image_1, image_2], caption= f"""Source: {dataset.img_source.iloc[stop]}""") # images
             col2.write(f"""Source: {dataset.img_source.iloc[stop]}""") # image source
             col2.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
             col2.write(dataset.address.iloc[stop])  # address
