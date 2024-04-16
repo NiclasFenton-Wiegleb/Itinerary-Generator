@@ -16,29 +16,34 @@ def convert_geo(df):
 
 def get_edges_distances(gdf):
     '''Create dataframe with edges and distances'''
-    df_edges = pd.DataFrame(columns=["names","edges", "distance"])
+    df_edges = pd.DataFrame(columns=["names","edges", "distance", "weighting"])
 
     edges=[]
     distance=[]
     name = []
+    weightings = []
 
     for i in range(len(gdf)):
         #select point 1
         pnt1 = i
         name1 = gdf.name.loc[i]
         hierarchy_1 = gdf["hierarchy"][i]
+        weighting_1 = gdf["weighting"].loc[i]
         #iterate over df and find points above in the hierarchy
         for j in range(len(gdf)):
             #select point 2
             pnt2 = j
             name2 = gdf.name.loc[j]
             hierarchy_2 = gdf["hierarchy"][j]
+            weighting_2 = gdf["weighting"].loc[j]
 
             #Check for hierarchy higher than point 1
             if int(hierarchy_2) == (int(hierarchy_1) + 1):
                 #Append edges
                 edges.append((pnt1, pnt2))
                 name.append((name1, name2))
+                weighting = weighting_1 *weighting_2
+                weightings.append(weighting)
             else:
                 continue
     #Itirate over edges list and add distances between the two points        
@@ -69,6 +74,7 @@ def get_edges_distances(gdf):
     df_edges["edges"] = edges
     df_edges["distance"] = distance_norm
     df_edges["names"] = name
+    df_edges["weighting"] = weightings
 
     df_edges.to_csv("edges.csv", index=False)
 
@@ -97,16 +103,17 @@ def init_matrix(df, df_edges, matrix_size):
     for ind in range(len(df_edges.index)):
         dis = df_edges.distance[ind]
         edge = df_edges.edges[ind]
+        weight = df_edges.weighting[ind]
         if edge[1] in goal:
             R[edge] = 200
         else:
-            R[edge] = 1-dis
+            R[edge] = (1-dis)*weight
 
         if edge[0] in goal:
             R[edge[::-1]] = 200
         else:
             # reverse of point
-            R[edge[::-1]]= 1-dis
+            R[edge[::-1]]= (1-dis)*weight
 
     #Add goal point round trip
     R[goal,goal]= 200
