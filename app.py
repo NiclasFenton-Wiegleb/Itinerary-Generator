@@ -289,7 +289,7 @@ if st.session_state.button[1] == True:
                     \n
                     \n""")
     with col2:
-        st_data = folium_static(m, width = 800)
+        st_data = folium_static(m, width = 400)
 
         
 
