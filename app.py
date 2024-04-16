@@ -283,7 +283,7 @@ if st.session_state.button[1] == True:
     col1, col2, col3 = st.columns((1,3,1), gap="small")
 
     with col2:
-        st_data = folium_static(m, width = 600)
+        st_data = folium_static(m)
 
         
 
