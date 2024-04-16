@@ -207,7 +207,11 @@ if st.session_state.button[1] == True:
             #Id stop for Brunch
             stop = int(route_data[item][st.session_state.route_idx])
 
+            image_1 = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
+            image_2 = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
+
             col2.markdown(f"""### {title_lst[x]}""")  # title
+            col2.image([image_1, image_2]) # images
             col2.write(f"""Source: {dataset.source.iloc[stop]}""") # image source
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
@@ -222,7 +226,11 @@ if st.session_state.button[1] == True:
             column = str(alt_lst[state])
             stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
 
+            image_1 = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
+            image_2 = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
+
             col2.markdown(f"""### {title_lst[x]}""")  # title
+            col2.image([image_1, image_2]) # images
             col2.write(f"""Source: {dataset.source.iloc[stop]}""") # image source
             col2.write(dataset.name.iloc[stop])  # name
             col2.write(dataset.address.iloc[stop])  # address
