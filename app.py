@@ -274,8 +274,8 @@ if st.session_state.button[1] == True:
     for i,row in df.iterrows():
     #Setup the content of the popup
         iframe = folium.IFrame(f"""{str(row["stop"]) + ": " + str(row["name"])}
-                                    Adress: {str(row["address"])}
-                                    Link:   {str(row["link"])}""")
+                                    \n Adress: {str(row["address"])}
+                                    \n Link:   {str(row["link"])}""")
             
         #Initialise the popup using the iframe
         popup = folium.Popup(iframe, min_width=300, max_width=300)
@@ -285,9 +285,7 @@ if st.session_state.button[1] == True:
                         popup = popup, c=row['name']).add_to(m)
     
     col1, col2, col3 = st.columns((1,3,1), gap="small")
-    col2.markdown(f"""\n
-                    \n
-                    \n""")
+
     with col2:
         st_data = folium_static(m, width = 400)
 
