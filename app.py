@@ -216,8 +216,8 @@ if st.session_state.button[1] == True:
             image_1 = Image.open(image_1_path)
             image_2 = Image.open(image_2_path)
 
-            image_1 = image_1.resize((400,400))
-            image_2 = image_2.resize((400,400))
+            # image_1 = image_1.resize((400,400))
+            # image_2 = image_2.resize((400,400))
 
             col2.markdown(f"""## {title_lst[x]}""")  # title
             col2.image([image_1, image_2]) # images
@@ -244,8 +244,8 @@ if st.session_state.button[1] == True:
             image_1 = Image.open(image_1_path)
             image_2 = Image.open(image_2_path)
 
-            image_1 = image_1.resize((400,400))
-            image_2 = image_2.resize((400,400))
+            # image_1 = image_1.resize((400,400))
+            # image_2 = image_2.resize((400,400))
 
             col2.markdown(f"""## {title_lst[x]}""")  # title
             col2.image([image_1, image_2]) # images
