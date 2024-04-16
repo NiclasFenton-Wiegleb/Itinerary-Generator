@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import random
 import folium
+from PIL import Image
 from streamlit_folium import st_folium, folium_static
 import streamlit.components.v1 as components  # Import Streamlit
 
@@ -207,8 +208,14 @@ if st.session_state.button[1] == True:
             #Id stop for Brunch
             stop = int(route_data[item][st.session_state.route_idx])
 
-            image_1 = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
-            image_2 = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
+            image_1_path = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
+            image_2_path = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
+
+            image_1 = Image.open(image_1_path)
+            image_2 = Image.open(image_2_path)
+
+            image_1 = image_1.resize((600,400))
+            image_2 = image_2.resize((600,400))
 
             col2.markdown(f"""### {title_lst[x]}""")  # title
             col2.image([image_1, image_2], width= 400) # images
@@ -226,8 +233,14 @@ if st.session_state.button[1] == True:
             column = str(alt_lst[state])
             stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
 
-            image_1 = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
-            image_2 = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
+            image_1_path = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
+            image_2_path = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
+
+            image_1 = Image.open(image_1_path)
+            image_2 = Image.open(image_2_path)
+
+            image_1 = image_1.resize((600,400))
+            image_2 = image_2.resize((600,400))
 
             col2.markdown(f"""### {title_lst[x]}""")  # title
             col2.image([image_1, image_2], width=400) # images
