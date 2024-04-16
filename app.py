@@ -267,24 +267,27 @@ if st.session_state.button[1] == True:
         df.address = address_lst
         df.link = link_lst
 
-        m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
+    m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
                     zoom_start=11, control_scale=True)
 
-        #Loop through each row in the dataframe
-        for i,row in df.iterrows():
-            #Setup the content of the popup
-            iframe = folium.IFrame(f"""{str(row["stop"]) + ": " + str(row["name"])}
+    #Loop through each row in the dataframe
+    for i,row in df.iterrows():
+    #Setup the content of the popup
+        iframe = folium.IFrame(f"""{str(row["stop"]) + ": " + str(row["name"])}
                                     Adress: {str(row["address"])}
                                     Link:   {str(row["link"])}""")
             
-            #Initialise the popup using the iframe
-            popup = folium.Popup(iframe, min_width=300, max_width=300)
+        #Initialise the popup using the iframe
+        popup = folium.Popup(iframe, min_width=300, max_width=300)
             
-            #Add each row to the map
-            folium.Marker(location=[row['lat'],row['long']],
+        #Add each row to the map
+        folium.Marker(location=[row['lat'],row['long']],
                         popup = popup, c=row['name']).add_to(m)
-        with col2:
-            st_data = folium_static(m, width=650)
+    
+    col1, col2, col3 = st.columns((1,3,1), gap="small")
+    
+    with col2:
+        st_data = folium_static(m, width=650)
 
         
 
