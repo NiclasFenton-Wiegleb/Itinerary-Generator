@@ -278,7 +278,7 @@ if st.session_state.button[1] == True:
 
         pop_txt = f"""<b>{stop}</b>
                 <br><b>{name}</b>
-                <br><a href={link}>Link to website</a>
+                <br><a href={link} target="_blank">Link to website</a>
                 <br><b>Address:</b> {address}
                 """
 
