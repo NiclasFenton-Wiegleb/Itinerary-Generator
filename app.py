@@ -270,8 +270,18 @@ if st.session_state.button[1] == True:
 
     #Loop through each row in the dataframe
     for i,row in df.iterrows():
-    #Setup the content of the popup
-        iframe = folium.IFrame(f"""{str(row["stop"])} : {str(row["name"])} \nAdress: {str(row["address"])} \nLink: {str(row["link"])}""")
+        #Setup the content of the popup
+        stop = str(row["stop"])
+        name = str(row["name"])
+        address = str(row["address"])
+        link = str(row["link"])
+
+        pop_txt = f"""{stop}\n
+                {name}\n
+                Address: {address}\n
+                Link: {link}"""
+
+        iframe = folium.IFrame(pop_txt)
             
         #Initialise the popup using the iframe
         popup = folium.Popup(iframe, min_width=300, max_width=300)
