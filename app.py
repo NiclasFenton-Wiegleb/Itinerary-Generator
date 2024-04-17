@@ -276,10 +276,10 @@ if st.session_state.button[1] == True:
         address = str(row["address"])
         link = str(row["link"])
 
-        pop_txt = f"""{stop}\n
-                {name}\n
-                Address: {address}\n
-                Link: {link}"""
+        pop_txt = f"""{stop}
+                <br>{name}
+                <br>Address: {address}
+                <br>Link: {link}"""
 
         iframe = folium.IFrame(pop_txt)
             
