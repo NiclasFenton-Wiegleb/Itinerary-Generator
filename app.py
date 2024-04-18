@@ -213,6 +213,12 @@ if st.session_state.button[1] == True:
             image_1_path = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
             image_2_path = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
 
+            image_1_path = image_1_path.replace(" ", "_")
+            image_2_path = image_2_path.replace(" ", "_")
+
+            image_1_path = image_1_path.replace("'", "")
+            image_2_path = image_2_path.replace("'", "")
+
             image_1 = Image.open(image_1_path)
             image_2 = Image.open(image_2_path)
 
@@ -239,6 +245,12 @@ if st.session_state.button[1] == True:
 
             image_1_path = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
             image_2_path = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
+
+            image_1_path = image_1_path.replace(" ", "_")
+            image_2_path = image_2_path.replace(" ", "_")
+
+            image_1_path = image_1_path.replace("'", "")
+            image_2_path = image_2_path.replace("'", "")
 
             image_1 = Image.open(image_1_path)
             image_2 = Image.open(image_2_path)
