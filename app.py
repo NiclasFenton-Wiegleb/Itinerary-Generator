@@ -60,7 +60,7 @@ def retrieve_img(image_path):
     file_path = image_path.replace(" ", "_")
     file_path = file_path.replace("'", "")
     file_path = file_path.replace("`", "")
-    file_path = file_path.replace("’", "")
+    # file_path = file_path.replace("’", "")
     
     image = Image.open(file_path)
 
@@ -183,145 +183,122 @@ button = col2.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
 
-    # Initialise listes for each entry to draw from
-    title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
-    alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
-    stop_lst = ["stop_1", "stop_2", "stop_3", "stop_4", "stop_5"]
-    state_lst = [st.session_state.brunch, st.session_state.activity, st.session_state.drinks, st.session_state.dinner, st.session_state.evening]
-    next_lst = [next_brunch, next_activity, next_drinks, next_dinner, next_evening]
-    prev_lst = [previous_brunch, previous_activity, previous_drinks, previous_dinner, previous_evening]
-    
-    long_lst = [0,0,0,0,0]
-    lat_lst = [0,0,0,0,0]
-    name_lst = ["", "", "", "", ""]
-    address_lst = ["", "", "", "", ""]
-    link_lst = ["", "", "", "", ""]
-
-    df = pd.DataFrame(columns=["long", "lat", "name", "stop", "address", "link"])
-    
-    for x, item in enumerate(stop_lst):
-
-        col1, col2, col3 = st.columns((1,3,1), gap="small")
-
-        state = state_lst[x]
-        next_func = next_lst[x]
-        prev_func = prev_lst[x]
-        y = x+10
-
-         # Next Button
-        next_txt = "⇨"
-        next_stop = col3.button(next_txt, on_click=next_func, key=x, args=[state])
-
-        # Previous Button
-        prev_txt = "⇦"
-        prev_stop = col1.button(prev_txt, on_click=prev_func, key=y, args=[state])
-
-        if state == 3:
-
-            #Id stop for Brunch
-            stop = int(route_data[item][st.session_state.route_idx])
-
-            image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
-            image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
-
-            # image_1_path = image_1_path.replace(" ", "_")
-            # image_2_path = image_2_path.replace(" ", "_")
-
-            # image_1_path = image_1_path.replace("'", "")
-            # image_2_path = image_2_path.replace("'", "")
-
-            # image_1_path = image_1_path.replace("`", "")
-            # image_2_path = image_2_path.replace("`", "")
-
-            # image_1 = Image.open(image_1_path)
-            # image_2 = Image.open(image_2_path)
-
-            # image_1 = image_1.resize((400,400))
-            # image_2 = image_2.resize((400,400))
-
-            col2.markdown(f"""## {title_lst[x]}""")  # title
-            col2.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-            col2.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
-            col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
-            col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
-
-            long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
-            lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
-            name_lst[x] = str(dataset.name.iloc[stop])
-            address_lst[x] = str(dataset.address.iloc[stop])
-            link_lst[x] = str(dataset.link.iloc[stop])
-
+    try:
+        # Initialise listes for each entry to draw from
+        title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
+        alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
+        stop_lst = ["stop_1", "stop_2", "stop_3", "stop_4", "stop_5"]
+        state_lst = [st.session_state.brunch, st.session_state.activity, st.session_state.drinks, st.session_state.dinner, st.session_state.evening]
+        next_lst = [next_brunch, next_activity, next_drinks, next_dinner, next_evening]
+        prev_lst = [previous_brunch, previous_activity, previous_drinks, previous_dinner, previous_evening]
         
-        else:
+        long_lst = [0,0,0,0,0]
+        lat_lst = [0,0,0,0,0]
+        name_lst = ["", "", "", "", ""]
+        address_lst = ["", "", "", "", ""]
+        link_lst = ["", "", "", "", ""]
 
-            column = str(alt_lst[state])
-            stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
-
-            image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
-            image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
-
-            # image_1_path = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
-            # image_2_path = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
-
-            # image_1_path = image_1_path.replace(" ", "_")
-            # image_2_path = image_2_path.replace(" ", "_")
-
-            # image_1_path = image_1_path.replace("'", "")
-            # image_2_path = image_2_path.replace("'", "")
-
-            # image_1 = Image.open(image_1_path)
-            # image_2 = Image.open(image_2_path)
-
-            # image_1 = image_1.resize((400,400))
-            # image_2 = image_2.resize((400,400))
-
-            col2.markdown(f"""## {title_lst[x]}""")  # title
-            col2.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-            col2.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
-            col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
-            col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
-
-            long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
-            lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
-            name_lst[x] = str(dataset.name.iloc[stop])
-            address_lst[x] = str(dataset.address.iloc[stop])
-            link_lst[x] = str(dataset.link.iloc[stop])
+        df = pd.DataFrame(columns=["long", "lat", "name", "stop", "address", "link"])
         
-        df.long = long_lst
-        df.lat = lat_lst
-        df.name = name_lst
-        df.stop = title_lst
-        df.address = address_lst
-        df.link = link_lst
+        for x, item in enumerate(stop_lst):
 
-    m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
-                    zoom_start=11, control_scale=True)
+            col1, col2, col3 = st.columns((1,3,1), gap="small")
 
-    #Loop through each row in the dataframe
-    for i,row in df.iterrows():
-        #Setup the content of the popup
-        stop = str(row["stop"])
-        name = str(row["name"])
-        address = str(row["address"])
-        link = str(row["link"])
+            state = state_lst[x]
+            next_func = next_lst[x]
+            prev_func = prev_lst[x]
+            y = x+10
 
-        pop_txt = f"""<b>{stop}</b>
-                <br><b>{name}</b>
-                <br><a href={link} target="_blank">Link to website</a>
-                <br><b>Address:</b> {address}
-                """
+            # Next Button
+            next_txt = "⇨"
+            next_stop = col3.button(next_txt, on_click=next_func, key=x, args=[state])
 
-        iframe = folium.IFrame(pop_txt)
+            # Previous Button
+            prev_txt = "⇦"
+            prev_stop = col1.button(prev_txt, on_click=prev_func, key=y, args=[state])
+
+            if state == 3:
+
+                #Id stop for Brunch
+                stop = int(route_data[item][st.session_state.route_idx])
+
+                image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
+                image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
+
+                col2.markdown(f"""## {title_lst[x]}""")  # title
+                col2.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
+                col2.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
+                col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
+                col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
+
+                long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
+                lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
+                name_lst[x] = str(dataset.name.iloc[stop])
+                address_lst[x] = str(dataset.address.iloc[stop])
+                link_lst[x] = str(dataset.link.iloc[stop])
+
             
-        #Initialise the popup using the iframe
-        popup = folium.Popup(iframe, min_width=300, max_width=300)
+            else:
+
+                column = str(alt_lst[state])
+                stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
+
+                image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
+                image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
+
+                col2.markdown(f"""## {title_lst[x]}""")  # title
+                col2.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
+                col2.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
+                col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
+                col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
+
+                long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
+                lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
+                name_lst[x] = str(dataset.name.iloc[stop])
+                address_lst[x] = str(dataset.address.iloc[stop])
+                link_lst[x] = str(dataset.link.iloc[stop])
             
-        #Add each row to the map
-        folium.Marker(location=[row['lat'],row['long']],
-                        popup = popup, c=row['name']).add_to(m)
+            df.long = long_lst
+            df.lat = lat_lst
+            df.name = name_lst
+            df.stop = title_lst
+            df.address = address_lst
+            df.link = link_lst
+
+        m = folium.Map(location=[df.lat.mean(), df.long.mean()], 
+                        zoom_start=11, control_scale=True)
+
+        #Loop through each row in the dataframe
+        for i,row in df.iterrows():
+            #Setup the content of the popup
+            stop = str(row["stop"])
+            name = str(row["name"])
+            address = str(row["address"])
+            link = str(row["link"])
+
+            pop_txt = f"""<b>{stop}</b>
+                    <br><b>{name}</b>
+                    <br><a href={link} target="_blank">Link to website</a>
+                    <br><b>Address:</b> {address}
+                    """
+
+            iframe = folium.IFrame(pop_txt)
+                
+            #Initialise the popup using the iframe
+            popup = folium.Popup(iframe, min_width=300, max_width=300)
+                
+            #Add each row to the map
+            folium.Marker(location=[row['lat'],row['long']],
+                            popup = popup, c=row['name']).add_to(m)
+        
+
+        st_data = folium_static(m, width= 725)
     
+    except:
 
-    st_data = folium_static(m, width= 725)
+        #Error handling - print message if error occurs
+        error_txt =  "Error: That didn't go quite as planned! 🫠 Please try again."
+        print(error_txt)
 
         
 
