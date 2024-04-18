@@ -55,6 +55,15 @@ if 'route_idx' not in st.session_state:
 if 'brunch' not in st.session_state:
     st.session_state.brunch = 3
 
+#Clean path for image retrieval
+def retrieve_img(image_path):
+    file_path = image_path.replace(" ", "_")
+    file_path = file_path.replace("'", "")
+    file_path = file_path.replace("`", "")
+    image = Image.open(file_path)
+
+    return image
+
 
 # Function to update the value in session state
 def next_brunch(button):
@@ -210,20 +219,20 @@ if st.session_state.button[1] == True:
             #Id stop for Brunch
             stop = int(route_data[item][st.session_state.route_idx])
 
-            image_1_path = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
-            image_2_path = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
+            image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
+            image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
 
-            image_1_path = image_1_path.replace(" ", "_")
-            image_2_path = image_2_path.replace(" ", "_")
+            # image_1_path = image_1_path.replace(" ", "_")
+            # image_2_path = image_2_path.replace(" ", "_")
 
-            image_1_path = image_1_path.replace("'", "")
-            image_2_path = image_2_path.replace("'", "")
+            # image_1_path = image_1_path.replace("'", "")
+            # image_2_path = image_2_path.replace("'", "")
 
-            image_1_path = image_1_path.replace("`", "")
-            image_2_path = image_2_path.replace("`", "")
+            # image_1_path = image_1_path.replace("`", "")
+            # image_2_path = image_2_path.replace("`", "")
 
-            image_1 = Image.open(image_1_path)
-            image_2 = Image.open(image_2_path)
+            # image_1 = Image.open(image_1_path)
+            # image_2 = Image.open(image_2_path)
 
             # image_1 = image_1.resize((400,400))
             # image_2 = image_2.resize((400,400))
@@ -246,17 +255,20 @@ if st.session_state.button[1] == True:
             column = str(alt_lst[state])
             stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
 
-            image_1_path = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
-            image_2_path = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
+            image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
+            image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
 
-            image_1_path = image_1_path.replace(" ", "_")
-            image_2_path = image_2_path.replace(" ", "_")
+            # image_1_path = f"""./images/{dataset.name.iloc[stop]}_001.jpg"""
+            # image_2_path = f"""./images/{dataset.name.iloc[stop]}_002.jpg"""
 
-            image_1_path = image_1_path.replace("'", "")
-            image_2_path = image_2_path.replace("'", "")
+            # image_1_path = image_1_path.replace(" ", "_")
+            # image_2_path = image_2_path.replace(" ", "_")
 
-            image_1 = Image.open(image_1_path)
-            image_2 = Image.open(image_2_path)
+            # image_1_path = image_1_path.replace("'", "")
+            # image_2_path = image_2_path.replace("'", "")
+
+            # image_1 = Image.open(image_1_path)
+            # image_2 = Image.open(image_2_path)
 
             # image_1 = image_1.resize((400,400))
             # image_2 = image_2.resize((400,400))
