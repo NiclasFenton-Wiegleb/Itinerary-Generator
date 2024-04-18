@@ -296,9 +296,11 @@ if st.session_state.button[1] == True:
     
     except:
 
-        #Error handling - print message if error occurs
-        error_txt =  "Error: That didn't go quite as planned! 🫠 Please try again."
-        st.write(error_txt)
+         #Error handling - print message if error occurs
+
+        col1, col2, col3 = st.columns((1,3,1), gap="small")
+        error_txt =  "## Error: That didn't go quite as planned! 🫠 Please try again."
+        col2.markdown(error_txt)
 
         
 
