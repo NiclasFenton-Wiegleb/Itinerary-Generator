@@ -60,6 +60,8 @@ def retrieve_img(image_path):
     file_path = image_path.replace(" ", "_")
     file_path = file_path.replace("'", "")
     file_path = file_path.replace("`", "")
+    file_path = file_path.replace("’", "")
+    
     image = Image.open(file_path)
 
     return image
