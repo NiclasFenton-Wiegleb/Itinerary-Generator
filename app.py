@@ -210,12 +210,14 @@ if st.session_state.button[1] == True:
             y = x+10
 
             # Next Button
-            next_txt = "⇨"
-            next_stop = col3.button(next_txt, on_click=next_func, key=x, args=[state])
+            with col3:
+                next_txt = "⇨"
+                next_stop = st.button(next_txt, on_click=next_func, key=x, args=[state])
 
             # Previous Button
-            prev_txt = "⇦"
-            prev_stop = col1.button(prev_txt, on_click=prev_func, key=y, args=[state])
+            with col1:
+                prev_txt = "⇦"
+                prev_stop = st.button(prev_txt, on_click=prev_func, key=y, args=[state])
 
             if state == 3:
 
@@ -227,7 +229,7 @@ if st.session_state.button[1] == True:
 
                 col2.markdown(f"""## {title_lst[x]}""")  # title
                 col2.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-                col2.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
+                col2.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], use_column_width = "always") # images
                 col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
                 col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
