@@ -229,10 +229,10 @@ if st.session_state.button[1] == True:
 
                 col2.markdown(f"""## {title_lst[x]}""")  # title
                 col2.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-                with st.container():
-                    st.image(image_1, use_column_width = "always") # image 1
-                with st.container():
-                    st.image(image_2, caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], use_column_width = "always") # image 2
+                container1 = st.container()
+                container1.image(image_1, use_column_width = "always") # image 1
+                container2 = st.container()
+                container2.image(image_2, caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], use_column_width = "always") # image 2
                 col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
                 col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
