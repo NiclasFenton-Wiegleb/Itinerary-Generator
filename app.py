@@ -183,7 +183,7 @@ button = col2.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
 
-    try:
+    # try:
         # Initialise listes for each entry to draw from
         title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
         alt_lst = ["neighbour_1", "neighbour_2", "neighbour_3"]
@@ -298,13 +298,13 @@ if st.session_state.button[1] == True:
 
         st_data = folium_static(m, width= 725)
     
-    except:
+    # except:
 
-         #Error handling - print message if error occurs
+    #      #Error handling - print message if error occurs
 
-        col1, col2, col3 = st.columns((1,3,1), gap="small")
-        error_txt =  "## Error: That didn't go quite as planned! 🫠 Please try again."
-        col2.markdown(error_txt)
+    #     col1, col2, col3 = st.columns((1,3,1), gap="small")
+    #     error_txt =  "## Error: That didn't go quite as planned! 🫠 Please try again."
+    #     col2.markdown(error_txt)
 
         
 
