@@ -229,8 +229,8 @@ if st.session_state.button[1] == True:
 
                 col2.markdown(f"""## {title_lst[x]}""")  # title
                 col2.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-                container1 = st.empty()
-                container1.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], width=400) # images
+                container1 = st.column(1)
+                container1.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
                 col2.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
                 col2.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
