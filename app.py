@@ -192,6 +192,7 @@ def fix_horizontal_scroll():
     div {
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
     }
     </style>''', unsafe_allow_html=True)
 
