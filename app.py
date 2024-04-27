@@ -214,7 +214,7 @@ if st.session_state.button[1] == True:
 
             fix_mobile_columns()
 
-            col1,col2, col3 = st.columns((1,1,1), gap="small")
+            col1,col2, col3 = st.columns((1,2,1), gap="small")
 
             state = state_lst[x]
             next_func = next_lst[x]
