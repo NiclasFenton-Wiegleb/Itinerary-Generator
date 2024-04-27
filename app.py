@@ -195,6 +195,8 @@ def fix_horizontal_scroll():
     }
     </style>''', unsafe_allow_html=True)
 
+fix_mobile_columns()
+
 col1,col2, col3 = st.columns((1,2,1), gap="small")
 
 # Button with callback function
@@ -221,7 +223,6 @@ if st.session_state.button[1] == True:
         
         for x, item in enumerate(stop_lst):
 
-            fix_mobile_columns()
             fix_horizontal_scroll()
 
 
