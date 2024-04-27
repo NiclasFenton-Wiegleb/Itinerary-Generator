@@ -202,7 +202,7 @@ if st.session_state.button[1] == True:
         
         for x, item in enumerate(stop_lst):
 
-            col1, col2, col3 = st.columns((1,2,1), gap="small")
+            col1, col2, col3 = st.columns((1,1,1), gap="small")
 
             state = state_lst[x]
             next_func = next_lst[x]
@@ -222,7 +222,7 @@ if st.session_state.button[1] == True:
 
             if state == 3:
 
-                col4, col5, col6 = st.columns((1,2,1), gap="small")
+                # col4, col5, col6 = st.columns((1,2,1), gap="small")
 
                 #Id stop for Brunch
                 stop = int(route_data[item][st.session_state.route_idx])
@@ -230,13 +230,11 @@ if st.session_state.button[1] == True:
                 image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
                 image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
 
-                col5.markdown(f"""## {title_lst[x]}""")  # title
-                col5.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-        
-                with col5:
-                    st.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], use_column_width= True, width = 100) # images
-                col5.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
-                col5.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
+                st.markdown(f"""## {title_lst[x]}""")  # title
+                st.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
+                st.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], use_column_width= True, width = 100) # images
+                st.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
+                st.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
                 long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
                 lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
