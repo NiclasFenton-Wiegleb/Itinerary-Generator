@@ -176,6 +176,16 @@ def select_route():
     st.session_state.route_idx[0] = random.randint(0, len(route_data))
     st.session_state.button[1] = True
 
+#Fixing issue of buttons going over rows in mobile version
+def fix_mobile_columns():    
+    st.write('''<style>
+    [data-testid="column"] {
+        width: calc(16.6666% - 1rem) !important;
+        flex: 1 1 calc(16.6666% - 1rem) !important;
+        min-width: calc(16.6666% - 1rem) !important;
+    }
+    </style>''', unsafe_allow_html=True)
+
 col1, col2, col3 = st.columns(3)
 
 # Button with callback function
@@ -201,6 +211,8 @@ if st.session_state.button[1] == True:
         df = pd.DataFrame(columns=["long", "lat", "name", "stop", "address", "link"])
         
         for x, item in enumerate(stop_lst):
+
+            fix_mobile_columns()
 
             col1, col3 = st.columns((1,1), gap="small")
 
