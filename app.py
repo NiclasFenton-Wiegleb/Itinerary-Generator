@@ -189,7 +189,7 @@ def fix_mobile_columns():
 #Fixin scroll issue on mobil version
 def fix_horizontal_scroll():
     st.write('''<style>
-    html, body {
+    section.main > div: {
     max-width: 100%;
     overflow-x: hidden;
     }
