@@ -192,7 +192,6 @@ def fix_horizontal_scroll():
     div {
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
     }
     </style>''', unsafe_allow_html=True)
 
@@ -251,7 +250,8 @@ if st.session_state.button[1] == True:
                 with st.container():
                     st.write('''<style>
                         [data-testid="button"] {
-                            float: left
+                            margin-right: auto; 
+                            margin-left: 0;
                         }
                         </style>''', unsafe_allow_html=True)
                     prev_txt = "⇦"
