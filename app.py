@@ -186,12 +186,21 @@ def fix_mobile_columns():
     }
     </style>''', unsafe_allow_html=True)
 
-#Fixin scroll issue on mobil version
+#Fixing horizontal scroll issue on mobil version
 def fix_horizontal_scroll():
     st.write('''<style>
     div {
     max-width: 100%;
     overflow-x: hidden;
+    }
+    </style>''', unsafe_allow_html=True)
+
+#Fixin vertical scroll issue on mobil version
+def fix_vertical_scroll():
+    st.write('''<style>
+    div {
+    max-width: 100%;
+    overflow-y: hidden;
     }
     </style>''', unsafe_allow_html=True)
 
@@ -224,7 +233,6 @@ if st.session_state.button[1] == True:
         for x, item in enumerate(stop_lst):
 
             fix_horizontal_scroll()
-
 
             col1,col2, col3 = st.columns((1,2,1), gap="small")
 
@@ -268,10 +276,15 @@ if st.session_state.button[1] == True:
                 image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
                 image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
 
-                st.markdown(f"""## {title_lst[x]}""")  # title
-                st.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-                st.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], width = 300) # images
                 with st.container():
+                    fix_vertical_scroll()
+                    st.markdown(f"""## {title_lst[x]}""")  # title
+                    st.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
+                
+                st.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], width = 300) # images
+
+                with st.container():
+                    fix_vertical_scroll()
                     st.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
                     st.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
@@ -290,10 +303,15 @@ if st.session_state.button[1] == True:
                 image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
                 image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
 
-                st.markdown(f"""## {title_lst[x]}""")  # title
-                st.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-                st.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], width = 300) # images
                 with st.container():
+                    fix_vertical_scroll()
+                    st.markdown(f"""## {title_lst[x]}""")  # title
+                    st.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
+                
+                st.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], width = 300) # images
+
+                with st.container():
+                    fix_vertical_scroll()
                     st.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
                     st.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
