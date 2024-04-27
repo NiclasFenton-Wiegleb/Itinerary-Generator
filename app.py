@@ -202,6 +202,10 @@ def fix_vertical_scroll():
     max-width: 100%;
     overflow-y: hidden;
     }
+    [data-testid="container"] {
+    max-width: 100%;
+    overflow-y: hidden;
+    }
     </style>''', unsafe_allow_html=True)
 
 fix_mobile_columns()
@@ -276,8 +280,10 @@ if st.session_state.button[1] == True:
                 image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
                 image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
 
-                st.markdown(f"""## {title_lst[x]}""")  # title
-                st.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
+                with st.container():
+                    fix_vertical_scroll()
+                    st.markdown(f"""## {title_lst[x]}""")  # title
+                    st.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
                 
                 st.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], width = 300) # images
 
