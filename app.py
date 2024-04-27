@@ -226,7 +226,8 @@ if st.session_state.button[1] == True:
                 with st.container():
                     st.write('''<style>
                         [data-testid="button"] {
-                            float: right
+                            margin-left: auto; 
+                            margin-right: 0;
                         }
                         </style>''', unsafe_allow_html=True)
                     next_txt = "⇨"
