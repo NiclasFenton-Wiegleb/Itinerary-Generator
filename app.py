@@ -186,7 +186,7 @@ def fix_mobile_columns():
     }
     </style>''', unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
+col1,col2, col3 = st.columns((1,2,1), gap="small")
 
 # Button with callback function
 button = col2.button("Generate Itinerary", on_click=select_route)
