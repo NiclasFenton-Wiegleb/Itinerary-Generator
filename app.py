@@ -198,7 +198,7 @@ def fix_horizontal_scroll():
 #Fixin vertical scroll issue on mobil version
 def fix_vertical_scroll():
     st.write('''<style>
-    [data-testid="column"] {
+    [data-testid="container"] {
     max-width: 100%;
     overflow-y: hidden;
     }
