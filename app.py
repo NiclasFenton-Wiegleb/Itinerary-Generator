@@ -186,12 +186,23 @@ def fix_mobile_columns():
     }
     </style>''', unsafe_allow_html=True)
 
+#Fixin scroll issue on mobil version
+def fix_horizontal_scroll():
+    st.write('''<style>
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+    </style>''', unsafe_allow_html=True))
+
 col1,col2, col3 = st.columns((1,2,1), gap="small")
 
 # Button with callback function
 button = col2.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
+    
+        fix_horizontal_scroll()
 
     # try:
         # Initialise listes for each entry to draw from
