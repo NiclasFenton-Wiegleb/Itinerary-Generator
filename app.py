@@ -193,7 +193,7 @@ def fix_horizontal_scroll():
     max-width: 100%;
     overflow-x: hidden;
     }
-    </style>''', unsafe_allow_html=True))
+    </style>''', unsafe_allow_html=True)
 
 col1,col2, col3 = st.columns((1,2,1), gap="small")
 
