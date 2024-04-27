@@ -272,7 +272,7 @@ if st.session_state.button[1] == True:
                 st.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], width = 300) # images
                 with st.container():
                     st.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
-                    st.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
+                    st.write(f"""<br><a href={dataset.link.iloc[stop]}target="_blank">Link to website</a""") #link to website
 
                 long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
                 lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
