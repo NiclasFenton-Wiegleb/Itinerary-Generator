@@ -202,10 +202,6 @@ def fix_vertical_scroll():
     max-width: 100%;
     overflow-y: hidden;
     }
-    [data-testid="container"] {
-    max-width: 100%;
-    overflow-y: hidden;
-    }
     </style>''', unsafe_allow_html=True)
 
 fix_mobile_columns()
