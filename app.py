@@ -234,8 +234,14 @@ if st.session_state.button[1] == True:
 
             # Previous Button
             with col1:
-                prev_txt = "⇦"
-                prev_stop = st.button(prev_txt, on_click=prev_func, key=y, args=[state])
+                with st.container():
+                    st.write('''<style>
+                        [data-testid="button"] {
+                            float: left
+                        }
+                        </style>''', unsafe_allow_html=True)
+                    prev_txt = "⇦"
+                    prev_stop = st.button(prev_txt, on_click=prev_func, key=y, args=[state])
             
 
             if state == 3:
