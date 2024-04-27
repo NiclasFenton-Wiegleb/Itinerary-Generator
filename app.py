@@ -223,8 +223,14 @@ if st.session_state.button[1] == True:
 
             # Next Button
             with col3:
-                next_txt = "⇨"
-                next_stop = st.button(next_txt, on_click=next_func, key=x, args=[state])
+                with st.container():
+                    st.write('''<style>
+                        [data-testid="button"] {
+                            float: right
+                        }
+                        </style>''', unsafe_allow_html=True)
+                    next_txt = "⇨"
+                    next_stop = st.button(next_txt, on_click=next_func, key=x, args=[state])
 
             # Previous Button
             with col1:
