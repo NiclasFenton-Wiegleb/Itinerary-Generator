@@ -202,8 +202,6 @@ button = col2.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
     
-        fix_horizontal_scroll()
-
     # try:
         # Initialise listes for each entry to draw from
         title_lst = ["1. Brunch", "2. Activity", "3. Afternoon Drinks", "4. Dinner", "5. Evening Out"]
@@ -224,6 +222,8 @@ if st.session_state.button[1] == True:
         for x, item in enumerate(stop_lst):
 
             fix_mobile_columns()
+            fix_horizontal_scroll()
+
 
             col1,col2, col3 = st.columns((1,2,1), gap="small")
 
