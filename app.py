@@ -275,7 +275,6 @@ if st.session_state.button[1] == True:
                 image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
                 image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
 
-
                 col5.markdown(f"""## {title_lst[x]}""")  # title
                 col5.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
                 col5.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
@@ -297,17 +296,11 @@ if st.session_state.button[1] == True:
                 image_1 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_001.jpg""")
                 image_2 = retrieve_img(f"""./images/{dataset.name.iloc[stop]}_002.jpg""")
 
-                with st.container():
-                    fix_vertical_scroll()
-                    st.markdown(f"""## {title_lst[x]}""")  # title
-                    st.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-                
-                st.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], width = 300) # images
-
-                with st.container():
-                    fix_vertical_scroll()
-                    st.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
-                    st.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
+                col5.markdown(f"""## {title_lst[x]}""")  # title
+                col5.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
+                col5.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
+                col5.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
+                col5.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
                 long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
                 lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
