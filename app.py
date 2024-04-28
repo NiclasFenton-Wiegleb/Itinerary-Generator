@@ -190,7 +190,6 @@ def fix_mobile_columns():
 def fix_horizontal_scroll():
     st.write('''<style>
     div {
-    max-width: 100%;
     overflow-x: hidden;
     }
     </style>''', unsafe_allow_html=True)
