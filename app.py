@@ -10,7 +10,8 @@ import streamlit.components.v1 as components  # Import Streamlit
 
 st.title("Manchester: Build Your Day!")
 
-intro_txt = f"""Are you visiting Manchester? Do you live here and want to explore some new things to do in the city? Check out this AI generator to plan your day out!"""
+intro_txt = f"""Are you visiting Manchester? Do you live here and want to explore some new things to do in the city?
+Check out this AI generator to plan your day out! It's constantly updated with the latest recommendations and exciting new places."""
 
 st.markdown(intro_txt)
 
