@@ -209,15 +209,15 @@ col1,col2, col3 = st.columns((1,5,1), gap="small")
 
 # Button with callback function
 with col2:
-        with st.container():
-            st.write('''<style>
-                [data-testid="button"] {
-                    margin: auto;
-                    width: 50%;
-                    padding: 10px;
-                }
-                </style>''', unsafe_allow_html=True)
-            button = col2.button("Generate Itinerary", on_click=select_route)
+    with st.container():
+        # st.write('''<style>
+        #     [data-testid="button"] {
+        #         margin: auto;
+        #         width: 50%;
+        #         padding: 10px;
+        #     }
+        #     </style>''', unsafe_allow_html=True)
+        button = col2.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
     
