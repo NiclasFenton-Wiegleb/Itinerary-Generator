@@ -310,7 +310,7 @@ if st.session_state.button[1] == True:
 
                 col5.markdown(f"""## {title_lst[x]}""")  # title
                 col5.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-                col5.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
+                col5.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], use_column_width= True) # images
                 col5.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
                 col5.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
