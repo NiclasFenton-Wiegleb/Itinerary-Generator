@@ -212,8 +212,8 @@ with col2:
         with st.container():
             st.write('''<style>
                 [data-testid="button"] {
-                    float: center;
-                    margin: 0;
+                    margin-left: 50%;
+                    margin-right: 50%;
                 }
                 </style>''', unsafe_allow_html=True)
             button = col2.button("Generate Itinerary", on_click=select_route)
