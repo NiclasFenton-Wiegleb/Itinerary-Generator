@@ -245,8 +245,8 @@ if st.session_state.button[1] == True:
                 with st.container():
                     st.write('''<style>
                         [data-testid="button"] {
-                            margin-left: auto; 
-                            margin-right: 0;
+                            margin: 0;
+                            float: right;
                         }
                         </style>''', unsafe_allow_html=True)
                     next_txt = "⇨"
@@ -257,8 +257,8 @@ if st.session_state.button[1] == True:
                 with st.container():
                     st.write('''<style>
                         [data-testid="button"] {
-                            margin-right: auto; 
-                            margin-left: 0;
+                            margin: 0;
+                            float: left;
                         }
                         </style>''', unsafe_allow_html=True)
                     prev_txt = "⇦"
