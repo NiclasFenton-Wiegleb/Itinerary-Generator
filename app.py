@@ -290,6 +290,8 @@ if st.session_state.button[1] == True:
             
             else:
 
+                col4, col5, col6 = st.columns((1,5,1), gap="small")
+
                 column = str(alt_lst[state])
                 stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
 
