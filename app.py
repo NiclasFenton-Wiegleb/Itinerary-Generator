@@ -277,7 +277,7 @@ if st.session_state.button[1] == True:
 
             if state == 3:
 
-                col4, col5, col6 = st.columns((1,5,1), gap="small")
+                col4, col5, col6 = st.columns([1,5,1], gap="small")
 
                 #Id stop for Brunch
                 stop = int(route_data[item][st.session_state.route_idx])
@@ -287,7 +287,7 @@ if st.session_state.button[1] == True:
 
                 col5.markdown(f"""## {title_lst[x]}""")  # title
                 col5.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
-                col5.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""]) # images
+                col5.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], use_column_width= True) # images
                 col5.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
                 col5.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
 
@@ -300,7 +300,7 @@ if st.session_state.button[1] == True:
             
             else:
 
-                col4, col5, col6 = st.columns((1,5,1), gap="small")
+                col4, col5, col6 = st.columns([1,5,1], gap="small")
 
                 column = str(alt_lst[state])
                 stop = int(dataset[column][int(route_data[item][st.session_state.route_idx])])
