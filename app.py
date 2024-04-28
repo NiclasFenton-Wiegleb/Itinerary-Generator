@@ -203,7 +203,7 @@ def fix_vertical_scroll():
     }
     </style>''', unsafe_allow_html=True)
 
-fix_mobile_columns()
+# fix_mobile_columns()
 
 col1,col2, col3 = st.columns((1,2,1), gap="small")
 
