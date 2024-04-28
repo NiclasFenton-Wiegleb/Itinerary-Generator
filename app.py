@@ -205,7 +205,7 @@ def fix_vertical_scroll():
 
 # fix_mobile_columns()
 
-col1,col2, col3 = st.columns((1,5,1), gap="small")
+col1,col2, col3 = st.columns([1,1,1], gap="small")
 
 
 # Button with callback function
