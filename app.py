@@ -243,7 +243,7 @@ if st.session_state.button[1] == True:
 
             # fix_horizontal_scroll()
 
-            col1,col2, col3 = st.columns([1,1,1], gap="small")
+            col1,col2, col3 = st.columns([1,5,1], gap="small")
 
             state = state_lst[x]
             next_func = next_lst[x]
