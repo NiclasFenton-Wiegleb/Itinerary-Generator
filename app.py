@@ -205,10 +205,24 @@ def fix_vertical_scroll():
 
 # fix_mobile_columns()
 
-col1,col2, col3 = st.columns((1,2,1), gap="small")
+col1,col2, col3 = st.columns((1,5,1), gap="small")
 
 # Button with callback function
-button = col2.button("Generate Itinerary", on_click=select_route)
+with col2:
+        with st.container():
+            st.write('''<style>
+                [data-testid="button"] {
+                    width:200px;
+                    height:200px;
+                    position: fixed;
+                    background-color: blue;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: -100px;
+                    margin-left: -100px;
+                }
+                </style>''', unsafe_allow_html=True)
+            button = col2.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
     
