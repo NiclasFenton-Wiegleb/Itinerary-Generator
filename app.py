@@ -218,7 +218,7 @@ with col2:
             min-width: calc(33.333333% - 1rem) !important;
             }
             </style>''', unsafe_allow_html=True)
-        button = col2.button("Generate Itinerary", on_click=select_route)
+        button = st.button("Generate Itinerary", on_click=select_route)
 
 if st.session_state.button[1] == True:
     
