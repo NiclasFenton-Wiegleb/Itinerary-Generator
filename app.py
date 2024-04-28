@@ -267,7 +267,7 @@ if st.session_state.button[1] == True:
 
             if state == 3:
 
-                col4, col5, col6 = st.columns((1,2,1), gap="small")
+                col4, col5, col6 = st.columns((1,5,1), gap="small")
 
                 #Id stop for Brunch
                 stop = int(route_data[item][st.session_state.route_idx])
