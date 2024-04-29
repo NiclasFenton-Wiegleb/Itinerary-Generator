@@ -27,6 +27,7 @@ def load_data(route_data_path, dataset_path):
 
     return route_data, dataset
 
+
 # Create a text element and let the reader know the data is loading
 data_load_state = st.text("Loading data...")
 # Load 10,000 rows of data into the dataframe
