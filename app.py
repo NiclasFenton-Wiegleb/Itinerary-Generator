@@ -197,7 +197,33 @@ def fix_vertical_scroll():
     }
     </style>''', unsafe_allow_html=True)
 
-# fix_mobile_columns()
+# Select fonts
+def fonts():
+    
+    #div
+    st.write('''<style>
+    div {
+    font-stretch: expanded;
+    }
+    </style>''', unsafe_allow_html=True)
+    
+    #heading - h1
+    st.write('''<style>
+    h1 {
+    font-family: "Basis Grotesque", sans-serif;
+    }
+    </style>''', unsafe_allow_html=True)
+
+    #paragraphs
+    st.write('''<style>
+    p {
+    font-family: "Gill Sans", sans-serif;
+    font-stretch: expanded;
+    font-size: 15px;
+    }
+    </style>''', unsafe_allow_html=True)
+
+fonts()
 
 col1,col2, col3 = st.columns([1,1,1], gap="small")
 
@@ -282,8 +308,8 @@ if st.session_state.button[1] == True:
                 col5.markdown(f"""## {title_lst[x]}""")  # title
                 col5.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
                 col5.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], use_column_width= True) # images
-                col5.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
-                col5.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
+                col5.markdown(f"""**Address:** {dataset.address.iloc[stop]}""")  # address
+                col5.write(f"""**Link:** {dataset.link.iloc[stop]}""") #link to website
 
                 long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
                 lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
@@ -305,8 +331,8 @@ if st.session_state.button[1] == True:
                 col5.markdown(f"""## {title_lst[x]}""")  # title
                 col5.markdown(f"""### {dataset.name.iloc[stop]}""")  # name
                 col5.image([image_1, image_2], caption= ["", f"""Source: {dataset.img_source.iloc[stop]}"""], use_column_width= True) # images
-                col5.write(f"""Address: {dataset.address.iloc[stop]}""")  # address
-                col5.write(f"""Link: {dataset.link.iloc[stop]}""") #link to website
+                col5.markdown(f"""**Address:** {dataset.address.iloc[stop]}""")  # address
+                col5.write(f"""**Link:** {dataset.link.iloc[stop]}""") #link to website
 
                 long_lst[x] = dataset.long_coordinates.iloc[stop] #longitude
                 lat_lst[x] = dataset.lat_coordinates.iloc[stop] #latitude
