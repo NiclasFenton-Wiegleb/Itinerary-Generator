@@ -230,7 +230,7 @@ def app_layout():
         <style>
             .block-container {
                     padding-top: 5rem;
-                    padding-bottom: 20rem;
+                    padding-bottom: 10rem;
                 }
         </style>
         """, unsafe_allow_html=True)
