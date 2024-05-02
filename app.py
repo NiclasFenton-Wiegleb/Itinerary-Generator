@@ -237,7 +237,7 @@ def app_layout():
                .css-1d391kg {
                     padding-top: 3.5rem;
                     padding-right: 1rem;
-                    padding-bottom: 3.5rem;
+                    padding-bottom: 10rem;
                     padding-left: 1rem;
                 }
         </style>
