@@ -8,6 +8,7 @@ from streamlit_folium import st_folium, folium_static
 import streamlit.components.v1 as components  # Import Streamlit
 
 st.set_page_config(page_title="Manchester - Make Your Day!")
+st.header("A website that can generate itineraries for a day out in Manchester. The routes have been optimised using AI reinforcement learning. Perfect for anyone visiting Manchester or who are living here and looking for weekend.")
 
 st.title("Manchester: Make Your Day!")
 
