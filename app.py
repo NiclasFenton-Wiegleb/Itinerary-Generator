@@ -7,6 +7,7 @@ from PIL import Image
 from streamlit_folium import st_folium, folium_static
 import streamlit.components.v1 as components  # Import Streamlit
 
+st.set_page_config(page_title="Manchester - Make Your Day!")
 
 st.title("Manchester: Make Your Day!")
 
@@ -207,7 +208,7 @@ def fonts():
     }
     </style>''', unsafe_allow_html=True)
     
-    #heading - h1
+    #heading
     st.write('''<style>
     h1 {
     font-family: "Basis Grotesque", sans-serif;
