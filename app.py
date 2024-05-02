@@ -230,7 +230,7 @@ def app_layout():
         <style>
                .css-18e3th9 {
                     padding-top: 10rem;
-                    padding-bottom: 10rem;
+                    padding-bottom: 30rem;
                     padding-left: 0rem;
                     padding-right: 0rem;
                 }
