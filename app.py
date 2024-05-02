@@ -228,17 +228,11 @@ def app_layout():
 
     st.markdown("""
         <style>
-               .css-18e3th9 {
+            .block-container {
                     padding-top: 10rem;
-                    padding-bottom: 30rem;
-                    padding-left: 0rem;
-                    padding-right: 0rem;
-                }
-               .css-1d391kg {
-                    padding-top: 3.5rem;
-                    padding-right: 1rem;
-                    padding-bottom: 30rem;
-                    padding-left: 1rem;
+                    padding-bottom: 10rem;
+                    padding-left: 5rem;
+                    padding-right: 5rem;
                 }
         </style>
         """, unsafe_allow_html=True)
