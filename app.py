@@ -219,7 +219,7 @@ def fonts():
     p {
     font-family: "Gill Sans", sans-serif;
     font-stretch: expanded;
-    font-size: 15px;
+    font-size: 18px;
     }
     </style>''', unsafe_allow_html=True)
 
