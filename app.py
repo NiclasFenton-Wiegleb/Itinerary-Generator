@@ -237,6 +237,7 @@ def app_layout():
         </style>
         """, unsafe_allow_html=True)
 
+app_layout()
 fonts()
 
 col1,col2, col3 = st.columns([1,1,1], gap="small")
