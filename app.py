@@ -230,7 +230,7 @@ def app_layout():
         <style>
             .block-container {
                     padding-top: 10rem;
-                    padding-bottom: 10rem;
+                    padding-bottom: 30rem;
                     padding-left: 5rem;
                     padding-right: 5rem;
                 }
