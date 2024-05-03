@@ -1,6 +1,6 @@
 names,edges,distance,weighting
-"('Ezra & Gil', 'School of Junk')","(0, 22)",0.13524567813709984,0.6
-"('Ezra & Gil', 'Hot Bed Press')","(0, 23)",0.15209685335660142,0.6
+"('Ezra & Gil', 'School of Junk')","(0, 22)",0.13524567813709984,0.75
+"('Ezra & Gil', 'Hot Bed Press')","(0, 23)",0.15209685335660142,0.7
 "('Ezra & Gil', 'Manchester Art Gallery')","(0, 24)",0.04030103070295032,1.0
 "('Ezra & Gil', 'HOME')","(0, 25)",0.0843104106451437,0.85
 "('Ezra & Gil', 'Salford Museum and Art Gallery')","(0, 26)",0.28826961880351204,1.0
@@ -20,8 +20,8 @@ names,edges,distance,weighting
 "('Ezra & Gil', 'Northern Flower')","(0, 40)",0.014942466052244096,1.0
 "('Ezra & Gil', 'Junkyard Golf Club')","(0, 43)",0.0843104106451437,1.0
 "('Ezra & Gil', 'Goodtime Games')","(0, 62)",0.41980694770136884,1.0
-"('Another Heart to Feed', 'School of Junk')","(1, 22)",0.1269564268964389,0.6
-"('Another Heart to Feed', 'Hot Bed Press')","(1, 23)",0.14440748213993565,0.6
+"('Another Heart to Feed', 'School of Junk')","(1, 22)",0.1269564268964389,0.75
+"('Another Heart to Feed', 'Hot Bed Press')","(1, 23)",0.14440748213993565,0.7
 "('Another Heart to Feed', 'Manchester Art Gallery')","(1, 24)",0.03681081965425097,1.0
 "('Another Heart to Feed', 'HOME')","(1, 25)",0.08376506516878443,0.85
 "('Another Heart to Feed', 'Salford Museum and Art Gallery')","(1, 26)",0.2799258330152151,1.0
@@ -41,8 +41,8 @@ names,edges,distance,weighting
 "('Another Heart to Feed', 'Northern Flower')","(1, 40)",0.004526367453781971,1.0
 "('Another Heart to Feed', 'Junkyard Golf Club')","(1, 43)",0.08376506516878443,1.0
 "('Another Heart to Feed', 'Goodtime Games')","(1, 62)",0.42542400610786935,1.0
-"('TROVE', 'School of Junk')","(2, 22)",0.4505098980203959,0.6
-"('TROVE', 'Hot Bed Press')","(2, 23)",0.4535638326880079,0.6
+"('TROVE', 'School of Junk')","(2, 22)",0.4505098980203959,0.75
+"('TROVE', 'Hot Bed Press')","(2, 23)",0.4535638326880079,0.7
 "('TROVE', 'Manchester Art Gallery')","(2, 24)",0.3707803893766701,1.0
 "('TROVE', 'HOME')","(2, 25)",0.3537110759666249,0.85
 "('TROVE', 'Salford Museum and Art Gallery')","(2, 26)",0.5700496264383487,1.0
@@ -62,8 +62,8 @@ names,edges,distance,weighting
 "('TROVE', 'Northern Flower')","(2, 40)",0.3788515024267874,1.0
 "('TROVE', 'Junkyard Golf Club')","(2, 43)",0.3537110759666249,1.0
 "('TROVE', 'Goodtime Games')","(2, 62)",0.2654196433440585,1.0
-"('Blanchflower', 'School of Junk')","(3, 22)",0.8135463816327644,0.6
-"('Blanchflower', 'Hot Bed Press')","(3, 23)",0.7938594099361945,0.6
+"('Blanchflower', 'School of Junk')","(3, 22)",0.8135463816327644,0.75
+"('Blanchflower', 'Hot Bed Press')","(3, 23)",0.7938594099361945,0.7
 "('Blanchflower', 'Manchester Art Gallery')","(3, 24)",0.8530839286688117,1.0
 "('Blanchflower', 'HOME')","(3, 25)",0.8052025958444675,0.85
 "('Blanchflower', 'Salford Museum and Art Gallery')","(3, 26)",0.7465234225882096,1.0
@@ -83,8 +83,8 @@ names,edges,distance,weighting
 "('Blanchflower', 'Northern Flower')","(3, 40)",0.8910945083710531,1.0
 "('Blanchflower', 'Junkyard Golf Club')","(3, 43)",0.8052025958444675,1.0
 "('Blanchflower', 'Goodtime Games')","(3, 62)",0.5692861427714457,1.0
-"('Federal', 'School of Junk')","(4, 22)",0.1098325789387577,0.6
-"('Federal', 'Hot Bed Press')","(4, 23)",0.12842885968260892,0.6
+"('Federal', 'School of Junk')","(4, 22)",0.1098325789387577,0.75
+"('Federal', 'Hot Bed Press')","(4, 23)",0.12842885968260892,0.7
 "('Federal', 'Manchester Art Gallery')","(4, 24)",0.035992801439712056,1.0
 "('Federal', 'HOME')","(4, 25)",0.08398320335932813,0.85
 "('Federal', 'Salford Museum and Art Gallery')","(4, 26)",0.26220210503353875,1.0
@@ -104,8 +104,8 @@ names,edges,distance,weighting
 "('Federal', 'Northern Flower')","(4, 40)",0.01756012433876861,1.0
 "('Federal', 'Junkyard Golf Club')","(4, 43)",0.08398320335932813,1.0
 "('Federal', 'Goodtime Games')","(4, 62)",0.434694879205977,1.0
-"('Mackie Mayor', 'School of Junk')","(5, 22)",0.12662921961062332,0.6
-"('Mackie Mayor', 'Hot Bed Press')","(5, 23)",0.14560724218792606,0.6
+"('Mackie Mayor', 'School of Junk')","(5, 22)",0.12662921961062332,0.75
+"('Mackie Mayor', 'Hot Bed Press')","(5, 23)",0.14560724218792606,0.7
 "('Mackie Mayor', 'Manchester Art Gallery')","(5, 24)",0.04984457653923761,1.0
 "('Mackie Mayor', 'HOME')","(5, 25)",0.0982712548399411,0.85
 "('Mackie Mayor', 'Salford Museum and Art Gallery')","(5, 26)",0.27839886568140915,1.0
@@ -125,8 +125,8 @@ names,edges,distance,weighting
 "('Mackie Mayor', 'Northern Flower')","(5, 40)",0.014942466052244096,1.0
 "('Mackie Mayor', 'Junkyard Golf Club')","(5, 43)",0.0982712548399411,1.0
 "('Mackie Mayor', 'Goodtime Games')","(5, 62)",0.4440748213993565,1.0
-"('The Refuge', 'School of Junk')","(6, 22)",0.1195942629655887,0.6
-"('The Refuge', 'Hot Bed Press')","(6, 23)",0.12782897965861373,0.6
+"('The Refuge', 'School of Junk')","(6, 22)",0.1195942629655887,0.75
+"('The Refuge', 'Hot Bed Press')","(6, 23)",0.12782897965861373,0.7
 "('The Refuge', 'Manchester Art Gallery')","(6, 24)",0.046136227299994545,1.0
 "('The Refuge', 'HOME')","(6, 25)",0.02519496100779844,0.85
 "('The Refuge', 'Salford Museum and Art Gallery')","(6, 26)",0.2615476904619076,1.0
@@ -146,8 +146,8 @@ names,edges,distance,weighting
 "('The Refuge', 'Northern Flower')","(6, 40)",0.07782079947646835,1.0
 "('The Refuge', 'Junkyard Golf Club')","(6, 43)",0.02519496100779844,1.0
 "('The Refuge', 'Goodtime Games')","(6, 62)",0.3535474723237171,1.0
-"('Platzki', 'School of Junk')","(7, 22)",0.06544145716311284,0.6
-"('Platzki', 'Hot Bed Press')","(7, 23)",0.07803893766701205,0.6
+"('Platzki', 'School of Junk')","(7, 22)",0.06544145716311284,0.75
+"('Platzki', 'Hot Bed Press')","(7, 23)",0.07803893766701205,0.7
 "('Platzki', 'Manchester Art Gallery')","(7, 24)",0.03817418334514915,1.0
 "('Platzki', 'HOME')","(7, 25)",0.039973823417134756,0.85
 "('Platzki', 'Salford Museum and Art Gallery')","(7, 26)",0.21513879042373343,1.0
@@ -167,8 +167,8 @@ names,edges,distance,weighting
 "('Platzki', 'Northern Flower')","(7, 40)",0.07209467197469598,1.0
 "('Platzki', 'Junkyard Golf Club')","(7, 43)",0.039973823417134756,1.0
 "('Platzki', 'Goodtime Games')","(7, 62)",0.394121175764847,1.0
-"('The Koffee Pot', 'School of Junk')","(8, 22)",0.12602933958662813,0.6
-"('The Koffee Pot', 'Hot Bed Press')","(8, 23)",0.14358946392539673,0.6
+"('The Koffee Pot', 'School of Junk')","(8, 22)",0.12602933958662813,0.75
+"('The Koffee Pot', 'Hot Bed Press')","(8, 23)",0.14358946392539673,0.7
 "('The Koffee Pot', 'Manchester Art Gallery')","(8, 24)",0.036919888749522824,1.0
 "('The Koffee Pot', 'HOME')","(8, 25)",0.08425587609750777,0.85
 "('The Koffee Pot', 'Salford Museum and Art Gallery')","(8, 26)",0.27894421115776846,1.0
@@ -210,8 +210,8 @@ names,edges,distance,weighting
 "('The Beagle', 'Firehouse')","(9, 109)",0.4309865299667339,1.0
 "('The Beagle', 'The White Hotel')","(9, 110)",0.4544909199978186,1.0
 "('The Beagle', 'The Star & Garter')","(9, 111)",0.3800512624747778,1.0
-"('Evelyn’s', 'School of Junk')","(10, 22)",0.12172111032338986,0.51
-"('Evelyn’s', 'Hot Bed Press')","(10, 23)",0.1393357692097944,0.51
+"('Evelyn’s', 'School of Junk')","(10, 22)",0.12172111032338986,0.6375
+"('Evelyn’s', 'Hot Bed Press')","(10, 23)",0.1393357692097944,0.595
 "('Evelyn’s', 'Manchester Art Gallery')","(10, 24)",0.03370235043900311,0.85
 "('Evelyn’s', 'HOME')","(10, 25)",0.08158368326334733,0.7224999999999999
 "('Evelyn’s', 'Salford Museum and Art Gallery')","(10, 26)",0.27469051644216613,0.85
@@ -231,8 +231,8 @@ names,edges,distance,weighting
 "('Evelyn’s', 'Northern Flower')","(10, 40)",0.004417298358510116,0.85
 "('Evelyn’s', 'Junkyard Golf Club')","(10, 43)",0.08158368326334733,0.85
 "('Evelyn’s', 'Goodtime Games')","(10, 62)",0.4259148170365927,0.85
-"('Fig + Sparrow', 'School of Junk')","(11, 22)",0.12215738670447729,0.6
-"('Fig + Sparrow', 'Hot Bed Press')","(11, 23)",0.13939030375743033,0.6
+"('Fig + Sparrow', 'School of Junk')","(11, 22)",0.12215738670447729,0.75
+"('Fig + Sparrow', 'Hot Bed Press')","(11, 23)",0.13939030375743033,0.7
 "('Fig + Sparrow', 'Manchester Art Gallery')","(11, 24)",0.031248295795386377,1.0
 "('Fig + Sparrow', 'HOME')","(11, 25)",0.0785297485957354,0.85
 "('Fig + Sparrow', 'Salford Museum and Art Gallery')","(11, 26)",0.27512679282325353,1.0
@@ -252,8 +252,8 @@ names,edges,distance,weighting
 "('Fig + Sparrow', 'Northern Flower')","(11, 40)",0.0076348366690298305,1.0
 "('Fig + Sparrow', 'Junkyard Golf Club')","(11, 43)",0.0785297485957354,1.0
 "('Fig + Sparrow', 'Goodtime Games')","(11, 62)",0.42187926051153407,1.0
-"('The Pen And Pencil', 'School of Junk')","(12, 22)",0.13982658013851776,0.6
-"('The Pen And Pencil', 'Hot Bed Press')","(12, 23)",0.1560778753340241,0.6
+"('The Pen And Pencil', 'School of Junk')","(12, 22)",0.13982658013851776,0.75
+"('The Pen And Pencil', 'Hot Bed Press')","(12, 23)",0.1560778753340241,0.7
 "('The Pen And Pencil', 'Manchester Art Gallery')","(12, 24)",0.04215520532257185,1.0
 "('The Pen And Pencil', 'HOME')","(12, 25)",0.08300158150188144,0.85
 "('The Pen And Pencil', 'Salford Museum and Art Gallery')","(12, 26)",0.29268691716202216,1.0
@@ -295,8 +295,8 @@ names,edges,distance,weighting
 "('Crazy Pedro’s', 'Firehouse')","(13, 109)",0.07836614495282762,1.0
 "('Crazy Pedro’s', 'The White Hotel')","(13, 110)",0.07983857773899765,1.0
 "('Crazy Pedro’s', 'The Star & Garter')","(13, 111)",0.11032338986748105,1.0
-"('Menagerie', 'School of Junk')","(14, 22)",0.04095544527458145,0.6
-"('Menagerie', 'Hot Bed Press')","(14, 23)",0.05922451873261711,0.6
+"('Menagerie', 'School of Junk')","(14, 22)",0.04095544527458145,0.75
+"('Menagerie', 'Hot Bed Press')","(14, 23)",0.05922451873261711,0.7
 "('Menagerie', 'Manchester Art Gallery')","(14, 24)",0.061078693352238644,1.0
 "('Menagerie', 'HOME')","(14, 25)",0.07160386104597262,0.85
 "('Menagerie', 'Salford Museum and Art Gallery')","(14, 26)",0.1939248513933577,1.0
@@ -316,8 +316,8 @@ names,edges,distance,weighting
 "('Menagerie', 'Northern Flower')","(14, 40)",0.08425587609750777,1.0
 "('Menagerie', 'Junkyard Golf Club')","(14, 43)",0.07160386104597262,1.0
 "('Menagerie', 'Goodtime Games')","(14, 62)",0.4209521732017233,1.0
-"('Fress', 'School of Junk')","(15, 22)",0.12984675792114306,0.6
-"('Fress', 'Hot Bed Press')","(15, 23)",0.14773408954572723,0.6
+"('Fress', 'School of Junk')","(15, 22)",0.12984675792114306,0.75
+"('Fress', 'Hot Bed Press')","(15, 23)",0.14773408954572723,0.7
 "('Fress', 'Manchester Art Gallery')","(15, 24)",0.042046136227299996,1.0
 "('Fress', 'HOME')","(15, 25)",0.08932758902764902,0.85
 "('Fress', 'Salford Museum and Art Gallery')","(15, 26)",0.2827070949446474,1.0
@@ -337,8 +337,8 @@ names,edges,distance,weighting
 "('Fress', 'Northern Flower')","(15, 40)",0.0046354365490538256,1.0
 "('Fress', 'Junkyard Golf Club')","(15, 43)",0.08932758902764902,1.0
 "('Fress', 'Goodtime Games')","(15, 62)",0.4306593226809184,1.0
-"('Dishoom', 'School of Junk')","(16, 22)",0.055516169493374054,0.51
-"('Dishoom', 'Hot Bed Press')","(16, 23)",0.07209467197469598,0.51
+"('Dishoom', 'School of Junk')","(16, 22)",0.055516169493374054,0.6375
+"('Dishoom', 'Hot Bed Press')","(16, 23)",0.07209467197469598,0.595
 "('Dishoom', 'Manchester Art Gallery')","(16, 24)",0.045318209085455634,0.85
 "('Dishoom', 'HOME')","(16, 25)",0.0593881223755249,0.7224999999999999
 "('Dishoom', 'Salford Museum and Art Gallery')","(16, 26)",0.20832197196924251,0.85
@@ -358,8 +358,8 @@ names,edges,distance,weighting
 "('Dishoom', 'Northern Flower')","(16, 40)",0.07111305011724928,0.85
 "('Dishoom', 'Junkyard Golf Club')","(16, 43)",0.0593881223755249,0.85
 "('Dishoom', 'Goodtime Games')","(16, 62)",0.4129901292468779,0.85
-"('Moose Coffee', 'School of Junk')","(17, 22)",0.06544145716311284,0.6
-"('Moose Coffee', 'Hot Bed Press')","(17, 23)",0.07803893766701205,0.6
+"('Moose Coffee', 'School of Junk')","(17, 22)",0.06544145716311284,0.75
+"('Moose Coffee', 'Hot Bed Press')","(17, 23)",0.07803893766701205,0.7
 "('Moose Coffee', 'Manchester Art Gallery')","(17, 24)",0.03817418334514915,1.0
 "('Moose Coffee', 'HOME')","(17, 25)",0.039973823417134756,0.85
 "('Moose Coffee', 'Salford Museum and Art Gallery')","(17, 26)",0.21513879042373343,1.0
@@ -379,8 +379,8 @@ names,edges,distance,weighting
 "('Moose Coffee', 'Northern Flower')","(17, 40)",0.07209467197469598,1.0
 "('Moose Coffee', 'Junkyard Golf Club')","(17, 43)",0.039973823417134756,1.0
 "('Moose Coffee', 'Goodtime Games')","(17, 62)",0.394121175764847,1.0
-"('Idle Hands Coffee', 'School of Junk')","(18, 22)",0.1331733653269346,0.6
-"('Idle Hands Coffee', 'Hot Bed Press')","(18, 23)",0.1494791950700769,0.6
+"('Idle Hands Coffee', 'School of Junk')","(18, 22)",0.1331733653269346,0.75
+"('Idle Hands Coffee', 'Hot Bed Press')","(18, 23)",0.1494791950700769,0.7
 "('Idle Hands Coffee', 'Manchester Art Gallery')","(18, 24)",0.03604733598734799,1.0
 "('Idle Hands Coffee', 'HOME')","(18, 25)",0.07858428314337132,0.85
 "('Idle Hands Coffee', 'Salford Museum and Art Gallery')","(18, 26)",0.286033702350439,1.0
@@ -400,8 +400,8 @@ names,edges,distance,weighting
 "('Idle Hands Coffee', 'Northern Flower')","(18, 40)",0.018487211648579374,1.0
 "('Idle Hands Coffee', 'Junkyard Golf Club')","(18, 43)",0.07858428314337132,1.0
 "('Idle Hands Coffee', 'Goodtime Games')","(18, 62)",0.413644543818509,1.0
-"('Takk', 'School of Junk')","(19, 22)",0.13366417625565796,0.6
-"('Takk', 'Hot Bed Press')","(19, 23)",0.14975186780825653,0.6
+"('Takk', 'School of Junk')","(19, 22)",0.13366417625565796,0.75
+"('Takk', 'Hot Bed Press')","(19, 23)",0.14975186780825653,0.7
 "('Takk', 'Manchester Art Gallery')","(19, 24)",0.03577466324916835,1.0
 "('Takk', 'HOME')","(19, 25)",0.07738452309538092,0.85
 "('Takk', 'Salford Museum and Art Gallery')","(19, 26)",0.2864699787315264,1.0
@@ -421,8 +421,8 @@ names,edges,distance,weighting
 "('Takk', 'Northern Flower')","(19, 40)",0.020614059006380542,1.0
 "('Takk', 'Junkyard Golf Club')","(19, 43)",0.07738452309538092,1.0
 "('Takk', 'Goodtime Games')","(19, 62)",0.4115722310083438,1.0
-"(""Kong's"", 'School of Junk')","(20, 22)",0.13001036156405082,0.6
-"(""Kong's"", 'Hot Bed Press')","(20, 23)",0.14795222773627092,0.6
+"(""Kong's"", 'School of Junk')","(20, 22)",0.13001036156405082,0.75
+"(""Kong's"", 'Hot Bed Press')","(20, 23)",0.14795222773627092,0.7
 "(""Kong's"", 'Manchester Art Gallery')","(20, 24)",0.04286415444183891,1.0
 "(""Kong's"", 'HOME')","(20, 25)",0.09025467633745977,0.85
 "(""Kong's"", 'Salford Museum and Art Gallery')","(20, 26)",0.28276162949228334,1.0
@@ -442,8 +442,8 @@ names,edges,distance,weighting
 "(""Kong's"", 'Northern Flower')","(20, 40)",0.005017178382505317,1.0
 "(""Kong's"", 'Junkyard Golf Club')","(20, 43)",0.09025467633745977,1.0
 "(""Kong's"", 'Goodtime Games')","(20, 62)",0.4317500136336369,1.0
-"('Escape to Freight Island', 'School of Junk')","(21, 22)",0.16567595571794733,0.6
-"('Escape to Freight Island', 'Hot Bed Press')","(21, 23)",0.17865517805529804,0.6
+"('Escape to Freight Island', 'School of Junk')","(21, 22)",0.16567595571794733,0.75
+"('Escape to Freight Island', 'Hot Bed Press')","(21, 23)",0.17865517805529804,0.7
 "('Escape to Freight Island', 'Manchester Art Gallery')","(21, 24)",0.06625947537765174,1.0
 "('Escape to Freight Island', 'HOME')","(21, 25)",0.08529203250259039,0.85
 "('Escape to Freight Island', 'Salford Museum and Art Gallery')","(21, 26)",0.3155368926214757,1.0
@@ -463,46 +463,46 @@ names,edges,distance,weighting
 "('Escape to Freight Island', 'Northern Flower')","(21, 40)",0.0644053007580302,1.0
 "('Escape to Freight Island', 'Junkyard Golf Club')","(21, 43)",0.08529203250259039,1.0
 "('Escape to Freight Island', 'Goodtime Games')","(21, 62)",0.3808692806893167,1.0
-"('School of Junk', 'NQ64')","(22, 41)",0.12313900856192397,0.6
-"('School of Junk', 'Twenty Twenty Two')","(22, 42)",0.141898892948683,0.6
-"('School of Junk', 'Pixel Bar')","(22, 44)",0.11703113922670011,0.6
-"('School of Junk', 'The Temple of Convenience')","(22, 45)",0.10116158586464526,0.51
-"('School of Junk', 'Convenience Store')","(22, 46)",0.11119594262965589,0.6
-"('School of Junk', 'Blind Tyger')","(22, 47)",0.2258275617603752,0.6
-"('School of Junk', 'Northern Monk Refectory')","(22, 48)",0.13660904182799805,0.6
-"('School of Junk', 'Cloudwater Unit 9')","(22, 49)",0.19387031684572176,0.6
-"('School of Junk', 'Behind Closed Doors')","(22, 50)",0.12891967061133228,0.6
-"('School of Junk', 'The Washhouse')","(22, 51)",0.10705131700932541,0.6
-"('School of Junk', 'Cane and Grain')","(22, 52)",0.11703113922670011,0.6
-"('School of Junk', 'Dusk til Pawn')","(22, 53)",0.1347548672083765,0.6
-"('School of Junk', 'Hold Fast')","(22, 54)",0.135900092708731,0.6
-"('School of Junk', 'Corbieres')","(22, 55)",0.08103833778698806,0.6
-"('School of Junk', 'The Liars Club')","(22, 56)",0.061078693352238644,0.6
-"('School of Junk', 'The Fitzgerald')","(22, 57)",0.141898892948683,0.6
-"('School of Junk', 'Gas Lamp')","(22, 58)",0.055516169493374054,0.51
-"('School of Junk', 'Arcane')","(22, 59)",0.07089491192670556,0.6
-"('School of Junk', 'Terrace')","(22, 60)",0.11833996836996237,0.6
-"('School of Junk', 'Wood and Company')","(22, 61)",0.07531221028521569,0.6
-"('Hot Bed Press', 'NQ64')","(23, 41)",0.14086273654360038,0.6
-"('Hot Bed Press', 'Twenty Twenty Two')","(23, 42)",0.1596226209303594,0.6
-"('Hot Bed Press', 'Pixel Bar')","(23, 44)",0.13546381632764357,0.6
-"('Hot Bed Press', 'The Temple of Convenience')","(23, 45)",0.11015978622457327,0.51
-"('Hot Bed Press', 'Convenience Store')","(23, 46)",0.12962861973059933,0.6
-"('Hot Bed Press', 'Blind Tyger')","(23, 47)",0.23902492228826963,0.6
-"('Hot Bed Press', 'Northern Monk Refectory')","(23, 48)",0.15286033702350438,0.6
-"('Hot Bed Press', 'Cloudwater Unit 9')","(23, 49)",0.20799476468342695,0.6
-"('Hot Bed Press', 'Behind Closed Doors')","(23, 50)",0.14680700223591645,0.6
-"('Hot Bed Press', 'The Washhouse')","(23, 51)",0.12592027049135626,0.6
-"('Hot Bed Press', 'Cane and Grain')","(23, 52)",0.13546381632764357,0.6
-"('Hot Bed Press', 'Dusk til Pawn')","(23, 53)",0.15231499154714512,0.6
-"('Hot Bed Press', 'Hold Fast')","(23, 54)",0.15275126792823254,0.6
-"('Hot Bed Press', 'Corbieres')","(23, 55)",0.09843485848284889,0.6
-"('Hot Bed Press', 'The Liars Club')","(23, 56)",0.0775481267382887,0.6
-"('Hot Bed Press', 'The Fitzgerald')","(23, 57)",0.1596226209303594,0.6
-"('Hot Bed Press', 'Gas Lamp')","(23, 58)",0.07209467197469598,0.51
-"('Hot Bed Press', 'Arcane')","(23, 59)",0.08698260347930414,0.6
-"('Hot Bed Press', 'Terrace')","(23, 60)",0.13660904182799805,0.6
-"('Hot Bed Press', 'Wood and Company')","(23, 61)",0.09134536729017832,0.6
+"('School of Junk', 'NQ64')","(22, 41)",0.12313900856192397,0.75
+"('School of Junk', 'Twenty Twenty Two')","(22, 42)",0.141898892948683,0.75
+"('School of Junk', 'Pixel Bar')","(22, 44)",0.11703113922670011,0.75
+"('School of Junk', 'The Temple of Convenience')","(22, 45)",0.10116158586464526,0.6375
+"('School of Junk', 'Convenience Store')","(22, 46)",0.11119594262965589,0.75
+"('School of Junk', 'Blind Tyger')","(22, 47)",0.2258275617603752,0.75
+"('School of Junk', 'Northern Monk Refectory')","(22, 48)",0.13660904182799805,0.75
+"('School of Junk', 'Cloudwater Unit 9')","(22, 49)",0.19387031684572176,0.75
+"('School of Junk', 'Behind Closed Doors')","(22, 50)",0.12891967061133228,0.75
+"('School of Junk', 'The Washhouse')","(22, 51)",0.10705131700932541,0.75
+"('School of Junk', 'Cane and Grain')","(22, 52)",0.11703113922670011,0.75
+"('School of Junk', 'Dusk til Pawn')","(22, 53)",0.1347548672083765,0.75
+"('School of Junk', 'Hold Fast')","(22, 54)",0.135900092708731,0.75
+"('School of Junk', 'Corbieres')","(22, 55)",0.08103833778698806,0.75
+"('School of Junk', 'The Liars Club')","(22, 56)",0.061078693352238644,0.75
+"('School of Junk', 'The Fitzgerald')","(22, 57)",0.141898892948683,0.75
+"('School of Junk', 'Gas Lamp')","(22, 58)",0.055516169493374054,0.6375
+"('School of Junk', 'Arcane')","(22, 59)",0.07089491192670556,0.75
+"('School of Junk', 'Terrace')","(22, 60)",0.11833996836996237,0.75
+"('School of Junk', 'Wood and Company')","(22, 61)",0.07531221028521569,0.75
+"('Hot Bed Press', 'NQ64')","(23, 41)",0.14086273654360038,0.7
+"('Hot Bed Press', 'Twenty Twenty Two')","(23, 42)",0.1596226209303594,0.7
+"('Hot Bed Press', 'Pixel Bar')","(23, 44)",0.13546381632764357,0.7
+"('Hot Bed Press', 'The Temple of Convenience')","(23, 45)",0.11015978622457327,0.595
+"('Hot Bed Press', 'Convenience Store')","(23, 46)",0.12962861973059933,0.7
+"('Hot Bed Press', 'Blind Tyger')","(23, 47)",0.23902492228826963,0.7
+"('Hot Bed Press', 'Northern Monk Refectory')","(23, 48)",0.15286033702350438,0.7
+"('Hot Bed Press', 'Cloudwater Unit 9')","(23, 49)",0.20799476468342695,0.7
+"('Hot Bed Press', 'Behind Closed Doors')","(23, 50)",0.14680700223591645,0.7
+"('Hot Bed Press', 'The Washhouse')","(23, 51)",0.12592027049135626,0.7
+"('Hot Bed Press', 'Cane and Grain')","(23, 52)",0.13546381632764357,0.7
+"('Hot Bed Press', 'Dusk til Pawn')","(23, 53)",0.15231499154714512,0.7
+"('Hot Bed Press', 'Hold Fast')","(23, 54)",0.15275126792823254,0.7
+"('Hot Bed Press', 'Corbieres')","(23, 55)",0.09843485848284889,0.7
+"('Hot Bed Press', 'The Liars Club')","(23, 56)",0.0775481267382887,0.7
+"('Hot Bed Press', 'The Fitzgerald')","(23, 57)",0.1596226209303594,0.7
+"('Hot Bed Press', 'Gas Lamp')","(23, 58)",0.07209467197469598,0.595
+"('Hot Bed Press', 'Arcane')","(23, 59)",0.08698260347930414,0.7
+"('Hot Bed Press', 'Terrace')","(23, 60)",0.13660904182799805,0.7
+"('Hot Bed Press', 'Wood and Company')","(23, 61)",0.09134536729017832,0.7
 "('Manchester Art Gallery', 'NQ64')","(24, 41)",0.03577466324916835,1.0
 "('Manchester Art Gallery', 'Twenty Twenty Two')","(24, 42)",0.051535147515951354,1.0
 "('Manchester Art Gallery', 'Pixel Bar')","(24, 44)",0.03817418334514915,1.0
