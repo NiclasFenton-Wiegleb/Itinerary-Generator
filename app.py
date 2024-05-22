@@ -395,7 +395,7 @@ if st.session_state.button[1] == True:
                             popup = popup, c=row['name']).add_to(m)
         
 
-        st_data = folium_static(m, width= 715)
+        st_data = folium_static(m, width= 710)
     
     except:
 
