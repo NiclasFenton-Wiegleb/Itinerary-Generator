@@ -27,4 +27,10 @@ The hierarchy for the itinerary is as follows: Brunch, Activity, Afternoon Drink
 
 ## Nearest Neighbours
 
-To provide users with alternative suggestions, if they are not particularly taken with any of the recommendations in the generated itinerary, the three closest recommendations in the same level of the hierarchy were identified also. The `n_neighbour.py` script 
+To provide users with alternative suggestions, if they are not particularly taken with any of the recommendations in the generated itinerary, the three closest recommendations in the same level of the hierarchy were identified also. The `n_neighbour.py` script selects the points in the same level of hierarchy as the original recommendation and identifies the three closest neighbours by physical distance.
+
+## App
+
+The `app.py` script wraps the optimal routes and nearest recommendations into a usable streamlit app. In fact there are two versions of the streamlit app, one is optimised for desktop and one for mobile. The app is wrapped into a html script, styled using css and deployed via firebase.
+
+*Access the website here:* https://manchester-makeyourday.co.uk/
