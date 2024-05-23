@@ -31,6 +31,6 @@ To provide users with alternative suggestions, if they are not particularly take
 
 ## App
 
-The `app.py` script wraps the optimal routes and nearest recommendations into a usable streamlit app. In fact there are two versions of the streamlit app, one is optimised for desktop and one for mobile. The app is wrapped into a html script, styled using css and deployed via firebase.
+The `app.py` script wraps the optimal routes and nearest recommendations into a usable streamlit app. In fact there are two versions of the streamlit app, one is optimised for desktop and one for mobile. The final step is to use React to deploy the web app. This means using javascript and html to create the front-end, style the page using css and deploying it via firebase.
 
-*Access the website here:* https://manchester-makeyourday.co.uk/
+*Access the final website here:* https://manchester-makeyourday.co.uk/
